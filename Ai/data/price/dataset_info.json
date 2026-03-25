@@ -1,0 +1,68 @@
+{
+  "categories": [
+    "argan",
+    "crafts",
+    "jewelry",
+    "lanterns",
+    "leather",
+    "price_tags",
+    "spices",
+    "textiles"
+  ],
+  "splits": {
+    "argan": {
+      "train": 52,
+      "val": 11,
+      "test": 12,
+      "total": 75
+    },
+    "crafts": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "jewelry": {
+      "train": 52,
+      "val": 11,
+      "test": 12,
+      "total": 75
+    },
+    "lanterns": {
+      "train": 52,
+      "val": 11,
+      "test": 12,
+      "total": 75
+    },
+    "leather": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "price_tags": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "spices": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    },
+    "textiles": {
+      "train": 70,
+      "val": 15,
+      "test": 15,
+      "total": 100
+    }
+  },
+  "totals": {
+    "train": 506,
+    "val": 108,
+    "test": 111,
+    "total": 725
+  }
+}
