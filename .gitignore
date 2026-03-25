@@ -7,3 +7,11 @@ Frontend/node_modules/
 node_modules/
 images/
 logs/
+*.bat
+*.ps1
+.venv*/
+Ai/.venv/
+Ai/data/
+Ai/models/
+Ai/outputs/
+Ai/__pycache__/
