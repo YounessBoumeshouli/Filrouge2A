@@ -1,0 +1,52 @@
+[
+    {
+        "query_id": "q1",
+        "query": "Quels sont les traitements recommandés pour le prurit en médecine adulte ?",
+        "relevant_docs": [
+            "prurit traitement gale",
+            "prurit antimycosique",
+            "prurit antihistaminique",
+            "prurit dermocorticoides"
+        ]
+    },
+    {
+        "query_id": "q2",
+        "query": "Que faut-il faire en cas de suspicion d’infection dans un contexte de prurit ?",
+        "relevant_docs": [
+            "Si suspicion d’infection, se référer au chapitre Infection cutanée."
+        ]
+    },
+    {
+        "query_id": "q3",
+        "query": "Que faire en cas de traumatisme en dent de lait avec dent expulsée ?",
+        "relevant_docs": [
+            "Si Dent expulsée : =>NE PAS REMETTRE",
+            "On ne veut pas léser le gemme de la dent définitive qui est dessous.",
+            "Rechercher la dent pour vérifier qu’il s’agit bien d’une expulsion (et non d’une impaction, ou encore d’une inhalation/ ingestion).",
+            "Contrôle de la plaie gingivale (désinfection avec compresse chlorhexidine si possible, morsure dans une compresse si ça saigne).",
+            "On ne fait rien quand c’est une dent de lait, la petite souris passera en avance."
+        ]
+    },
+    {
+        "query_id": "q4",
+        "query": "Quels sont les signes cliniques d’un abcès ou d’une cellulite dentaire chez l’enfant ?",
+        "relevant_docs": [
+            "ABCES (boule de pus) / CELLULITE (inflammation et gonflement +++)",
+            "A Les signes cliniques : - Empâtement autour de la dent et dans le vestibule - Souvent petite boule de pus sur le coté de la gencive - Souvent légère mobilité de la dent sans choc préalable - ADP (Adénopathie = ganglions) périphérique en relation - Début de tuméfaction externe ou Cellulite dans les cas plus avancés",
+            "B Les signes à vérifier si cellulite (gonflement++ de la joue) : Cellulite en bas : Vérifier que le plancher (sous la langue) est souple Cellulite en haut : Vérifier que l’arrière de la gorge et le palais mou ne sont pas gonflés"
+        ]
+    },
+    {
+        "query_id": "q5",
+        "query": "Que faut-il faire en cas de brûlure de méduse en médecine adulte ?",
+        "relevant_docs": [
+            "Retirer les filaments visibles avec une pince ou à la main doublement gantée, puis appliquer de la mousse à raser. Racler délicatement la mousse contenant les nématocystes ainsi piégés à l’aide d’une abaisse langue.",
+            "Rincer abondamment la piqûre à l’eau de mer ou au sérum physiologique. La toxine étant thermolabile, l’eau peut être chaude sans brûler. Le rinçage dure jusqu’à disparition des symptômes (environ 30 minutes).",
+            "Après décontamination, la plaie sera séchée puis enduite d’anesthésiques locaux ou de corticoïdes de classe moyenne ou faible (Locapred) dont les effets bénéfiques ont été démontrés principalement devant la persistance des lésions après 24 heures.",
+            "Vérifier et éventuellement remettre à jour la vaccination antitétanique (c.f. Protocole).",
+            "Les lésions ulcérées seront nettoyées quotidiennement et recouvertes d’une fine couche de lotion antiseptique non allergisante (chlorhexidine aqueuse 0.2%).",
+            "Les traitements antalgiques de palier I à II, rarement III sont indiqués (échelle thérapeutique de la douleur selon l’OMS).",
+            "Toujours anticiper une réaction anaphylactique et donc être préparé à y répondre par les antihistaminiques et les corticoïdes par voie veineuse."
+        ]
+    }
+]

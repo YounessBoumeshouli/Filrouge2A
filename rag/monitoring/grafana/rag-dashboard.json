@@ -1,0 +1,67 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "RAG Chatbot Monitoring",
+    "tags": ["rag", "chatbot", "monitoring"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Queries per Minute",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "rate(rag_queries_total[1m])",
+            "legendFormat": "Queries/min"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "P95 Response Latency",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rag_latency_seconds_bucket)",
+            "legendFormat": "P95 Latency"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "Average Documents Retrieved",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "rag_retrieval_docs_sum / rag_retrieval_docs_count",
+            "legendFormat": "Avg Docs"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "HTTP Request Duration",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, http_request_duration_seconds_bucket)",
+            "legendFormat": "P95"
+          },
+          {
+            "expr": "histogram_quantile(0.50, http_request_duration_seconds_bucket)",
+            "legendFormat": "P50"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}

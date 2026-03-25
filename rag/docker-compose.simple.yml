@@ -1,0 +1,15 @@
+services:
+  rag-api:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile.simple
+    container_name: rag_api
+    ports:
+      - "8001:8000"
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./backend:/app
+    restart: unless-stopped

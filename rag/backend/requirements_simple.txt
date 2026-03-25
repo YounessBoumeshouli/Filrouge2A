@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+chromadb
+sentence-transformers
+rank-bm25
+ollama
+python-dotenv
+tf-keras
+tensorflow<2.16

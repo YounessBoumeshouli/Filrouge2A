@@ -1,0 +1,1069 @@
+[
+  {
+    "table_id": 1,
+    "row": {
+      "Symptômes et signes": "- Le nez coule parfois en - postérieur dans le cavum uniquement - Toux productive devenant parfois irritative, sèche au bout de quelques jours - Gêne respiratoire par encombrement aux deux temps respiratoires - Auscultation normale ou présente des bruits d’encombrement transmis aux deux temps respiratoires - La fièvre peut être élevée.",
+      "Diagnostic": "Rhino-pharyngite C’est toujours viral, la répétition de ces infections concoure à l’apprentissage immunitaire de l’enfant",
+      "Traitement": "- Lutter contre la fièvre, - Hydratation, - Lavage et mouchage du nez - Lutter contre le tabagisme passif, les tortillons"
+    }
+  },
+  {
+    "table_id": 1,
+    "row": {
+      "Symptômes et signes": "- Dysphagie (douleur en avalant) - Pharynx et/ou amygdales rouges - Fièvre variable - Encombrement quasi inexistant",
+      "Diagnostic": "Angine*/pharyngite",
+      "Traitement": "- Avant 4 ans : c’est viral, même traitement que rhino-pharyn- gite. - Après 4 ans : cela peut être streptococcique et nécessite un traitement antibiotique pour prévenir la surve- nue d’un RAA : Amoxicilline 50 mg/kg/j en 3 prises/24h, 6j Se référer à la fiche sur les antibiotiques"
+    }
+  },
+  {
+    "table_id": 1,
+    "row": {
+      "Symptômes et signes": "- Toux rauque avec gêne respiratoire à l’inspiration - Fièvre variable - Début souvent nocturne",
+      "Diagnostic": "Laryngite C’est le plus souvent viral, mais la laryngite à haemo- philus peut être gravissime (heureusement exception- nelle maintenant avec la vaccination).",
+      "Traitement": "- Humidifier l’air (aérosol eau). - Corticoïdes par voie générale 2 à 3 j. - Aérosol adrénaline sans conservateur si détresse respiratoire. Cf : « Difficulté respiratoire de l’enfant »."
+    }
+  },
+  {
+    "table_id": 1,
+    "row": {
+      "Symptômes et signes": "- Début brutal diurne, alors que l’enfant jouait, traduisant l’inhalation de l’objet. La dyspnée inspiratoire est au premier plan.",
+      "Diagnostic": "Corps étranger des voies aériennes supérieures",
+      "Traitement": "- En cas de détresse respiratoire : . Pratiquer la manœuvre de Heimlich chez le grand enfant. . Placer le petit enfant sur la cuisse de l’opéra- teur. . Tête en avant du genou et dos en haut, puis la main de l’opérateur frappe à plat le dos de l’enfant. . Appeler le SAMU."
+    }
+  },
+  {
+    "table_id": 2,
+    "row": {
+      "Critères": "Battement des ailes du nez",
+      "0": "absent",
+      "1": "modéré",
+      "2": "intense"
+    }
+  },
+  {
+    "table_id": 2,
+    "row": {
+      "Critères": "Tirage",
+      "0": "absent",
+      "1": "intercostal",
+      "2": "intercostal et sus-sternal"
+    }
+  },
+  {
+    "table_id": 2,
+    "row": {
+      "Critères": "Geignement expiratoire",
+      "0": "absent",
+      "1": "au stéthoscope",
+      "2": "à l’oreille"
+    }
+  },
+  {
+    "table_id": 2,
+    "row": {
+      "Critères": "Entonnoir xiphoïdien",
+      "0": "absent",
+      "1": "modéré",
+      "2": "intense"
+    }
+  },
+  {
+    "table_id": 2,
+    "row": {
+      "Critères": "Balancement thoraco-ab- dominal",
+      "0": "respiration synchrone",
+      "1": "thorax immobile",
+      "2": "respiration paradoxale"
+    }
+  },
+  {
+    "table_id": 3,
+    "row": {
+      "Situation": "Cyanose Agitation, épuisement ou autres troubles neurologiques Impossibilité de parler ou s’alimenter",
+      "Signes cliniques": "Baisse de la Sa O2 <90% FR haute ou très basse, tachycardie. (Cf : Tableau des valeurs normales de FR et FC - p6)",
+      "Diagnostic": "Détresse respiratoire",
+      "Traitement": "1.Référer SAMU 2. Conditionnement non spécifique d’urgence"
+    }
+  },
+  {
+    "table_id": 3,
+    "row": {
+      "Situation": "- Dyspnée d’apparition brutale pendant le jeu ou ou un repas.",
+      "Signes cliniques": "- Gêne et dyspnée inspiratoire majeure aboutissant à une obstruction complète des voies aériennes",
+      "Diagnostic": "- Inhalation de corps étranger « bloqué » dans le larynx ou la trachée",
+      "Traitement": "1. Manœuvre de Heimlich 2. Référer SAMU"
+    }
+  },
+  {
+    "table_id": 3,
+    "row": {
+      "Situation": "- Dyspnée avec toux rauque et bruyante.",
+      "Signes cliniques": "Gêne et dyspnée inspiratoire ou mixte (inspiratoire et expiratoire) Fièvre possible",
+      "Diagnostic": "- Laryngite - Attention ne pas chercher à visualiser la gorge, risque d’apnée dans certains cas. Laisser l’enfant en position assise +++",
+      "Traitement": "1. Humidifier l’air (aérosol eau) – O² si nécessaire Corticoïdes par voie générale 2 à 3 j – Bétaméthasone sol buv : 20 gttes/ kg première dose puis 10 gttes/kg le matin puis QSP 2 à 3j Aérosol Adrénaline 1 à 5 mg sans conservateur (compléter avec sérum physiologique qsp 5ml) si nécessaire."
+    }
+  },
+  {
+    "table_id": 3,
+    "row": {
+      "Situation": "- Enfant de moins de 2 ans, rhino- pharyngite récente ou en cours.",
+      "Signes cliniques": "- Gêne et dyspnée expiratoire - Sifflements à l’expiration - Fièvre possible",
+      "Diagnostic": "Bronchiolite (virale) Enfant à garder en observation, au calme demi-assis. Fractionner les repas et aider à l’alimentation. - Bien hydrater l’enfant.",
+      "Traitement": "Laver, moucher le nez. Si enfant de plus de 6 mois, sifflements et récidive d’épisodes de bronchiolites, tester l’efficacité d’un aérosol de salbutamol Corticoïdes par voie générale pas d’indication si absence de complication et 2 premiers épisodes de bronchiolite"
+    }
+  },
+  {
+    "table_id": 3,
+    "row": {
+      "Situation": "- Enfant de plus de 2 ans, ayant des antécédents de dyspnée sifflante et/ou d’épisodes de toux notamment la nuit ou à l’effort. - Enfant de moins de 2ans ayant déjà 3 antécédents de dyspnée sifflante.",
+      "Signes cliniques": "- Gêne et dyspnée expiratoire - Sifflements à l’expiration",
+      "Diagnostic": "- Asthme aigu - Asthme aigu grave : enfant en détresse respiratoire. Les sifflements deviennent faibles ou inaudibles. Référer SAMU - Conditionnement non spécifique d’urgence",
+      "Traitement": "1. Aérosol salbutamol, une dose selon l’âge - A renouveler toutes les 20 mn en continu sur 1h si non- amélioration au premier aérosol. 2. Corticoïdes par voie générale : 1 à 2mg/kg/j Prednisone ou Betamethésone 10 à 20 gttes/kg en cas de non- amélioration au premier aérosol. 3. Si amélioration en une heure, retour à domicile avec Salbutamol en spray à la chambre d’inhalation à la demande selon dyspnée qsp 5j. (Nb bouffées maxsuccessives = poids/2 sans dépasser 10 bouffées d’affilées (ex : Enfant de 13kg = 6 bouffées max d’affilées). 4. Corticoïdes par voie générale 2 à 5 j si les symptômes réapparaissent en moins de 3h. 5. Si non-amélioration en 1h Référer SAMU"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "---"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "Diarrhées, vomissements, fièvre"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "aigue"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "Absence de selle ou selles dures, volumineuses et d’émission douloureuse. Absence de fièvre, de vomissement. L’allaitement maternel est l’équivalent d’un régime sans résidu. Les selles peuvent être rares (1/5 à 7 jours quelquefois), l’enfant n’est pas douloureux et ne vomit pas. Aucun traitement n’est nécessaire. Eliminer des fissures anales douloureuses lors de la défécation qui aggravent la constipation"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "Faire boire beaucoup d’eau (pas de soda) Remettre en place une routine : l’enfant doit se présenter de façon quotidienne aux toilettes, après un repas, dans de bonnes conditions (réducteur de lunette, pieds en appui…) et en prenant son temps Laxatif type NORMACOL enfant ou MICROLAX en cas de crise douloureuse, sinon préférer aux suppositoires de glycérine un macrogol per os type FORLAX 4g 1 à 4 sachets par jour pendant 3 mois."
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "dysurie, urines malodorantes, fièvre, BU + (leucocytes, nitrites, sang) Douleurs lombaires"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "En l’absence de fièvre, cystite traitement probabiliste par AUGMENTIN dose poids x 3 par jour (en attendant ECBU si réalisable) et à réévaluer au bout de 2 à 3 jours"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "la fosse iliaque Pas de fièvre BU normale ou sang"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "Apports hydriques Anti-inflammatoire non stéroïdien si besoin Surveiller l’apparition de fièvre signant une pyélonéphrite sur obstacle"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "défense localisée orientera sur l’organe traumatisé. BU à la recherche d’hématurie"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "Douleur abdominale en fosse iliaque droite ou périombilicale fébrile sans contracture, souvent associée à un épisode infectieux ORL (rhinopharyngite aigue, angine)"
+    }
+  },
+  {
+    "table_id": 4,
+    "row": {
+      "Symptômes associés aux douleurs": "mésentérique"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "---"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "Souvent entre 1 et 4 mois Pleurs, émissions de gaz soulageant les pleurs Etat général conservé Absence de modification des selles Absence d’infléchissement staturopondéral"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "nourrisson"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "Entre 2 mois et 3 ans Douleurs abdominales spasmodiques Vomissements bilieux Malaises, troubles de conscience ou du tonus Rectorragies Masse abdominale"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "intestinale aigue Volvulus"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "Pleurs, Vomissements Masse inguinale non réductible plus souvent à droite Plus fréquent chez l’enfant de petit poids de naissance et né prématurément"
+    }
+  },
+  {
+    "table_id": 5,
+    "row": {
+      "Symptômes associés aux douleurs": "engouée ou étranglée"
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "---"
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "Age >4ans, fièvre modérée douleurs en fosse iliaque droite (quelquefois hypogastriques) avec défense. Psoïtis. Petit fébricule. Langue saburrhale."
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "Laisser à jeun"
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "crépitants, désaturation, douleurs hypocondres."
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "Douleurs abdominales sans défense, absence de fièvre, purpura déclive, arthralgies-arthrites déclives. Episode de rhinopharyngite dans les 3 semaines précédent l’épisode."
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "rhumatoïde"
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "Crampes abdominales sans fièvre, ni diarrhée ni vomissement. Ballonnement, gaz."
+    }
+  },
+  {
+    "table_id": 6,
+    "row": {
+      "Symptômes associés aux douleurs": "fonctionnelles"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "---"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Douleurs abdominales +/- fébriles récurrentes Diarrhées glairosanglantes Asthénie, perte de poids"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "toire du tube digestif"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "---"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Garçon, douleurs intenses, nausées, pros- tration, ascension testiculaire, abolition du réflexe crémastérien"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Test de grossesse négatif Douleurs pelviennes, absence de défense"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "leurs menstruelles"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Douleurs pelviennes ou fosses iliaques, défense Retard de règle Test de grossesse positif, Métrorragies"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Appel SAMU"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "illiaques défense, ou contracture nausées"
+    }
+  },
+  {
+    "table_id": 7,
+    "row": {
+      "Symptômes associés aux douleurs": "Douleurs pelviennes Masse pelvienne Début de puberté Absence d’orifice vulvaire"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre chez un enfant de moins de 4 mois",
+      "Symptômes et facteurs de risque": "Age < 1 mois : bilan sanguin, urinaire et ponction lombaire Age 1 à 4 mois : BU+/- ECBU",
+      "Diagnostic et prise en charge": "Avis médical"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre avec : altération de la conscience, malade prostré, enfant geignard ou peu réactif",
+      "Symptômes et facteurs de risque": "Raideur de nuque, signe de Kernig (les genoux se plient quand on tente de fléchir la tête), céphalées, crainte de la lumière, vomissements. Fontanelle bombante chez le nourrisson",
+      "Diagnostic et prise en charge": "- Infection neuro-méningée Référer SAMU"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre mal supportée",
+      "Symptômes et facteurs de risque": "Un ou plusieurs des symptômes : • Polypnée, cyanose, tirage, marbrures, • froideur des extrémités, • Purpura • Pouls rapide difficile à prendre, • TA basse, • Troubles de conscience, • Purupra • Purpura • Douleur abdominale, • Ictère",
+      "Diagnostic et prise en charge": "Sepsis / Choc infectieux Infection pulmonaire sévère Infection abdominale chirurgicale Référer SAMU"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre avec purpura ou saignement",
+      "Symptômes et facteurs de risque": "Saignement extériorisé : nasal, buccal, digestif, intestinal, urinaire, pulmonaire…. Saignement sous cutané : pétéchies, ecchymoses.",
+      "Diagnostic et prise en charge": "Infection neuro-méningée Dengue, leptospirose Référer SAMU"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre bien supportée avec présence d’un symp- tôme d’appel permettant une orientation diagnos- tique",
+      "Symptômes et facteurs de risque": "Rhinorrhée, otalgie, otorrhée, toux, ex- pectoration, douleur thoracique, dyspnée modérée. Plaie, hématome ou autre lésion cutanée infectée, abcès, dermo-hypodermite. Trouble mictionnel, douleur lombaire Diarrhée, vomissements",
+      "Diagnostic et prise en charge": "Infection des voies aériennes supé- rieures ou inférieures Infection cutanée ou sous cutané Infection urinaire Infection gastro-intestinale Cf: Protocoles correspondants"
+    }
+  },
+  {
+    "table_id": 8,
+    "row": {
+      "Signes majeurs": "Fièvre ou syndrome grippal bien supporté sans symptôme d’appel permettant une orientation diagnostique",
+      "Symptômes et facteurs de risque": "",
+      "Diagnostic et prise en charge": "Référer Arbre décisionnel"
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "médicamenteux",
+      "Traitement non": "Remarques"
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "Agitation non contrôlable",
+      "Traitement non": "Contention physique"
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "50 mg 1 à 2 amp IM Ou DIAZEPAM 10 à 20 mg IM",
+      "Traitement non": "LOXAPINE si origine psychiatrique suspec- tée DIAZEPAM si autre origine"
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "lable sur probable décompensation mentale chronique",
+      "Traitement non": "Qualité de l’ap- proche relationnelle et rassurante pour le patient"
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "rant : LOXAPINE IM comme ci-dessus",
+      "Traitement non": ""
+    }
+  },
+  {
+    "table_id": 9,
+    "row": {
+      "Situation": "proche relationnelle et rassurante pour le patient",
+      "Traitement non": "DIAZEPAM (VALIUM ®)10mg jusqu’à 3 cp par jour Si patient avec IHC : OXAZEPAM (SERESTA ®) 10mg x 2 et jusqu’à 150mg max Si femme enceinte : OXAZEPAM 10mg (maxi- mum 3 x/jour)"
+    }
+  },
+  {
+    "table_id": 10,
+    "row": {
+      "Situation type": "Adulte victime de coups et blessures sans violence sexuelle Avis UMJ si besoin",
+      "Conduite à tenir": "Rassurer la victime. Examiner l’ensemble du corps, rechercher les traces de coups, des ecchymoses, des plaies, des fractures, des brûlures…, noter précisément ces éléments dans le dossier du patient pour la réalisation du CMI. Prélever une alcoolémie et les stupéfiants, si demandés par une réquisition de l’autorité judiciaire : - Si demande de prélèvements et que vous y êtes habilités : • 2 tubes verts pour les stupéfiants et 2 tubes gris pour l’alcoolémie, à séparer en 2 scellés contenant 1 tube de chaque",
+      "Traitement": "Entreprendre une relation d’aide, et si angoisse ou stress important donner un anxiolytique (OXAZEPAM 10 mg) PO Calmer la douleur Traitement des divers traumatismes et plaies"
+    }
+  },
+  {
+    "table_id": 10,
+    "row": {
+      "Situation type": "Adulte victime de violences sexuelles Référer médecin Avis UMJ recommandé",
+      "Conduite à tenir": "Rassurer la victime. Si désir de porter plainte, contacter les autorités judiciaires. Un document de dépôt de plainte simplifié a été mis au point, il peut être rempli et envoyé directement par mail aux autorités judiciaires. Cf document joint ci-dessous. Si l’agression date de moins de 5 jours : adresser systématiquement à l’UMJ qui effectuera l’examen et les prélèvements nécessaires. - Garder systématiquement les sous-vêtements dans une enveloppe craft (qui deviendra un scellé). - Si vous y êtes habilités, après avis, un prélèvement peut être fait par écouvillon sec pour les traces de sperme. Si l’agression date de plus de 5 jours : contacter l’UMJ de garde pour conseil et avis, - Si vous y êtes habilités, et après discussion avec le médecin légiste d’astreinte, un premier examen succinct peut être réalisé, notamment pour réaliser les prélèvements. - Si vous y êtes habilités, après accord du patient, les sérologies HIV, syphilis, hépatite B et hépatite C peuvent être prélevées. Les PCR IST sur prélèvement urinaire ou auto- prélèvement peuvent également être réalisées. - La bandelette urinaire sera faite sur orientation clinique de symptômes fonctionnels urinaires.",
+      "Traitement": "Entreprendre une relation d’aide, et si angoisse ou stress important donner un anxiolytique PO Calmer la douleur Traitement des divers traumatismes et plaies Proposer la pilule du lendemain. Efficacité maximale si 1°cp donné avant la 12°h après le rapport Si doute sur 1 risque de transmission de MST (VIH, hépatites), contacter l’UMJ"
+    }
+  },
+  {
+    "table_id": 10,
+    "row": {
+      "Situation type": "Mineur victime de violences physiques, psychologiques ou sexuelles Référer médecin Information judiciaire obligatoire",
+      "Conduite à tenir": "Rassurer l’enfant ou le mineur, entretien et examen si possible santé en présence d’un représentant légal. Si l’enfant est consentant, inspecter visuellement l’ensemble du corps puis contacter le médecin référent ou l’UAPED Réaliser selon le degré d’urgence un signalement ou une information préoccupante Si désir de porter plainte par les représentants légaux, contacter les autorités judiciaires. Un document de dépôt de plainte simplifié a été mis au point, il peut être rempli et envoyer directement par mail aux autorités judiciaires. Cf document joint ci-dessous.",
+      "Traitement": "Entreprendre une relation d’aide, et si angoisse ou stress important donner un anxiolytique PO à partir de 15 ans Calmer la douleur Traitement des divers traumatismes et plaies"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "tic(s) pos- sible(s)",
+      "Symptômes et signes": "CAT et traitement(s)"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Douleur épigastrique",
+      "Symptômes et signes": "Examen pulmonaire ECG à faire si facteurs de risques cardiovasculaires Contexte possible de prise récente d’AINS"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "œsophagiens, gastrite",
+      "Symptômes et signes": "Antiacide (Moxydar) 3 fois par jour + un inhibiteur de la pompe à proton si nécessaire (Pantoprazole 20mg) pendant quelques jours. En cas de selles noirâtres, molles, avec odeurs nauséabondes (méléna) ou de vomissement sanglant (hématémèse) : Référer médecin Si les symptômes persistent ou ne sont pas soulagés par ce traitement : Référer médecin"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "épigastrique irradiation vers épaule gauche",
+      "Symptômes et signes": "Examen pulmonaire ECG à faire si facteurs de risques cardiovasculaires Contexte possible d’alcoolisme"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "transfixiantes (traversant l’abdomen). Le diagnostic se base sur les éléments clinques, biologique et radiologique. Si suspicion, Référer médecin",
+      "Symptômes et signes": ""
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "ECG à faire si facteurs de risques cardiovasculaires",
+      "Symptômes et signes": "Calcul hépatique Cholecystite"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Douleur d’un flanc",
+      "Symptômes et signes": "Fièvre Signes fonctionnels urinaires Nausée et vomissement possibles - Bandelette urinaire : leucocytes, sang et nitrites"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "haute (IUH) Colite pseudo- membraneuse",
+      "Symptômes et signes": "Prélever ECBU IUH = Référer médecin"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Irradiation possible vers la fosse iliaque BU : leucocytes et sang",
+      "Symptômes et signes": "Lithiase (=calcul) urinaire"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Douleur fosse iliaque gauche",
+      "Symptômes et signes": "BU normale Absence de grossesse Selles rares, dures et irradiation de la douleur au reste du ventre Absence de fièvre"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Conseils d’hygiène alimentaire +++ : boire beaucoup d’eau et manger équilibré, régime riche en fibres, éviter riz blanc, bananes et carottes Laxatif type Forlax puis Lactulose ou Duphalac – si les symptômes persistent Lavement si constipation persistante malgré traitement per os : Microlax, Normacol Si échec →Référer médecin Il peut s’agir d’un problème gynécologique ou intestinal nécessitant un avis spécialisé",
+      "Symptômes et signes": ""
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "",
+      "Symptômes et signes": "Signes fonctionnels digestifs Défense ou contracture Fièvre Possible arrêt des matières et des gazs BU normale Absence de grossesse"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "sigmoïdite",
+      "Symptômes et signes": "Si suspicion, calmer la douleur et : Référer médecin"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "iliaque droite",
+      "Symptômes et signes": "Signes fonctionnels digestifs Défense ou contracture Fièvre modérée BU normale Absence de grossesse Psoïtis droit inconstant (position douloureuse de hanche en flexion)"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Référer médecin",
+      "Symptômes et signes": ""
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "fièvre Hématurie macroscopique possible BU (+)",
+      "Symptômes et signes": "Cystite"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Douleur hypogastrique et/ou d’une fosse iliaque",
+      "Symptômes et signes": "Retard de règles Ou possible métrorragies peu abondantes de sang foncé Test de grossesse positif"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Infarctus mésentérique",
+      "Symptômes et signes": "Si suspicion de GEU, calmer la douleur et Référer médecin"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "hypogastrique et/ou des fosses iliaques chez une Femme",
+      "Symptômes et signes": "Cf chapitre GYNECOLOGIE OBSTETRIQUE"
+    }
+  },
+  {
+    "table_id": 11,
+    "row": {
+      "Où ?": "Douleur ombilicale ou péri ombilicale",
+      "Symptômes et signes": "A type de crampes, irradiant dans les autres segments Fièvre inconstante Absence de défense ou de contractures Gazs (+) SFD : diarrhées +/- vomissements"
+    }
+  },
+  {
+    "table_id": 12,
+    "row": {
+      "Douleur mécanique": "Le jour",
+      "Douleur inflammatoire": "Deuxième partie de nuit Notion de réveil nocturne"
+    }
+  },
+  {
+    "table_id": 12,
+    "row": {
+      "Douleur mécanique": "Soir > matin",
+      "Douleur inflammatoire": "Matin au réveil > soir Notion de dérouillage matinal prolongé (> 45 min)"
+    }
+  },
+  {
+    "table_id": 12,
+    "row": {
+      "Douleur mécanique": "Survenue à l’activité Soulagement par le repos",
+      "Douleur inflammatoire": "Survenue au repos Amélioration à l’activité"
+    }
+  },
+  {
+    "table_id": 12,
+    "row": {
+      "Douleur mécanique": "Caractère positionnel",
+      "Douleur inflammatoire": "Non positionnel"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "---",
+      "Symptômes et circon-": "---"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "Douleur articulaire de l’enfant et du jeune adulte de moins de 25 ans et VS >30 à la 1ère heure",
+      "Symptômes et circon-": "Douleur d’une ou plusieurs grosses articulations des membres, pouvant migrer d’une articulation à l’autre, non calmée par le repos, souvent fébrile"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "Suspecter arthrite infectieuse si état général altéré ou T° élevée ou une seule articulation atteinte.",
+      "Symptômes et circon-": "Antalgie voie générale Référer médecin"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "l’enfant, VS < 30 à la 1ère heure",
+      "Symptômes et circon-": "Douleur articulaire, et au-dessous ou au- dessus de celle ci, plutôt la nuit, pendant les périodes de croissance rapide"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "- Revoir systématiquement l’enfant dans les 8 jours ou avant si douleur importante - Référer si récidive",
+      "Symptômes et circon-": ""
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "après l’effort et la mobilisation de l’articulation, soulagée par le repos. Aspect non ou peu inflammatoire",
+      "Symptômes et circon-": "Arthrose"
+    }
+  },
+  {
+    "table_id": 13,
+    "row": {
+      "Situation rencontrée": "Douleur vive d’une articulation ± fièvre chez un adulte de plus de 25 ans, atteignant le plus souvent le pied ou la cheville, généralement un homme. Le patient a déjà eu la même chose dans le passé.",
+      "Symptômes et circon-": "Déclenchée par un repas abondant ou par un traumatisme local; Aspect inflammatoire de l’articulation (chaleur, rougeur, œdème, douleur); marche quasi impossible. Douleur non soulagée par le repos."
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Signes cliniques",
+      "Diagnostics à redouter": "",
+      "Hospitalisation pour": ""
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Freq respiratoire > 24/min FC > 120 /min TA systolique < 80mmHg Marbrures cutanées, extrémités froides ou diminution de la fré- quence mictionnelle)",
+      "Diagnostics à redouter": "Sepsis Choc septique Déshydratation aiguë",
+      "Hospitalisation pour": "Remplissage Oxygénothérapie Antibiothérapie probabiliste Réhydratation"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Purpura",
+      "Diagnostics à redouter": "Méningococcémie Fièvre hémorragique (chikun- gunya, dengue)",
+      "Hospitalisation pour": "Hémocultures EPI : Précautions complémentaires contact + gouttelettes (masque chirurgical) Antibiothérapie probabiliste"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Troubles neurologiques : Confusion Désorientation Glasgow Coma Scale < 15",
+      "Diagnostics à redouter": "Méningo-encéphalite Neuropaludisme d’importation",
+      "Hospitalisation pour": "“Recherche paludisme” Ponction lombaire Scanner cérébral"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Douleurs abdominales",
+      "Diagnostics à redouter": "Appendicite péritonite",
+      "Hospitalisation pour": "Avis chirurgical"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Œdème douloureux d’un membre ou du cou",
+      "Diagnostics à redouter": "Dermo-hypodermite ou fasciite nécrosante",
+      "Hospitalisation pour": "Avis chirurgical pour incision de décharge +/- excision"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Valvulopathie, souffle cardiaque --> cf critères de Dukes",
+      "Diagnostics à redouter": "Endocardite sub-aigue",
+      "Hospitalisation pour": "Hémocultures Echocardiographie Antibiothérapie probabiliste"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Terrains à risque",
+      "Diagnostics à redouter": "",
+      "Hospitalisation pour": ""
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Nouveau-né < 28 jours",
+      "Diagnostics à redouter": "Streptocoque groupe B Listeria monocytogenes Escherichia coli Paludisme",
+      "Hospitalisation pour": "Hémocultures +/- ponction lom- baire Recherche paludisme (voyages/ profession) Antibiothérapie probabiliste"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Femme enceinte",
+      "Diagnostics à redouter": "Listeria monocytogenes Escherichia coli Paludisme",
+      "Hospitalisation pour": "Hémocultures Recherche paludisme (voyages/ profession) Antibiothérapie probabiliste"
+    }
+  },
+  {
+    "table_id": 14,
+    "row": {
+      "Signes de gravité": "Asplénie (fonctionnelle ou splénec- tomie connue)",
+      "Diagnostics à redouter": "Pneumocoque Paludisme",
+      "Hospitalisation pour": "Hémocultures Recherche paludisme (voyages/ profession) Antibiothérapie probabiliste"
+    }
+  },
+  {
+    "table_id": 15,
+    "row": {
+      "Signes cliniques": "Début brutal avec fièvre et apparition d’un placard érythéma- teux (chaud, œdéma- teux), circonscrit et douloureux.",
+      "Facteurs favorisants": "- Insuffisance veineuse chronique ; - Lymphoedème filarien obésité ; diabète ; artérite ; antécédent local de traumatisme ou de chirurgie. - Porte d’entrée : Intertrigo des orteils, ulcère variqueux, plaie ou piqûre, eczéma de stase veineuse des chevilles...",
+      "Diagnostic": "Dermo-hypo- dermite (streptocoque)",
+      "Traitement": "- Amoxicilline IV 3 à 12g/j en 3 à 4 inj, au moins 10 jours. Relais par Amoxicilline 500 mg po 2 à 8 gel toutes les 8h à partir du 3° jour. Si bonne évolution : durée totale de 10j de traitement. - Dans les formes peu intenses un traitement d’emblée oral est possible - Si allergie PENICILLINE : Rovamycine 3MU Toutes les 8h - Antalgique : palier 1 à 2 AINS contre indiqués ++ - Traitement de la porte d’entrée (la rechercher) - Vérification vaccination antitétanique ; - Repos jambe surélevée."
+    }
+  },
+  {
+    "table_id": 15,
+    "row": {
+      "Signes cliniques": "Idem ci dessus + signes locaux inquié- tants : - tâches cyanosées, froides, insensibles, - zones de nécrose, - œdème dépassant les limites de l’érythème, - bulles hémorragiques douleur s’aggravant, - et/ou signes généraux sévères : tachycardie, hypoTA, confusion… - Ecoulements de la plaie fétides.",
+      "Facteurs favorisants": "- Diabète (multiplie le risque de DHBN-FN par 4) ; - Immuno-dépression : corticothérapie, chimio- thérapie, Anti-inflammatoires, cancers, hémopathies…",
+      "Diagnostic": "Dermo- hy- podermite nécrosante avec ou sans fasciite nécrosante (DHBN-FN).",
+      "Traitement": "Référer SAMU"
+    }
+  },
+  {
+    "table_id": 16,
+    "row": {
+      "Signes majeurs": "Dilatation fixe de la pupille",
+      "Symptômes": "Perte de vision en quelques heures ; Œil rouge très douloureux, « dur » ; Parfois nausées, céphalées. Semi-mydriase peu réactive Aspect dépoli de la cornée",
+      "Diagnostic": "Glaucome aigu",
+      "Traitement": "Référer médecin immédiatement Antalgie voie générale. Eventuelle perfusion de Mannitol sur prescription de l’Ophtalmologue."
+    }
+  },
+  {
+    "table_id": 16,
+    "row": {
+      "Signes majeurs": "Pupille en myosis (pointe d’aiguille) avec une cornée transparente et un reflet brillant",
+      "Symptômes": "Baisse de l’acuité visuelle Œil rouge avec douleur intense et photophobie.",
+      "Diagnostic": "Uvéite",
+      "Traitement": "Référer médecin Eliminer un traumatisme. Antalgie voie générale."
+    }
+  },
+  {
+    "table_id": 16,
+    "row": {
+      "Signes majeurs": "Cornée présentant une ou des opacités fixant la fluorescéine",
+      "Symptômes": "Baisse de l’acuité visuelle ; - Douleur ++ circonscrite à l’œil qui est rouge avec sensation de corps étranger, larmoiement Rechercher abcès de cornée (point blanc)",
+      "Diagnostic": "Kératite aigue",
+      "Traitement": "Référer médecin Lavage NaCL toutes les heures Pommade antibiotique 2 fois/j 3j. TTT Anti-herpétique (si disponible) local ou voie orale sur prescription de l’Ophtalmologue"
+    }
+  },
+  {
+    "table_id": 16,
+    "row": {
+      "Signes majeurs": "Rougeur prédominant dans les culs de sac conjonctivaux",
+      "Symptômes": "Œil rouge non douloureux, Vision intacte ; Sensation de gêne ; paupières collées au réveil, gonflées, parfois écoulement aqueux (allergie) ou purulent.",
+      "Diagnostic": "Conjonctivite virale (écoulement claire) ou bactérienne (unilat, écoulement sale) ou allergique (dans ce cas, prurit souvent associé et/ou eczéma des paupières).",
+      "Traitement": "1. Nettoyage au NaCL (c. virale) ET collyre antiseptique (c. bactérienne) 2. Si notion d’allergie connue : antihistaminique par voie générale. 3.Référer médecin si évolution défavorable à J2 ou modification des symptomes (quelque soit le délai : altération acuité visuelle, par ex)"
+    }
+  },
+  {
+    "table_id": 16,
+    "row": {
+      "Signes majeurs": "Aspect de flaque rouge sous la conjonctive",
+      "Symptômes": "Œil rouge non douloureux ; Vision intacte.",
+      "Diagnostic": "Hémorragie sous conjonctivale",
+      "Traitement": "1. Vérifier l’absence de traumatisme, d’HTA ou de troubles de la coagulation. 2. Pas de traitement, l’hémorragie s’élimine spontanément en 3 à 6 semaines"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "---"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "Projection d’un élément entraînant une plaie perforante de l’œil : explosion"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "signe constant (se méfier !); pupille déformée (n’est plus ronde) ; baisse fréquente de l’acuité visuelle; parfois blessure de la paupière associée"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "immédiatement médecin 2. Hospitalisation OPH urgente 3. Antalgie voie générale"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "de produits chimiques"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "(plus grave si produit basique – pH > 7)"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "Coup d’arc ou exposition prolongée au soleil"
+    }
+  },
+  {
+    "table_id": 17,
+    "row": {
+      "Type": "(souvent décalée de 10 heures), larmoiement et photophobie ; acuité visuelle normale."
+    }
+  },
+  {
+    "table_id": 18,
+    "row": {
+      "Projection de": "dans l’œil"
+    }
+  },
+  {
+    "table_id": 18,
+    "row": {
+      "Projection de": "l’épithélium cornéen Corps étranger fixé sur la cornée"
+    }
+  },
+  {
+    "table_id": 18,
+    "row": {
+      "Projection de": "---"
+    }
+  },
+  {
+    "table_id": 18,
+    "row": {
+      "Projection de": "Choc sur l’œil sans plaie"
+    }
+  },
+  {
+    "table_id": 18,
+    "row": {
+      "Projection de": "; pupille réactive ; peu ou pas de photophobie ; parfois hémorragie sous conjonctivale bénigne. Œdème de la paupière si choc violent. Facteur de gravité si niveau de sang visible en arrière de la cornée (hyphéma)."
+    }
+  },
+  {
+    "table_id": 19,
+    "row": {
+      "Signes majeurs": "Douleur sans fièvre ni rhino-pharyngite sans perforation tympanique",
+      "Diagnostic": "Otite externe",
+      "Traitement": "1. Paracétamol si douleur ; 2. Nettoyer délicatement l’otorrhée si elle est abondante ; 3. Faire un bain d’oreille de Polydexa 2 fois par jour pendant 5 à 7 jours si tympan fermé 4. Mécher l’oreille les 3 premiers jours (en continu), l’humidifier (avec un POP) avec du Polydexa plusieurs fois par jour puis traitement pendant 7j sans mèche. 5. Si extension de l’infection autour de l’oreille ou douleur ne cédant pas au bout de 7j (risque d’otite externe maligne, surtout chez les diabétiques) Amoxicilline ou Macrolide (cf. protocole « Utilisation des antibiotiques en pratique courante ») et corticoides. 6. Les otites externes d’aspect mycosiques (pas de sténose du conduit) nécessitent un avis médical"
+    }
+  },
+  {
+    "table_id": 19,
+    "row": {
+      "Signes majeurs": "Douleur avec rhino- pharyngite +/- fièvre",
+      "Diagnostic": "Otite moyenne aiguë . Le traitement antibiotique n’est pas urgent. Si l’on n’est pas certain du diagnostic d’otite moyenne aigüe on peut revoir l’enfant 24 à 48h plus tard pour contrôler l’évolution et réexaminer le tympan.",
+      "Traitement": "Paracétamol Désobstruction nasale Amoxicilline 80mg/kg/j ou 1g*3/j chez l’adulte : pendant 5 jours (10 jours si otorrhée, otite récidivante ou <2 ans) Toujours chez l’enfant de moins de 2 ans enfant de + de 2 ans si symptomes importants en cas d’allergie à l’Amoxicilline, cefpodoxime susp buvable 8mg/ kg/j, 10j <2 ans, 5j >2 ans - 4. Si syndrome otite-conjonctivite : amoxicilline-acide clavulanique : 80 mg/kg/jour, sans dépasser 3 g par jour, pendant 5 jours."
+    }
+  },
+  {
+    "table_id": 19,
+    "row": {
+      "Signes majeurs": "Pas de douleur avec une perforation du tympan et des écoulements de pus itératifs",
+      "Diagnostic": "Otite moyenne chronique à tympan ouvert",
+      "Traitement": "- Nettoyer délicatement l’otorrhée ; - Faire un bain d’oreille d’ofloxacine auriculaire matin et soir pendant 5 à 7 jours. Un méchage imprégné er d’ofloxacine auriculaire le 1 jour est plus efficace ; - Les antibiotiques par voie générale ne sont pas indiqués. - Les perforations du tympan de petites tailles peuvent cicatriser spontanément en l’absence d’otorrhée et de bains de mer. - Dans les autres cas un avis ORL est nécessaire. - La bonne ventilation de la trompe d’eustache et le mouchage permettent de réduire la fréquence des otorrhées."
+    }
+  },
+  {
+    "table_id": 19,
+    "row": {
+      "Signes majeurs": "Pas de douleur avec des difficultés scolaires ou de langage",
+      "Diagnostic": "Otite séro-muqueuse",
+      "Traitement": "- C’est l’affaire du spécialiste. Toute suspicion d’otite séro-muqueuse doit être adressée à l’ORL. - Néanmoins la bonne ventilation de la trompe d’eustache et le mouchage permettent de réduire la fréquence des otorrhées."
+    }
+  },
+  {
+    "table_id": 19,
+    "row": {
+      "Signes majeurs": "Cas particulier de l’insecte coincé dans le conduit auditif",
+      "Diagnostic": "C’est parfois très mal supporté si l’insecte est toujours vivant.",
+      "Traitement": "- En décubitus latéral remplir l’oreille d‘eau oxygénée jusqu’à débordement. Attendre 10mn, l’insecte sort spontanément - Si échec paralyser l’insecte avec une à deux gouttes de Xylocaine puis lavage d’oreille"
+    }
+  },
+  {
+    "table_id": 20,
+    "row": {
+      "Soins": "Comment nettoy- er une otorrhée?",
+      "Indications": "Le nettoyage d’une otorrhée est indispensable pour voir le tym- pan ou avant de traiter par des gouttes auriculaires. En effet le traitement local sera beaucoup moins efficace s’il est mélangé à du pus. La meilleure technique reste l’aspiration, mais elle demande une grande minu- tie, du matériel particulier et une formation. En l’absence, le nettoyage à l’aide de papier absorbant (mouchoir en papier, serviette en papier) est une alternative intéressante.",
+      "Techniques": "Entortiller un morceau de papier absorbant d’environ 3 cm de long ; L’introduire délicatement mais profondément dans le conduit en tournant doucement ; Attendre environ deux minutes pour l’absorption et retirer ; Recommencer jusqu’à retrait d’un papier propre."
+    }
+  },
+  {
+    "table_id": 20,
+    "row": {
+      "Soins": "Comment mécher une oreille?",
+      "Indications": "L’intérêt du méchage est de permettre un contact prolongé du traitement local. Utiliser une mèche sèche ne sert à rien et ne fait qu’irriter le conduit.",
+      "Techniques": "1. Utiliser un otodrain (POP) ou une compresse coupée à la bonne taille ; 2. L’introduire délicatement et profondément dans le conduit ; 3. L’imprégner toutes les 3 heures environ avec le traitement. Le risque du méchage est l’oubli de la mèche dans l’oreille, deve- nant un corps étranger pouvant se sur infecter. On ne doit mécher que si l’on est sûr de pouvoir revoir le patient."
+    }
+  },
+  {
+    "table_id": 20,
+    "row": {
+      "Soins": "Quand et com- ment laver une oreille ?",
+      "Indications": "Présence de débris ou corps étrangers ne permettent pas de voir le tympan d’une oreille malade. Présence d’un corps étranger. Présence d’un bouchon d’oreille gênant l’audition.",
+      "Techniques": "1. Utiliser un cathéter veineux de gros calibre, jeter l’aiguille en conservant la partie plastique 2. Laver avec une seringue d’eau tiédie savonneuse. Le jet d’eau doit être dirigé vers l’arrière de la tête 3. En cas de bouchon on peut utiliser de l’Acérumen ou équiva- lent pendant quelques jours avant le lavage."
+    }
+  },
+  {
+    "table_id": 20,
+    "row": {
+      "Soins": "Que faire de- vant un bouchon d’oreille ?",
+      "Indications": "Le cérumen est un produit impor- tant à respecter. Il a une action bactéricide et protège donc contre les infections.",
+      "Techniques": "Le bouchon ne doit être enlevé que dans deux situations : examen impossible du tympan en cas de pathologie, bouchon douloureux ou gênant l’audition (avec le lavage ou le laçot)"
+    }
+  },
+  {
+    "table_id": 20,
+    "row": {
+      "Soins": "Comment utiliser correctement des gouttes auricu- laires ?",
+      "Indications": "",
+      "Techniques": "1. Premier principe : Le traitement auriculaire doit être utilisé sur une oreille propre sans débris ni otorrhée. 2. Deuxième principe : Le liquide doit pénétrer au fond de l’oreille : tirer le pavillon à plusieurs reprises après introduction du liquide afin d’ouvrir et de verticaliser le conduit auditif. 3. Troisième principe : Le temps de contact avec l’oreille doit être le plus long possible en utilisant soit la technique de méchage, soit la technique du bain d’oreille (patient allongé sur le coté op- posé pendant 10 mn après introduction du traitement dans l’oreille). 4. Quatrième principe : La quantité de liquide doit être adaptée à la pathologie. Otite externe : le liquide doit remplir entièrement le conduit et être visible à l’orifice du conduit. Otite moyenne chronique : utiliser au moins 10 gouttes (soit la totalité de la dosette d’Ofloxacine)."
+    }
+  },
+  {
+    "table_id": 21,
+    "row": {
+      "Symptômes et signes": "Signes locaux : - douleur d’une rare intensité souvent syncopale, - œdème, - phlyctènes hémorragiques évolution fréquente vers la nécrose avec risque de surinfection bactérienne. + Signes généraux : - troubles sensitifs, - convulsions, - paralysies, - accidents cardiaques et respiratoires pouvant entraîner la mort.",
+      "Prévention et prophylaxie": "Soustraire le patient au milieu marin (risque de noyade). Le venin est thermolabile. Attention à ne pas ébouillanter votre patient ! Attention à ne pas brûler votre patient ! Lutter contre la douleur souvent intense. Explorer la plaie à la recherche d’un corps étranger. Prévention des surinfections. Prévention du tétanos : vérifier le statut vaccinal du patient. Surveillance clinique locale dans les jours qui suivent l’accident afin de surveiller l’apparition de nécroses superficielles et profondes nécessitant parfois un traitement chirurgical précoce.",
+      "Taitement": "- En cas d’arrêt cardio-respiratoire, débuter immédiatement une réanimation. - Immerger la partie du corps concernée dans de l’eau chaude (45 degrés) le plus longtemps possible (au moins une heure). - En l’absence d’eau chaude, approcher une cigarette allumée près de la piqûre ou tortillon incandescent. - Anesthésie locale à la xylocaïne 1% sans vasoconstricteur et non adrénalinée. Cette mesure ne sera pas appliquée avant la thermolyse du venin (risque de brûlures +++). - Antalgiques de palier II voire III (classification OMS) sont parfois nécessaires (cf. protocole « antalgiques »). - Désinfection locale et antibioprophylaxie par Macrolide (cf. protocole « Utilisation des antibiotiques en pratique courante »). - Pansement dakin non serré. - Injecter SAT puis VAT (cf. protocole « Risque tétanique »."
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Plaie nette, vue avant la 6°heure, non profonde ; Pas de signes infectieux ; Pas de facteur de risque infec- tieux.",
+      "Localisation": "Toute localisation sauf plaie siégeant au niveau de l’abdomen, du cou, du thorax, de la racine d’un membre ou des organes génitaux.",
+      "Traitement": "1. Nettoyage solution nettoyante antisep- tique, rinçage sérum physiologique, désinfection solution antiseptique. 2. Pas d’antibiotique. 3. Suture si nécessaire. 4. Surveillance cicatrisation."
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Plaie souillée ou fortement contaminée ou risque infec- tieux (ex : diabète).",
+      "Localisation": "Toute localisation sauf plaie siégeant au niveau de l’abdomen, du cou, du thorax, de la racine d’un membre ou des organes génitaux.",
+      "Traitement": "1. Nettoyage solution nettoyante 2. antiseptique, rinçage sérum physiolo- gique, désinfection solution antisep- tique. 3. Suture différée à 3 jours si souillure importante (appel médecin pour avis). 4. Antibiothérapie préventive Pénicil- line M ou Macrolide 6 j (Amoxicilline/ ac.clavulanique si diabète)."
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Plaie par morsure humaine ou animale.",
+      "Localisation": "Toute localisation sauf plaie siégeant au niveau de l’abdomen, du cou, du thorax, de la racine d’un membre ou des organes génitaux.",
+      "Traitement": "1. Nettoyage soigneux solution net- toyante antiseptique, rinçage sérum physiologique, désinfection solution antiseptique. 2. Abstention de suture dans les localisa- tions sans conséquence esthétique. 3. Antibiothérapie préventive : Amoxicil- line /ac.clavulanique 5j Macrolide si allergie à la Penicilline."
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Plaie vue tardivement après la 6° heure.",
+      "Localisation": "Toute localisation sauf plaie siégeant au niveau de l’abdomen, du cou, du thorax, de la racine d’un membre ou des organes génitaux.",
+      "Traitement": "1. Nettoyage soigneux solution net- toyante antiseptique, rinçage sérum physiologique, désinfection solution antiseptique. 2. Suture différée à 3 jours si plaie souil- lée, contuse ou si plaie de plus de 24 h (appel médecin pour avis)."
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Tous les autres types de plaie - en regard d’un trajet vasculaire, tendineux ou nerveux. - Plaie profonde avec exposition de structures tendineuses, articulaires ou osseuses. - Plaie pénétrante par arme blanche ou par arme à feu.",
+      "Localisation": "Toutes localisations",
+      "Traitement": "Référer médecin"
+    }
+  },
+  {
+    "table_id": 22,
+    "row": {
+      "Type de plaie": "Toutes plaies.",
+      "Localisation": "Plaie siégeant au niveau - abdomen, - cou, - thorax, - racine d’un membre, - organes génitaux, - un orifice naturel.",
+      "Traitement": "Référer médecin"
+    }
+  },
+  {
+    "table_id": 23,
+    "row": {
+      "Facteur de risque": "vigueur",
+      "Personne à jour de ses vacci-": "Personne non à jour"
+    }
+  },
+  {
+    "table_id": 23,
+    "row": {
+      "Facteur de risque": "Risque modéré : Plaie mineure propre, peu souillée",
+      "Personne à jour de ses vacci-": "Pas d’injection Préciser la date du prochain rappel"
+    }
+  },
+  {
+    "table_id": 23,
+    "row": {
+      "Facteur de risque": "dose de vaccin contenant la valence tétanique.",
+      "Personne à jour de ses vacci-": ""
+    }
+  }
+]
