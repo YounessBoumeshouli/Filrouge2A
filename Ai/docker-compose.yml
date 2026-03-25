@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  yolo-trainer:
+    build: .
+    container_name: ceramic-yolo-trainer
+    volumes:
+      # Mount your dataset directory
+      - ./data/ceramic_simple:/app/data:ro
+      # Mount output directory for models
+      - ./models:/app/models
+      # Mount runs directory for training logs
+      - ./runs:/app/runs
+    environment:
+      - MLFLOW_TRACKING_URI=""
+      - MLFLOW_DISABLE=1
+      - PYTHONUNBUFFERED=1
+    # Uncomment the following lines if you have NVIDIA GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    stdin_open: true
+    tty: true
