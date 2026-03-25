@@ -1,0 +1,6050 @@
+[
+    {
+        "name": "Kamele",
+        "city": "Inconnue",
+        "lat": 28.4354136,
+        "lon": -11.0689193,
+        "category": "attraction"
+    },
+    {
+        "name": "bab sidi bou jida",
+        "city": "Fès",
+        "lat": 34.0698574,
+        "lon": -4.9656327,
+        "category": "attraction"
+    },
+    {
+        "name": "bab el khoukha",
+        "city": "فاس",
+        "lat": 34.0644425,
+        "lon": -4.963129,
+        "category": "attraction"
+    },
+    {
+        "name": "Atlas Studios",
+        "city": "Inconnue",
+        "lat": 30.9417822,
+        "lon": -6.9669135,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Agnaou",
+        "city": "Inconnue",
+        "lat": 31.6173906,
+        "lon": -7.9906405,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Ghemat",
+        "city": "Inconnue",
+        "lat": 31.623849,
+        "lon": -7.974582,
+        "category": "attraction"
+    },
+    {
+        "name": "Grotte Du Chameau مغارة الجمل",
+        "city": "Inconnue",
+        "lat": 34.8382768,
+        "lon": -2.3560162,
+        "category": "attraction"
+    },
+    {
+        "name": "رأس نواذيبو",
+        "city": "Inconnue",
+        "lat": 20.7699648,
+        "lon": -17.050187,
+        "category": "attraction"
+    },
+    {
+        "name": "Grottes d'Hercule",
+        "city": "Inconnue",
+        "lat": 35.7597136,
+        "lon": -5.9391512,
+        "category": "attraction"
+    },
+    {
+        "name": "Cascades d'Immouzer",
+        "city": "Inconnue",
+        "lat": 30.6782489,
+        "lon": -9.4811856,
+        "category": "attraction"
+    },
+    {
+        "name": "Sources de l'Oum Rabia",
+        "city": "Inconnue",
+        "lat": 33.0534462,
+        "lon": -5.4147065,
+        "category": "attraction"
+    },
+    {
+        "name": "Gouffre du Friouato",
+        "city": "Inconnue",
+        "lat": 34.1046489,
+        "lon": -4.0724784,
+        "category": "attraction"
+    },
+    {
+        "name": "Cèdre de Gouraud",
+        "city": "Inconnue",
+        "lat": 33.4263682,
+        "lon": -5.1553786,
+        "category": "attraction"
+    },
+    {
+        "name": "la gazelle",
+        "city": "Inconnue",
+        "lat": 29.7114345,
+        "lon": -8.9885099,
+        "category": "attraction"
+    },
+    {
+        "name": "Fontaine Mouassine",
+        "city": "Inconnue",
+        "lat": 31.6298823,
+        "lon": -7.9892665,
+        "category": "attraction"
+    },
+    {
+        "name": "Le Petit Gorge",
+        "city": "Inconnue",
+        "lat": 31.6060502,
+        "lon": -5.5839262,
+        "category": "attraction"
+    },
+    {
+        "name": "Twin Center",
+        "city": "Inconnue",
+        "lat": 33.5865844,
+        "lon": -7.6322923,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizourgane تيزرڭان",
+        "city": "Inconnue",
+        "lat": 29.8868585,
+        "lon": -9.0018756,
+        "category": "attraction"
+    },
+    {
+        "name": "Sleeping in Nomadetents",
+        "city": "Inconnue",
+        "lat": 29.9255451,
+        "lon": -7.3441614,
+        "category": "attraction"
+    },
+    {
+        "name": "Agadir Aït Kine",
+        "city": "Inconnue",
+        "lat": 30.0245215,
+        "lon": -8.1819637,
+        "category": "attraction"
+    },
+    {
+        "name": "Agadir Id Aissa",
+        "city": "Inconnue",
+        "lat": 29.2463344,
+        "lon": -9.1851704,
+        "category": "attraction"
+    },
+    {
+        "name": "Amtoudi, Agadir Aguellouy",
+        "city": "Inconnue",
+        "lat": 29.2399423,
+        "lon": -9.1726076,
+        "category": "attraction"
+    },
+    {
+        "name": "La Source Bleue de Meski",
+        "city": "Inconnue",
+        "lat": 31.8564476,
+        "lon": -4.2819916,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Sbaa",
+        "city": "Inconnue",
+        "lat": 31.5113477,
+        "lon": -9.7698234,
+        "category": "attraction"
+    },
+    {
+        "name": "Tumb",
+        "city": "Inconnue",
+        "lat": 26.8697388,
+        "lon": -12.9334722,
+        "category": "monument"
+    },
+    {
+        "name": "Holal Oasis spring هلال واحة الربيع",
+        "city": "Inconnue",
+        "lat": 29.8826467,
+        "lon": -6.1191426,
+        "category": "attraction"
+    },
+    {
+        "name": "Pont sur oued Tensift",
+        "city": "Inconnue",
+        "lat": 31.6917231,
+        "lon": -7.9883185,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Sid L'Aouad",
+        "city": "FES medina",
+        "lat": 34.0630578,
+        "lon": -4.9723728,
+        "category": "attraction"
+    },
+    {
+        "name": "Palais Royal Dar Al Makhzen القصر الملكى دار المخزن",
+        "city": "Inconnue",
+        "lat": 34.0055618,
+        "lon": -6.8349918,
+        "category": "monument"
+    },
+    {
+        "name": "Argan tree Goats",
+        "city": "Inconnue",
+        "lat": 31.5474131,
+        "lon": -9.3623711,
+        "category": "attraction"
+    },
+    {
+        "name": "Tajine",
+        "city": "Inconnue",
+        "lat": 32.2948733,
+        "lon": -9.2339044,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Marrakech باب مراكش",
+        "city": "Inconnue",
+        "lat": 31.5119235,
+        "lon": -9.765924,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Minzah",
+        "city": "Inconnue",
+        "lat": 31.5111596,
+        "lon": -9.771829,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Agrou ( Porte de Agrou) باب آكرو",
+        "city": "Inconnue",
+        "lat": 32.2985878,
+        "lon": -9.2381703,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Shaaba باب الشعبة",
+        "city": "Inconnue",
+        "lat": 32.2998243,
+        "lon": -9.2398283,
+        "category": "monument"
+    },
+    {
+        "name": "Dar el Caid Aissa",
+        "city": "Inconnue",
+        "lat": 32.4147887,
+        "lon": -9.0200805,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Alkhadid باب الخديد",
+        "city": "Inconnue",
+        "lat": 32.2975823,
+        "lon": -9.2418163,
+        "category": "monument"
+    },
+    {
+        "name": "باب الجديد",
+        "city": "Inconnue",
+        "lat": 32.2976365,
+        "lon": -9.2405489,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Almaesara باب المعصرة",
+        "city": "Inconnue",
+        "lat": 32.2988209,
+        "lon": -9.2430708,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Mansour باب المنصور لعلج",
+        "city": "Inconnue",
+        "lat": 33.8925842,
+        "lon": -5.5646391,
+        "category": "attraction"
+    },
+    {
+        "name": "Gravures Rupestres",
+        "city": "Inconnue",
+        "lat": 28.2543905,
+        "lon": -9.6443234,
+        "category": "attraction"
+    },
+    {
+        "name": "Gravures Rupestres",
+        "city": "Inconnue",
+        "lat": 28.39071,
+        "lon": -9.6648789,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset",
+        "city": "Inconnue",
+        "lat": 31.017721,
+        "lon": -7.0726431,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset",
+        "city": "Inconnue",
+        "lat": 31.0192137,
+        "lon": -7.0668412,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset موقع التصوير",
+        "city": "Inconnue",
+        "lat": 31.0486861,
+        "lon": -6.8060244,
+        "category": "attraction"
+    },
+    {
+        "name": "Gas Haven (scenery \"Hills Have Eyes\" (2006) Gas Station)",
+        "city": "Inconnue",
+        "lat": 30.9227205,
+        "lon": -7.2330054,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah Ouaklim",
+        "city": "Inconnue",
+        "lat": 29.7019545,
+        "lon": -8.9994737,
+        "category": "attraction"
+    },
+    {
+        "name": "Gravures",
+        "city": "Inconnue",
+        "lat": 23.9085024,
+        "lon": -13.8654974,
+        "category": "attraction"
+    },
+    {
+        "name": "Gravures",
+        "city": "Inconnue",
+        "lat": 23.9091756,
+        "lon": -13.8658367,
+        "category": "attraction"
+    },
+    {
+        "name": "Fossil quarry",
+        "city": "Inconnue",
+        "lat": 31.3766855,
+        "lon": -4.1664484,
+        "category": "attraction"
+    },
+    {
+        "name": "Fossil quarry",
+        "city": "Inconnue",
+        "lat": 31.3811538,
+        "lon": -4.1729668,
+        "category": "attraction"
+    },
+    {
+        "name": "Gardmit",
+        "city": "Inconnue",
+        "lat": 31.5157582,
+        "lon": -5.0332081,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah Tamnougalt",
+        "city": "Inconnue",
+        "lat": 30.675148,
+        "lon": -6.3880807,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset",
+        "city": "Inconnue",
+        "lat": 30.9515952,
+        "lon": -6.9690635,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset",
+        "city": "Inconnue",
+        "lat": 30.9531794,
+        "lon": -6.9876341,
+        "category": "attraction"
+    },
+    {
+        "name": "Filmset",
+        "city": "Inconnue",
+        "lat": 30.9558778,
+        "lon": -6.9850465,
+        "category": "attraction"
+    },
+    {
+        "name": "Jardin Botanique",
+        "city": "Inconnue",
+        "lat": 30.5081471,
+        "lon": -9.5919861,
+        "category": "attraction"
+    },
+    {
+        "name": "Fès-Médina ⴼⴰⵙ-ⵎⴷⵉⵏⴰ فاس-المدينة",
+        "city": "Fès",
+        "lat": 34.0631192,
+        "lon": -4.9737999,
+        "category": "city"
+    },
+    {
+        "name": "Ksar",
+        "city": "Inconnue",
+        "lat": 31.5194461,
+        "lon": -5.5279213,
+        "category": "attraction"
+    },
+    {
+        "name": "Quartier des tanneurs",
+        "city": "Inconnue",
+        "lat": 31.6337142,
+        "lon": -7.9788746,
+        "category": "attraction"
+    },
+    {
+        "name": "Tangier American Legation Institute",
+        "city": "Inconnue",
+        "lat": 35.7838627,
+        "lon": -5.8108843,
+        "category": "museum"
+    },
+    {
+        "name": "Tombouctou 52 jours",
+        "city": "Inconnue",
+        "lat": 30.3235499,
+        "lon": -5.8410596,
+        "category": "attraction"
+    },
+    {
+        "name": "Grotte potier",
+        "city": "Inconnue",
+        "lat": 29.8069394,
+        "lon": -9.1576334,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar d'Aït-Ben-Haddou",
+        "city": "Inconnue",
+        "lat": 31.0468537,
+        "lon": -7.1296209,
+        "category": "city"
+    },
+    {
+        "name": "Sidi Moussa",
+        "city": "Inconnue",
+        "lat": 34.059699,
+        "lon": -6.8175426,
+        "category": "monument"
+    },
+    {
+        "name": "Singe magot",
+        "city": "Inconnue",
+        "lat": 33.9548298,
+        "lon": -6.895151,
+        "category": "attraction"
+    },
+    {
+        "name": "Rond Point La Pomme",
+        "city": "Inconnue",
+        "lat": 32.6797897,
+        "lon": -4.7408405,
+        "category": "attraction"
+    },
+    {
+        "name": "Grotte des Pigeons مغارة الحمام",
+        "city": "Inconnue",
+        "lat": 34.8138284,
+        "lon": -2.4037466,
+        "category": "attraction"
+    },
+    {
+        "name": "Mahkama du Pacha",
+        "city": "Inconnue",
+        "lat": 33.5789531,
+        "lon": -7.6063203,
+        "category": "attraction"
+    },
+    {
+        "name": "Gran Teatro Cervantes",
+        "city": "Inconnue",
+        "lat": 35.7820047,
+        "lon": -5.8107017,
+        "category": "attraction"
+    },
+    {
+        "name": "Ancienne Kasbah",
+        "city": "Inconnue",
+        "lat": 31.5537435,
+        "lon": -5.582807,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges de Sidi Boubkere",
+        "city": "Inconnue",
+        "lat": 31.4390028,
+        "lon": -5.9886168,
+        "category": "attraction"
+    },
+    {
+        "name": "Mouflon à manchettes",
+        "city": "Inconnue",
+        "lat": 33.9543784,
+        "lon": -6.8946533,
+        "category": "attraction"
+    },
+    {
+        "name": "Ferme pédagogique",
+        "city": "Inconnue",
+        "lat": 33.9542402,
+        "lon": -6.8935365,
+        "category": "attraction"
+    },
+    {
+        "name": "Cyhnes noirs",
+        "city": "Inconnue",
+        "lat": 33.9540752,
+        "lon": -6.8924522,
+        "category": "attraction"
+    },
+    {
+        "name": "Canard",
+        "city": "Inconnue",
+        "lat": 33.9538101,
+        "lon": -6.892511,
+        "category": "attraction"
+    },
+    {
+        "name": "Chimpanzé",
+        "city": "Inconnue",
+        "lat": 33.9521982,
+        "lon": -6.894288,
+        "category": "attraction"
+    },
+    {
+        "name": "Bataille d'Isly",
+        "city": "Inconnue",
+        "lat": 34.6829278,
+        "lon": -1.9783927,
+        "category": "attraction"
+    },
+    {
+        "name": "nomad cave",
+        "city": "Inconnue",
+        "lat": 31.5240612,
+        "lon": -5.9471479,
+        "category": "attraction"
+    },
+    {
+        "name": "nomad house",
+        "city": "Inconnue",
+        "lat": 31.5438995,
+        "lon": -5.9610033,
+        "category": "attraction"
+    },
+    {
+        "name": "Olive Street",
+        "city": "Inconnue",
+        "lat": 35.1702948,
+        "lon": -5.2593048,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab bouamair باب بوعمير",
+        "city": "Inconnue",
+        "lat": 33.8941525,
+        "lon": -5.5577175,
+        "category": "monument"
+    },
+    {
+        "name": "Site de gravures rupestres de Taouz",
+        "city": "Inconnue",
+        "lat": 30.9106216,
+        "lon": -4.0375261,
+        "category": "attraction"
+    },
+    {
+        "name": "petite cascade",
+        "city": "Inconnue",
+        "lat": 33.7197366,
+        "lon": -5.0049473,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Rha (porte historique) باب الرحى",
+        "city": "Inconnue",
+        "lat": 33.8914091,
+        "lon": -5.5684273,
+        "category": "monument"
+    },
+    {
+        "name": "Berber House",
+        "city": "Inconnue",
+        "lat": 31.3579953,
+        "lon": -7.7750533,
+        "category": "attraction"
+    },
+    {
+        "name": "Womens cooperative Argan oil",
+        "city": "Inconnue",
+        "lat": 31.286959,
+        "lon": -7.7082859,
+        "category": "attraction"
+    },
+    {
+        "name": "Rock Engravings",
+        "city": "Inconnue",
+        "lat": 29.4370952,
+        "lon": -8.8423199,
+        "category": "attraction"
+    },
+    {
+        "name": "Legzira Arc",
+        "city": "Inconnue",
+        "lat": 29.4397261,
+        "lon": -10.1213384,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Djemaa el-Fna ساحة جامع الفناء",
+        "city": "Marrakech ⵎⵕⵕⴰⴽⵛ مراكش",
+        "lat": 31.62542,
+        "lon": -7.9889053,
+        "category": "memorial"
+    },
+    {
+        "name": "تزرزيت و الرباب",
+        "city": "Inconnue",
+        "lat": 30.3714333,
+        "lon": -9.5319586,
+        "category": "monument"
+    },
+    {
+        "name": "Médina المدينة العتيقة",
+        "city": "Inconnue",
+        "lat": 35.5710625,
+        "lon": -5.3664659,
+        "category": "attraction"
+    },
+    {
+        "name": "Canyon des doigts de singe",
+        "city": "Inconnue",
+        "lat": 31.4538489,
+        "lon": -5.9459548,
+        "category": "attraction"
+    },
+    {
+        "name": "Canyon des Doigts de Singe",
+        "city": "Inconnue",
+        "lat": 31.44937,
+        "lon": -5.9672066,
+        "category": "attraction"
+    },
+    {
+        "name": "Anima Heller's Garden",
+        "city": "Inconnue",
+        "lat": 31.4027558,
+        "lon": -7.8279275,
+        "category": "attraction"
+    },
+    {
+        "name": "سوق بنجدية",
+        "city": "Inconnue",
+        "lat": 33.5856759,
+        "lon": -7.6107151,
+        "category": "attraction"
+    },
+    {
+        "name": "Lions",
+        "city": "Inconnue",
+        "lat": 30.9425188,
+        "lon": -6.9675495,
+        "category": "attraction"
+    },
+    {
+        "name": "Ship",
+        "city": "Inconnue",
+        "lat": 30.9423463,
+        "lon": -6.9652125,
+        "category": "attraction"
+    },
+    {
+        "name": "Pont naturel Imi n'Ifri",
+        "city": "Inconnue",
+        "lat": 31.7243543,
+        "lon": -6.9713678,
+        "category": "attraction"
+    },
+    {
+        "name": "Shipwreck",
+        "city": "Inconnue",
+        "lat": 27.9787056,
+        "lon": -12.7134969,
+        "category": "attraction"
+    },
+    {
+        "name": "ضايةعوا",
+        "city": "Inconnue",
+        "lat": 33.6523238,
+        "lon": -5.0295765,
+        "category": "attraction"
+    },
+    {
+        "name": "Mellah Oudaghir ملاح الوداغير",
+        "city": "Inconnue",
+        "lat": 32.1180782,
+        "lon": -1.2346337,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Sidi Boujida",
+        "city": "فاس",
+        "lat": 34.0668303,
+        "lon": -4.9661479,
+        "category": "attraction"
+    },
+    {
+        "name": "Le Minaret Pierreux الصومعة الحجرية",
+        "city": "Figuig ⵉⴼⵉⵢⵢⵉⵢ فگيگ",
+        "lat": 32.1151572,
+        "lon": -1.2347541,
+        "category": "attraction"
+    },
+    {
+        "name": "pass",
+        "city": "Inconnue",
+        "lat": 30.078111,
+        "lon": -5.3689827,
+        "category": "attraction"
+    },
+    {
+        "name": "Cemetary",
+        "city": "Inconnue",
+        "lat": 30.6329209,
+        "lon": -4.8578096,
+        "category": "attraction"
+    },
+    {
+        "name": "Monkeys",
+        "city": "Inconnue",
+        "lat": 33.4944875,
+        "lon": -5.1235743,
+        "category": "attraction"
+    },
+    {
+        "name": "Souk des olives",
+        "city": "Inconnue",
+        "lat": 33.5771975,
+        "lon": -7.6050554,
+        "category": "attraction"
+    },
+    {
+        "name": "Beach",
+        "city": "Inconnue",
+        "lat": 33.5157031,
+        "lon": -7.8595484,
+        "category": "attraction"
+    },
+    {
+        "name": "Place de la Source bleue",
+        "city": "Inconnue",
+        "lat": 29.7004865,
+        "lon": -9.7268457,
+        "category": "attraction"
+    },
+    {
+        "name": "Qasba",
+        "city": "Inconnue",
+        "lat": 29.7000082,
+        "lon": -9.726628,
+        "category": "attraction"
+    },
+    {
+        "name": "Beautiful little Waterfall",
+        "city": "Inconnue",
+        "lat": 29.0252411,
+        "lon": -9.8177379,
+        "category": "attraction"
+    },
+    {
+        "name": "Sand dunes",
+        "city": "Inconnue",
+        "lat": 28.642548,
+        "lon": -9.9115689,
+        "category": "attraction"
+    },
+    {
+        "name": "Port de pêche de Salé",
+        "city": "Inconnue",
+        "lat": 34.039651,
+        "lon": -6.8327504,
+        "category": "attraction"
+    },
+    {
+        "name": "Medersa des Mérinides",
+        "city": "Inconnue",
+        "lat": 34.0400819,
+        "lon": -6.8273632,
+        "category": "attraction"
+    },
+    {
+        "name": "Aylim great rock",
+        "city": "Inconnue",
+        "lat": 29.7967037,
+        "lon": -9.1198516,
+        "category": "attraction"
+    },
+    {
+        "name": "Le jardin du safran",
+        "city": "Inconnue",
+        "lat": 31.3768524,
+        "lon": -7.7887253,
+        "category": "attraction"
+    },
+    {
+        "name": "Akhfamane أخفمان",
+        "city": "Inconnue",
+        "lat": 30.5759451,
+        "lon": -7.7711353,
+        "category": "attraction"
+    },
+    {
+        "name": "Boulgou بولكو",
+        "city": "Inconnue",
+        "lat": 30.5871525,
+        "lon": -7.9543063,
+        "category": "attraction"
+    },
+    {
+        "name": "Tagjdit تكجديت",
+        "city": "Inconnue",
+        "lat": 30.5707569,
+        "lon": -7.7764548,
+        "category": "attraction"
+    },
+    {
+        "name": "Jawad",
+        "city": "Inconnue",
+        "lat": 33.2526478,
+        "lon": -8.5125358,
+        "category": "attraction"
+    },
+    {
+        "name": "شلالات أوزود",
+        "city": "أوزود",
+        "lat": 32.0153161,
+        "lon": -6.7193655,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Ait Hmed",
+        "city": "Inconnue",
+        "lat": 31.5370608,
+        "lon": -6.2731442,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Rmouz",
+        "city": "Inconnue",
+        "lat": 35.5676004,
+        "lon": -5.3669886,
+        "category": "monument"
+    },
+    {
+        "name": "919",
+        "city": "Inconnue",
+        "lat": 32.0648147,
+        "lon": -7.3884542,
+        "category": "attraction"
+    },
+    {
+        "name": "رشيد",
+        "city": "Inconnue",
+        "lat": 34.0212192,
+        "lon": -5.0485008,
+        "category": "attraction"
+    },
+    {
+        "name": "مفروشات المنازل",
+        "city": "Inconnue",
+        "lat": 34.0080845,
+        "lon": -5.0341123,
+        "category": "attraction"
+    },
+    {
+        "name": "محل",
+        "city": "Fèsفاس",
+        "lat": 34.0570411,
+        "lon": -5.0306622,
+        "category": "attraction"
+    },
+    {
+        "name": "يونس صحراوي",
+        "city": "Inconnue",
+        "lat": 33.9958651,
+        "lon": -5.0524053,
+        "category": "attraction"
+    },
+    {
+        "name": "غليظ أبو لحية",
+        "city": "فاس",
+        "lat": 34.0220632,
+        "lon": -5.0319597,
+        "category": "attraction"
+    },
+    {
+        "name": "Cass-croute",
+        "city": "Inconnue",
+        "lat": 34.0450971,
+        "lon": -4.997662,
+        "category": "attraction"
+    },
+    {
+        "name": "Cremerie",
+        "city": "Inconnue",
+        "lat": 34.0403604,
+        "lon": -4.9972962,
+        "category": "attraction"
+    },
+    {
+        "name": "Wodospad",
+        "city": "Inconnue",
+        "lat": 31.3470889,
+        "lon": -7.7180675,
+        "category": "attraction"
+    },
+    {
+        "name": "dinosaur tracks",
+        "city": "Inconnue",
+        "lat": 31.6602484,
+        "lon": -6.3855863,
+        "category": "monument"
+    },
+    {
+        "name": "Cofirad",
+        "city": "Inconnue",
+        "lat": 34.0423418,
+        "lon": -4.9967616,
+        "category": "attraction"
+    },
+    {
+        "name": "Apricot tree garden",
+        "city": "Inconnue",
+        "lat": 30.751468,
+        "lon": -7.2888685,
+        "category": "attraction"
+    },
+    {
+        "name": "Arabian centre",
+        "city": "Inconnue",
+        "lat": 34.0408114,
+        "lon": -4.9978218,
+        "category": "attraction"
+    },
+    {
+        "name": "Sté Marweb",
+        "city": "Inconnue",
+        "lat": 34.040777,
+        "lon": -4.9978333,
+        "category": "attraction"
+    },
+    {
+        "name": "Comptable",
+        "city": "Inconnue",
+        "lat": 34.0407768,
+        "lon": -4.9979343,
+        "category": "attraction"
+    },
+    {
+        "name": "Topocad",
+        "city": "Inconnue",
+        "lat": 34.0405459,
+        "lon": -4.9978934,
+        "category": "attraction"
+    },
+    {
+        "name": "Manitrap",
+        "city": "Inconnue",
+        "lat": 34.0405029,
+        "lon": -4.9978719,
+        "category": "attraction"
+    },
+    {
+        "name": "Dreams Engineering",
+        "city": "Inconnue",
+        "lat": 34.040481,
+        "lon": -4.9978602,
+        "category": "attraction"
+    },
+    {
+        "name": "Ain Soltane",
+        "city": "Inconnue",
+        "lat": 33.7187447,
+        "lon": -5.0024515,
+        "category": "attraction"
+    },
+    {
+        "name": "Cendrillon",
+        "city": "Inconnue",
+        "lat": 34.0397143,
+        "lon": -4.9985127,
+        "category": "attraction"
+    },
+    {
+        "name": "Cascades de Tuzgui",
+        "city": "Inconnue",
+        "lat": 30.7760153,
+        "lon": -6.5290862,
+        "category": "attraction"
+    },
+    {
+        "name": "Zaouia of Moulay Idriss II",
+        "city": "Municipalité de Méchouar Fès Jdid المشور فاس الجديد",
+        "lat": 34.0545477,
+        "lon": -4.9876653,
+        "category": "attraction"
+    },
+    {
+        "name": "chefchaouen Ras Elma",
+        "city": "Inconnue",
+        "lat": 35.1676149,
+        "lon": -5.2596152,
+        "category": "attraction"
+    },
+    {
+        "name": "Castello Real of Mogador",
+        "city": "Inconnue",
+        "lat": 31.5105023,
+        "lon": -9.7728414,
+        "category": "attraction"
+    },
+    {
+        "name": "Calèches",
+        "city": "Inconnue",
+        "lat": 31.624876,
+        "lon": -7.9908646,
+        "category": "attraction"
+    },
+    {
+        "name": "Marché aux Poissons",
+        "city": "Inconnue",
+        "lat": 31.5093373,
+        "lon": -9.7746233,
+        "category": "attraction"
+    },
+    {
+        "name": "Ouzioua 190517",
+        "city": "Inconnue",
+        "lat": 30.7314573,
+        "lon": -8.0476742,
+        "category": "attraction"
+    },
+    {
+        "name": "Cimetière juif (Rabi Nsem Ben Nsem ) ait bayoud region Essaouira ضريح اليهود (رابي نسيم بن نسيم) ايت بيوض اقليم الصويرة",
+        "city": "Inconnue",
+        "lat": 31.3252294,
+        "lon": -9.3120507,
+        "category": "monument"
+    },
+    {
+        "name": "حي كرة السبع",
+        "city": "Inconnue",
+        "lat": 35.5513019,
+        "lon": -5.3867234,
+        "category": "attraction"
+    },
+    {
+        "name": "Elmakraze",
+        "city": "Inconnue",
+        "lat": 28.6677285,
+        "lon": -9.4774191,
+        "category": "attraction"
+    },
+    {
+        "name": "Sandwich Benmaseoud",
+        "city": "Inconnue",
+        "lat": 34.0246523,
+        "lon": -4.9853306,
+        "category": "attraction"
+    },
+    {
+        "name": "lieu plongeur",
+        "city": "Inconnue",
+        "lat": 30.4176269,
+        "lon": -9.6413516,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Makina باب المكينة",
+        "city": "fes medina",
+        "lat": 34.0595289,
+        "lon": -4.9917826,
+        "category": "attraction"
+    },
+    {
+        "name": "Addax",
+        "city": "Inconnue",
+        "lat": 33.9547468,
+        "lon": -6.8958903,
+        "category": "attraction"
+    },
+    {
+        "name": "Autruche",
+        "city": "Inconnue",
+        "lat": 33.9540206,
+        "lon": -6.8960766,
+        "category": "attraction"
+    },
+    {
+        "name": "Babouin",
+        "city": "Inconnue",
+        "lat": 33.9535554,
+        "lon": -6.8959469,
+        "category": "attraction"
+    },
+    {
+        "name": "Buffle",
+        "city": "Inconnue",
+        "lat": 33.9517575,
+        "lon": -6.8949987,
+        "category": "attraction"
+    },
+    {
+        "name": "Canards",
+        "city": "Inconnue",
+        "lat": 33.9527022,
+        "lon": -6.8945498,
+        "category": "attraction"
+    },
+    {
+        "name": "Cerf",
+        "city": "Inconnue",
+        "lat": 33.9535388,
+        "lon": -6.893638,
+        "category": "attraction"
+    },
+    {
+        "name": "Chévre",
+        "city": "Inconnue",
+        "lat": 33.9539944,
+        "lon": -6.8917743,
+        "category": "attraction"
+    },
+    {
+        "name": "Cobe lechwé",
+        "city": "Inconnue",
+        "lat": 33.9530903,
+        "lon": -6.8951634,
+        "category": "attraction"
+    },
+    {
+        "name": "Crocodile",
+        "city": "Inconnue",
+        "lat": 33.9524377,
+        "lon": -6.8950501,
+        "category": "attraction"
+    },
+    {
+        "name": "Daim européen",
+        "city": "Inconnue",
+        "lat": 33.9541658,
+        "lon": -6.8920096,
+        "category": "attraction"
+    },
+    {
+        "name": "Dromadaire",
+        "city": "Inconnue",
+        "lat": 33.9534562,
+        "lon": -6.8930058,
+        "category": "attraction"
+    },
+    {
+        "name": "Eléphant",
+        "city": "Inconnue",
+        "lat": 33.9514316,
+        "lon": -6.8970696,
+        "category": "attraction"
+    },
+    {
+        "name": "Fennec",
+        "city": "Inconnue",
+        "lat": 33.954307,
+        "lon": -6.8961404,
+        "category": "attraction"
+    },
+    {
+        "name": "Flamant rose",
+        "city": "Inconnue",
+        "lat": 33.9533256,
+        "lon": -6.8942073,
+        "category": "attraction"
+    },
+    {
+        "name": "Girafe",
+        "city": "Inconnue",
+        "lat": 33.9521285,
+        "lon": -6.8982571,
+        "category": "attraction"
+    },
+    {
+        "name": "Guépard",
+        "city": "Inconnue",
+        "lat": 33.9548198,
+        "lon": -6.8963235,
+        "category": "attraction"
+    },
+    {
+        "name": "Hippopotame",
+        "city": "Inconnue",
+        "lat": 33.9526082,
+        "lon": -6.8948225,
+        "category": "attraction"
+    },
+    {
+        "name": "Lion de l'Atlas",
+        "city": "Inconnue",
+        "lat": 33.9529822,
+        "lon": -6.8985694,
+        "category": "attraction"
+    },
+    {
+        "name": "Loutre",
+        "city": "Inconnue",
+        "lat": 33.9529389,
+        "lon": -6.894359,
+        "category": "attraction"
+    },
+    {
+        "name": "Lycaon",
+        "city": "Inconnue",
+        "lat": 33.9530321,
+        "lon": -6.8959835,
+        "category": "attraction"
+    },
+    {
+        "name": "Lémur catta",
+        "city": "Inconnue",
+        "lat": 33.9531908,
+        "lon": -6.8979583,
+        "category": "attraction"
+    },
+    {
+        "name": "Oryx algazelle",
+        "city": "Inconnue",
+        "lat": 33.9544044,
+        "lon": -6.8969244,
+        "category": "attraction"
+    },
+    {
+        "name": "Oryx beisa",
+        "city": "Inconnue",
+        "lat": 33.9530064,
+        "lon": -6.8976073,
+        "category": "attraction"
+    },
+    {
+        "name": "Patas",
+        "city": "Inconnue",
+        "lat": 33.9518564,
+        "lon": -6.8935445,
+        "category": "attraction"
+    },
+    {
+        "name": "Perruche",
+        "city": "Inconnue",
+        "lat": 33.9538316,
+        "lon": -6.893204,
+        "category": "attraction"
+    },
+    {
+        "name": "Perruche",
+        "city": "Inconnue",
+        "lat": 33.9541964,
+        "lon": -6.8928214,
+        "category": "attraction"
+    },
+    {
+        "name": "Poney",
+        "city": "Inconnue",
+        "lat": 33.9533249,
+        "lon": -6.8927925,
+        "category": "attraction"
+    },
+    {
+        "name": "Potamochére",
+        "city": "Inconnue",
+        "lat": 33.9526066,
+        "lon": -6.8939965,
+        "category": "attraction"
+    },
+    {
+        "name": "Pélican",
+        "city": "Inconnue",
+        "lat": 33.9523227,
+        "lon": -6.8952085,
+        "category": "attraction"
+    },
+    {
+        "name": "Rapaces",
+        "city": "Inconnue",
+        "lat": 33.9517607,
+        "lon": -6.8966622,
+        "category": "attraction"
+    },
+    {
+        "name": "Rhinocéros",
+        "city": "Inconnue",
+        "lat": 33.9539812,
+        "lon": -6.897439,
+        "category": "attraction"
+    },
+    {
+        "name": "Serval",
+        "city": "Inconnue",
+        "lat": 33.9531685,
+        "lon": -6.8932641,
+        "category": "attraction"
+    },
+    {
+        "name": "Tortue grecque",
+        "city": "Inconnue",
+        "lat": 33.9543836,
+        "lon": -6.8962262,
+        "category": "attraction"
+    },
+    {
+        "name": "Tortue géant",
+        "city": "Inconnue",
+        "lat": 33.9532674,
+        "lon": -6.8960571,
+        "category": "attraction"
+    },
+    {
+        "name": "Vari Roux",
+        "city": "Inconnue",
+        "lat": 33.9529824,
+        "lon": -6.8939404,
+        "category": "attraction"
+    },
+    {
+        "name": "Vari Roux",
+        "city": "Inconnue",
+        "lat": 33.953142,
+        "lon": -6.8938821,
+        "category": "attraction"
+    },
+    {
+        "name": "Vautours",
+        "city": "Inconnue",
+        "lat": 33.9518975,
+        "lon": -6.8964686,
+        "category": "attraction"
+    },
+    {
+        "name": "Watussi",
+        "city": "Inconnue",
+        "lat": 33.9532435,
+        "lon": -6.8968332,
+        "category": "attraction"
+    },
+    {
+        "name": "Zébre",
+        "city": "Inconnue",
+        "lat": 33.9530939,
+        "lon": -6.8971542,
+        "category": "attraction"
+    },
+    {
+        "name": "Elmanjra قسارية المنجرة",
+        "city": "Inconnue",
+        "lat": 33.5685183,
+        "lon": -7.6030726,
+        "category": "attraction"
+    },
+    {
+        "name": "BelyounechAppt Mustapha en face Mer 190i17",
+        "city": "Inconnue",
+        "lat": 35.9060044,
+        "lon": -5.3959125,
+        "category": "attraction"
+    },
+    {
+        "name": "La grotte des Sources Oum Rabia",
+        "city": "Inconnue",
+        "lat": 33.0513126,
+        "lon": -5.4118707,
+        "category": "attraction"
+    },
+    {
+        "name": "Grillade Brahim",
+        "city": "Inconnue",
+        "lat": 34.0168126,
+        "lon": -4.9924067,
+        "category": "attraction"
+    },
+    {
+        "name": "Épicier",
+        "city": "Inconnue",
+        "lat": 34.0168448,
+        "lon": -4.9922395,
+        "category": "attraction"
+    },
+    {
+        "name": "Salle des fêtes Jamai",
+        "city": "Inconnue",
+        "lat": 34.0163503,
+        "lon": -4.9937127,
+        "category": "attraction"
+    },
+    {
+        "name": "New Boussole Travel",
+        "city": "Inconnue",
+        "lat": 34.0137376,
+        "lon": -5.0064688,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Lakssour",
+        "city": "Inconnue",
+        "lat": 31.6275117,
+        "lon": -7.9944686,
+        "category": "attraction"
+    },
+    {
+        "name": "حمام بيفولسن",
+        "city": "Inconnue",
+        "lat": 34.245091,
+        "lon": -6.6133949,
+        "category": "attraction"
+    },
+    {
+        "name": "Royal air maroc",
+        "city": "Fès",
+        "lat": 34.0437941,
+        "lon": -4.9981249,
+        "category": "attraction"
+    },
+    {
+        "name": "Tramontana",
+        "city": "Inconnue",
+        "lat": 35.3984522,
+        "lon": -3.0033356,
+        "category": "attraction"
+    },
+    {
+        "name": "Playa Charranes",
+        "city": "Inconnue",
+        "lat": 35.3899753,
+        "lon": -3.0081343,
+        "category": "attraction"
+    },
+    {
+        "name": "Yemahuevo",
+        "city": "Inconnue",
+        "lat": 35.4200825,
+        "lon": -2.9965467,
+        "category": "attraction"
+    },
+    {
+        "name": "ⴰⵎⵔⴰⴱⴻⴹ ⴻⵏ ''ⵎⴰⵙⵙ ⵃⵙⴰⵢⵏ''",
+        "city": "Inconnue",
+        "lat": 35.1980306,
+        "lon": -3.445413,
+        "category": "monument"
+    },
+    {
+        "name": "BAD EL MAQAM",
+        "city": "Inconnue",
+        "lat": 33.8300519,
+        "lon": -4.838795,
+        "category": "attraction"
+    },
+    {
+        "name": "TASNIME QUAD et Dromadaire",
+        "city": "Inconnue",
+        "lat": 31.6982151,
+        "lon": -7.9455015,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges du Afourer",
+        "city": "Inconnue",
+        "lat": 31.0635953,
+        "lon": -5.7936305,
+        "category": "attraction"
+    },
+    {
+        "name": "Souk El Jadid",
+        "city": "Inconnue",
+        "lat": 31.6265304,
+        "lon": -7.9884385,
+        "category": "attraction"
+    },
+    {
+        "name": "Souk Medina",
+        "city": "Inconnue",
+        "lat": 32.2986454,
+        "lon": -9.2426592,
+        "category": "attraction"
+    },
+    {
+        "name": "Autruches",
+        "city": "Inconnue",
+        "lat": 23.794275,
+        "lon": -15.9123833,
+        "category": "attraction"
+    },
+    {
+        "name": "Jardin Botanique Alex et Alessandro",
+        "city": "Inconnue",
+        "lat": 28.9447627,
+        "lon": -9.9622131,
+        "category": "attraction"
+    },
+    {
+        "name": "Peninsule de Dakhla شبه جزيرة الداخلة",
+        "city": "Inconnue",
+        "lat": 23.7010399,
+        "lon": -15.928781,
+        "category": "monument"
+    },
+    {
+        "name": "Tomb of Abdelaziz al-Tebaa",
+        "city": "Inconnue",
+        "lat": 31.6320638,
+        "lon": -7.9890194,
+        "category": "attraction"
+    },
+    {
+        "name": "Club Fondation Med VI",
+        "city": "Inconnue",
+        "lat": 31.668991,
+        "lon": -8.0611619,
+        "category": "attraction"
+    },
+    {
+        "name": "La vue a Tête de Lion",
+        "city": "Inconnue",
+        "lat": 29.750234,
+        "lon": -8.9607633,
+        "category": "attraction"
+    },
+    {
+        "name": "Foggaras Khetara Karim",
+        "city": "Inconnue",
+        "lat": 31.5305896,
+        "lon": -4.4906114,
+        "category": "attraction"
+    },
+    {
+        "name": "قصر مزكيدة",
+        "city": "Inconnue",
+        "lat": 31.3233668,
+        "lon": -4.2587914,
+        "category": "attraction"
+    },
+    {
+        "name": "Pont-barrage historique Ait oumghar ⵜⵉⵍⴳⴳⵉⵜ ⴷ ⵓⴳⴳⵓⴳ ⴰⵣⴰⵢⴽⵓ \"ⴰⵢⵜ ⵓⵎⵖⴰⵔ قنطرة-سد تاريخي \"أيت أومغار",
+        "city": "Inconnue",
+        "lat": 31.7286796,
+        "lon": -6.973723,
+        "category": "monument"
+    },
+    {
+        "name": "Flamingo spotting",
+        "city": "Inconnue",
+        "lat": 28.0287269,
+        "lon": -12.2399529,
+        "category": "attraction"
+    },
+    {
+        "name": "sahara",
+        "city": "Inconnue",
+        "lat": 30.733688,
+        "lon": -9.8422179,
+        "category": "attraction"
+    },
+    {
+        "name": "taghatine",
+        "city": "Inconnue",
+        "lat": 29.6723465,
+        "lon": -9.1941623,
+        "category": "monument"
+    },
+    {
+        "name": "Ogrody",
+        "city": "Inconnue",
+        "lat": 31.6414309,
+        "lon": -8.0029129,
+        "category": "attraction"
+    },
+    {
+        "name": "Palmeraie",
+        "city": "Inconnue",
+        "lat": 31.6747627,
+        "lon": -7.982627,
+        "category": "attraction"
+    },
+    {
+        "name": "central souqs",
+        "city": "Inconnue",
+        "lat": 31.6303,
+        "lon": -7.9874645,
+        "category": "attraction"
+    },
+    {
+        "name": "derb essamour",
+        "city": "Inconnue",
+        "lat": 31.6329775,
+        "lon": -7.9979234,
+        "category": "attraction"
+    },
+    {
+        "name": "foundour el amir",
+        "city": "Inconnue",
+        "lat": 31.6315265,
+        "lon": -7.990746,
+        "category": "attraction"
+    },
+    {
+        "name": "carpet souq",
+        "city": "Inconnue",
+        "lat": 31.6292412,
+        "lon": -7.9873428,
+        "category": "attraction"
+    },
+    {
+        "name": "koba khadra",
+        "city": "Inconnue",
+        "lat": 33.065911,
+        "lon": -7.2454812,
+        "category": "monument"
+    },
+    {
+        "name": "Étang del Agdal",
+        "city": "Inconnue",
+        "lat": 33.8813082,
+        "lon": -5.5600188,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Tazazert pass (2350 m) DANGEROUS ROAD",
+        "city": "Inconnue",
+        "lat": 31.1233541,
+        "lon": -5.7713562,
+        "category": "attraction"
+    },
+    {
+        "name": "Seqqaïa Nejarine",
+        "city": "Inconnue",
+        "lat": 34.0648283,
+        "lon": -4.9757887,
+        "category": "Monument"
+    },
+    {
+        "name": "Tizi Ou Zekri pass (1963 м)",
+        "city": "Inconnue",
+        "lat": 33.8371911,
+        "lon": -4.0453939,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Ou Addi pass (2934 m)",
+        "city": "Inconnue",
+        "lat": 31.1718621,
+        "lon": -7.8517601,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Outfi pass (2150 m)",
+        "city": "Inconnue",
+        "lat": 31.5200316,
+        "lon": -6.9317481,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Taghaumt pass (1907 m)",
+        "city": "Inconnue",
+        "lat": 32.6286849,
+        "lon": -4.5322725,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Bachkoun pass (1700 m)",
+        "city": "Inconnue",
+        "lat": 30.6800014,
+        "lon": -7.2718802,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Aguelmous pass (2197 m)",
+        "city": "Inconnue",
+        "lat": 31.2864428,
+        "lon": -7.3812208,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Termant pass (2960 m)",
+        "city": "Inconnue",
+        "lat": 32.0625133,
+        "lon": -5.5865403,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi Tigdane pass (3006 m)",
+        "city": "Inconnue",
+        "lat": 31.5593072,
+        "lon": -6.2802422,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Tissilli n'Imenaine pass (2776 m)",
+        "city": "Inconnue",
+        "lat": 31.756777,
+        "lon": -6.288889,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Tamatert pass (2358 m)",
+        "city": "Inconnue",
+        "lat": 31.1465416,
+        "lon": -7.8839481,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Tazigtaout pass (1728 m)",
+        "city": "Inconnue",
+        "lat": 32.5852751,
+        "lon": -4.7674156,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Talougout pass (1996 m)",
+        "city": "Inconnue",
+        "lat": 31.2080754,
+        "lon": -5.7420991,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi Ou Adil pass (2968 m)",
+        "city": "Inconnue",
+        "lat": 32.4769853,
+        "lon": -4.8244292,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Tadermant pass (2799 m)",
+        "city": "Inconnue",
+        "lat": 32.0309579,
+        "lon": -5.6302719,
+        "category": "attraction"
+    },
+    {
+        "name": "Tizi n'Amarskine pass (1985 m)",
+        "city": "Inconnue",
+        "lat": 31.637027,
+        "lon": -6.83775,
+        "category": "attraction"
+    },
+    {
+        "name": "tunnel dans la roche",
+        "city": "Inconnue",
+        "lat": 29.3639647,
+        "lon": -9.0285153,
+        "category": "attraction"
+    },
+    {
+        "name": "مزرعة عصام العيسى",
+        "city": "Inconnue",
+        "lat": 32.03662,
+        "lon": -8.6323215,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah Mirna",
+        "city": "Inconnue",
+        "lat": 31.2593052,
+        "lon": -6.1375316,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Mirna",
+        "city": "Inconnue",
+        "lat": 31.2566764,
+        "lon": -6.1322445,
+        "category": "attraction"
+    },
+    {
+        "name": "Casa 1373",
+        "city": "Inconnue",
+        "lat": 33.5718611,
+        "lon": -7.6846944,
+        "category": "attraction"
+    },
+    {
+        "name": "Cas 1387",
+        "city": "Inconnue",
+        "lat": 33.4151879,
+        "lon": -7.6360922,
+        "category": "attraction"
+    },
+    {
+        "name": "mosquée",
+        "city": "Inconnue",
+        "lat": 35.1407241,
+        "lon": -2.9270582,
+        "category": "monument"
+    },
+    {
+        "name": "The Kasbah's Entry",
+        "city": "Inconnue",
+        "lat": 33.9247044,
+        "lon": -6.9140848,
+        "category": "monument"
+    },
+    {
+        "name": "Second entrance of the Kasbah of Temara",
+        "city": "Inconnue",
+        "lat": 33.9256803,
+        "lon": -6.912717,
+        "category": "monument"
+    },
+    {
+        "name": "Souk des teinturiers",
+        "city": "Inconnue",
+        "lat": 31.6303658,
+        "lon": -7.9885774,
+        "category": "attraction"
+    },
+    {
+        "name": "Berber House",
+        "city": "Inconnue",
+        "lat": 31.3586371,
+        "lon": -7.7752842,
+        "category": "attraction"
+    },
+    {
+        "name": "AGA 1064",
+        "city": "Inconnue",
+        "lat": 30.4604138,
+        "lon": -9.6356976,
+        "category": "attraction"
+    },
+    {
+        "name": "Climbing",
+        "city": "Inconnue",
+        "lat": 31.0627673,
+        "lon": -5.7699635,
+        "category": "attraction"
+    },
+    {
+        "name": "Cascad",
+        "city": "Inconnue",
+        "lat": 31.0627778,
+        "lon": -5.7698906,
+        "category": "attraction"
+    },
+    {
+        "name": "Cascad",
+        "city": "Inconnue",
+        "lat": 31.0627678,
+        "lon": -5.7698851,
+        "category": "attraction"
+    },
+    {
+        "name": "El Ouad el Bared الواد البارد",
+        "city": "Inconnue",
+        "lat": 33.854517,
+        "lon": -4.003153,
+        "category": "attraction"
+    },
+    {
+        "name": "Grenier d'Aoujgal مخازن أوجكال",
+        "city": "Inconnue",
+        "lat": 32.3081625,
+        "lon": -5.8427521,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Casa 1",
+        "city": "Inconnue",
+        "lat": 33.5855641,
+        "lon": -7.6068963,
+        "category": "attraction"
+    },
+    {
+        "name": "grotte de Khef-el-Rhar",
+        "city": "Inconnue",
+        "lat": 34.4993736,
+        "lon": -4.2603848,
+        "category": "attraction"
+    },
+    {
+        "name": "الحديقة المائية أغلو",
+        "city": "Inconnue",
+        "lat": 29.8041251,
+        "lon": -9.8268131,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Dekkakin",
+        "city": "Inconnue",
+        "lat": 34.0585468,
+        "lon": -4.99129,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Sidi Abdelwahab",
+        "city": "Inconnue",
+        "lat": 34.6799179,
+        "lon": -1.910056,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Ahl Jamel",
+        "city": "Inconnue",
+        "lat": 34.681206,
+        "lon": -1.9172477,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Al Gharbi",
+        "city": "Inconnue",
+        "lat": 34.6773146,
+        "lon": -1.9160327,
+        "category": "attraction"
+    },
+    {
+        "name": "Statue de Lion تمثال الأسد",
+        "city": "Inconnue",
+        "lat": 33.5284243,
+        "lon": -5.1058876,
+        "category": "monument"
+    },
+    {
+        "name": "Le jardin secret",
+        "city": "Inconnue",
+        "lat": 31.6309183,
+        "lon": -7.9901713,
+        "category": "attraction"
+    },
+    {
+        "name": "Taghazout Skatepark",
+        "city": "Inconnue",
+        "lat": 30.5481643,
+        "lon": -9.7131242,
+        "category": "attraction"
+    },
+    {
+        "name": "Ighrem N´Talmest",
+        "city": "Inconnue",
+        "lat": 31.9228851,
+        "lon": -6.1652983,
+        "category": "monument"
+    },
+    {
+        "name": "Iferdene ايفرضن",
+        "city": "Inconnue",
+        "lat": 31.424291,
+        "lon": -7.5724081,
+        "category": "attraction"
+    },
+    {
+        "name": "dunes blanches",
+        "city": "Inconnue",
+        "lat": 23.834953,
+        "lon": -15.7376234,
+        "category": "attraction"
+    },
+    {
+        "name": "Les chevauchées du Chergui",
+        "city": "Inconnue",
+        "lat": 35.010683,
+        "lon": -2.3152501,
+        "category": "attraction"
+    },
+    {
+        "name": "Les Trois Fontaines",
+        "city": "Inconnue",
+        "lat": 34.6789934,
+        "lon": -1.9133933,
+        "category": "attraction"
+    },
+    {
+        "name": "Tortue du Dadès",
+        "city": "Inconnue",
+        "lat": 31.6613484,
+        "lon": -5.8336346,
+        "category": "attraction"
+    },
+    {
+        "name": "1ère guelta",
+        "city": "Inconnue",
+        "lat": 29.2337635,
+        "lon": -9.1675905,
+        "category": "attraction"
+    },
+    {
+        "name": "Gueltas",
+        "city": "Inconnue",
+        "lat": 29.2246589,
+        "lon": -9.1580892,
+        "category": "attraction"
+    },
+    {
+        "name": "Place du Mechouar",
+        "city": "Inconnue",
+        "lat": 29.6969967,
+        "lon": -9.7313168,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah",
+        "city": "Inconnue",
+        "lat": 29.4896326,
+        "lon": -9.505429,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Affsalou",
+        "city": "Inconnue",
+        "lat": 31.5443127,
+        "lon": -5.5569192,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges du Dadès - Défilé",
+        "city": "Inconnue",
+        "lat": 31.5554007,
+        "lon": -5.9084858,
+        "category": "attraction"
+    },
+    {
+        "name": "Palais de la Bahia",
+        "city": "Inconnue",
+        "lat": 31.6214195,
+        "lon": -7.9826886,
+        "category": "attraction"
+    },
+    {
+        "name": "Maison de Maïmonide",
+        "city": "Inconnue",
+        "lat": 34.0625736,
+        "lon": -4.9828748,
+        "category": "attraction"
+    },
+    {
+        "name": "Gara Medouar",
+        "city": "Inconnue",
+        "lat": 31.3000333,
+        "lon": -4.399721,
+        "category": "attraction"
+    },
+    {
+        "name": "Swimningpo",
+        "city": "Inconnue",
+        "lat": 30.5933865,
+        "lon": -9.7475358,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah des Noyers des Berrem",
+        "city": "Inconnue",
+        "lat": 32.6448251,
+        "lon": -4.7604002,
+        "category": "attraction"
+    },
+    {
+        "name": "La Source Blue",
+        "city": "Inconnue",
+        "lat": 29.7005065,
+        "lon": -9.7269827,
+        "category": "attraction"
+    },
+    {
+        "name": "Market Dromedare",
+        "city": "Inconnue",
+        "lat": 28.9819809,
+        "lon": -10.0744324,
+        "category": "attraction"
+    },
+    {
+        "name": "Artiste Ecologique",
+        "city": "Inconnue",
+        "lat": 28.4964145,
+        "lon": -11.3334317,
+        "category": "attraction"
+    },
+    {
+        "name": "Parcha",
+        "city": "Inconnue",
+        "lat": 31.6594692,
+        "lon": -7.9994979,
+        "category": "attraction"
+    },
+    {
+        "name": "stone engravings",
+        "city": "Inconnue",
+        "lat": 29.6962242,
+        "lon": -9.1006064,
+        "category": "attraction"
+    },
+    {
+        "name": "Thermal Bath",
+        "city": "Inconnue",
+        "lat": 34.055324,
+        "lon": -5.5127058,
+        "category": "attraction"
+    },
+    {
+        "name": "cave",
+        "city": "Inconnue",
+        "lat": 33.7274388,
+        "lon": -4.9978789,
+        "category": "attraction"
+    },
+    {
+        "name": "Cave Discovery",
+        "city": "Inconnue",
+        "lat": 33.7272823,
+        "lon": -4.9977694,
+        "category": "attraction"
+    },
+    {
+        "name": "DreamKite",
+        "city": "Inconnue",
+        "lat": 23.9100638,
+        "lon": -15.7831966,
+        "category": "attraction"
+    },
+    {
+        "name": "Agadir de Tizgui",
+        "city": "Inconnue",
+        "lat": 30.627375,
+        "lon": -7.5771958,
+        "category": "attraction"
+    },
+    {
+        "name": "طاجن",
+        "city": "Inconnue",
+        "lat": 30.2386771,
+        "lon": -9.5253796,
+        "category": "monument"
+    },
+    {
+        "name": "Médina",
+        "city": "Inconnue",
+        "lat": 35.465531,
+        "lon": -6.0381664,
+        "category": "attraction"
+    },
+    {
+        "name": "Medina",
+        "city": "Inconnue",
+        "lat": 31.6326717,
+        "lon": -7.9908616,
+        "category": "attraction"
+    },
+    {
+        "name": "Tanerry Chouarra",
+        "city": "Inconnue",
+        "lat": 34.0655,
+        "lon": -4.9711844,
+        "category": "attraction"
+    },
+    {
+        "name": "City Pool",
+        "city": "Inconnue",
+        "lat": 35.6245792,
+        "lon": -5.2744327,
+        "category": "attraction"
+    },
+    {
+        "name": "Mercato",
+        "city": "Inconnue",
+        "lat": 35.1664873,
+        "lon": -5.2655093,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab el-jadid",
+        "city": "Inconnue",
+        "lat": 33.8971802,
+        "lon": -5.5694962,
+        "category": "attraction"
+    },
+    {
+        "name": "Complesso artigianale",
+        "city": "Inconnue",
+        "lat": 35.1682204,
+        "lon": -5.2611827,
+        "category": "attraction"
+    },
+    {
+        "name": "Piazza",
+        "city": "Inconnue",
+        "lat": 35.1689484,
+        "lon": -5.2683633,
+        "category": "attraction"
+    },
+    {
+        "name": "سوق جمله",
+        "city": "Inconnue",
+        "lat": 33.5903623,
+        "lon": -7.6119686,
+        "category": "attraction"
+    },
+    {
+        "name": "Monkey forest",
+        "city": "Inconnue",
+        "lat": 33.4196737,
+        "lon": -5.075919,
+        "category": "attraction"
+    },
+    {
+        "name": "Heri es Souani",
+        "city": "Inconnue",
+        "lat": 33.8807597,
+        "lon": -5.5573327,
+        "category": "monument"
+    },
+    {
+        "name": "Goats on tree",
+        "city": "Inconnue",
+        "lat": 31.5472132,
+        "lon": -9.3677738,
+        "category": "attraction"
+    },
+    {
+        "name": "Ancien Mellah de Tarsat",
+        "city": "Inconnue",
+        "lat": 29.6616618,
+        "lon": -7.9428299,
+        "category": "attraction"
+    },
+    {
+        "name": "Jardin de l'Agdal",
+        "city": "Inconnue",
+        "lat": 31.6121828,
+        "lon": -7.9796939,
+        "category": "attraction"
+    },
+    {
+        "name": "Décollage Parapente",
+        "city": "Inconnue",
+        "lat": 31.2971176,
+        "lon": -8.0654816,
+        "category": "attraction"
+    },
+    {
+        "name": "Décollage Parapente Aznag",
+        "city": "Inconnue",
+        "lat": 31.2946754,
+        "lon": -8.0721763,
+        "category": "attraction"
+    },
+    {
+        "name": "Botanical Garden Cactus Thiemann",
+        "city": "Inconnue",
+        "lat": 31.7133073,
+        "lon": -7.9928414,
+        "category": "attraction"
+    },
+    {
+        "name": "Quartier Mellah",
+        "city": "Inconnue",
+        "lat": 34.0529494,
+        "lon": -4.9919814,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Magana",
+        "city": "Inconnue",
+        "lat": 34.0536973,
+        "lon": -4.9905816,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Mechouar",
+        "city": "Inconnue",
+        "lat": 34.0582158,
+        "lon": -4.9910279,
+        "category": "monument"
+    },
+    {
+        "name": "باب السمارين Bab Semmarine",
+        "city": "Inconnue",
+        "lat": 34.0542609,
+        "lon": -4.9899774,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Naoura",
+        "city": "Inconnue",
+        "lat": 33.8851754,
+        "lon": -5.5527296,
+        "category": "monument"
+    },
+    {
+        "name": "Prison Kara",
+        "city": "Inconnue",
+        "lat": 33.8908922,
+        "lon": -5.5650002,
+        "category": "monument"
+    },
+    {
+        "name": "Dar El-Makhzen",
+        "city": "Inconnue",
+        "lat": 33.8873034,
+        "lon": -5.5540128,
+        "category": "monument"
+    },
+    {
+        "name": "Lahdim Square",
+        "city": "Inconnue",
+        "lat": 33.8932489,
+        "lon": -5.5656663,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Skala",
+        "city": "Inconnue",
+        "lat": 31.513654,
+        "lon": -9.7724825,
+        "category": "monument"
+    },
+    {
+        "name": "Place Outa El Hamam",
+        "city": "Inconnue",
+        "lat": 35.168895,
+        "lon": -5.2621415,
+        "category": "attraction"
+    },
+    {
+        "name": "Ranch de Diabat",
+        "city": "Inconnue",
+        "lat": 31.4818167,
+        "lon": -9.7649037,
+        "category": "attraction"
+    },
+    {
+        "name": "Bureau de Sahara Sailing",
+        "city": "Inconnue",
+        "lat": 23.7351318,
+        "lon": -15.9145209,
+        "category": "attraction"
+    },
+    {
+        "name": "Ancienne sucrerie d'Ida Ougourd",
+        "city": "Inconnue",
+        "lat": 31.4423399,
+        "lon": -9.6147143,
+        "category": "attraction"
+    },
+    {
+        "name": "Cascades de Sidi M’Bareck",
+        "city": "Inconnue",
+        "lat": 31.261434,
+        "lon": -9.8044124,
+        "category": "attraction"
+    },
+    {
+        "name": "Salines extraction de Sel",
+        "city": "Inconnue",
+        "lat": 31.1454576,
+        "lon": -9.7386062,
+        "category": "attraction"
+    },
+    {
+        "name": "Place de l'Indépendance ساحة الاستقلال",
+        "city": "Taza تازة",
+        "lat": 34.2222395,
+        "lon": -4.0089691,
+        "category": "attraction"
+    },
+    {
+        "name": "Khettaras",
+        "city": "Inconnue",
+        "lat": 31.530108,
+        "lon": -4.5027665,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Rif",
+        "city": "Inconnue",
+        "lat": 35.2410805,
+        "lon": -3.9283274,
+        "category": "attraction"
+    },
+    {
+        "name": "مغارة عجب لاه",
+        "city": "Inconnue",
+        "lat": 28.1069768,
+        "lon": -12.0374755,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Mohammed V",
+        "city": "Inconnue",
+        "lat": 35.245182,
+        "lon": -3.9296758,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Marhouk",
+        "city": "Inconnue",
+        "lat": 35.1713975,
+        "lon": -5.2609159,
+        "category": "attraction"
+    },
+    {
+        "name": "Marrakech International Protestant Church",
+        "city": "Inconnue",
+        "lat": 31.6325467,
+        "lon": -8.0104961,
+        "category": "attraction"
+    },
+    {
+        "name": "Herboristerie La Sagesse",
+        "city": "Inconnue",
+        "lat": 31.6317114,
+        "lon": -7.9875316,
+        "category": "attraction"
+    },
+    {
+        "name": "ציורים על קנבס",
+        "city": "Inconnue",
+        "lat": 31.6293917,
+        "lon": -7.9876964,
+        "category": "attraction"
+    },
+    {
+        "name": "Capanne circolari in mattoni crudi con copertura vonica",
+        "city": "Inconnue",
+        "lat": 27.8806347,
+        "lon": -11.4855685,
+        "category": "attraction"
+    },
+    {
+        "name": "Bianca Beach",
+        "city": "Inconnue",
+        "lat": 30.4209263,
+        "lon": -9.6169652,
+        "category": "attraction"
+    },
+    {
+        "name": "Souk El Had",
+        "city": "Agadir",
+        "lat": 30.4125105,
+        "lon": -9.5797504,
+        "category": "attraction"
+    },
+    {
+        "name": "مستشفى القرب",
+        "city": "Inconnue",
+        "lat": 33.595396,
+        "lon": -7.5071965,
+        "category": "attraction"
+    },
+    {
+        "name": "Ibn Battouta",
+        "city": "Inconnue",
+        "lat": 35.7773312,
+        "lon": -5.8023177,
+        "category": "attraction"
+    },
+    {
+        "name": "Bleu Kite Essaouira",
+        "city": "Inconnue",
+        "lat": 31.503484,
+        "lon": -9.7620177,
+        "category": "attraction"
+    },
+    {
+        "name": "Sanmao Ancienne Résidence",
+        "city": "Inconnue",
+        "lat": 27.1612569,
+        "lon": -13.2137089,
+        "category": "attraction"
+    },
+    {
+        "name": "Coaching Village",
+        "city": "Inconnue",
+        "lat": 31.4399554,
+        "lon": -9.6990626,
+        "category": "attraction"
+    },
+    {
+        "name": "vallee des rosese",
+        "city": "Inconnue",
+        "lat": 31.2451327,
+        "lon": -6.1278281,
+        "category": "attraction"
+    },
+    {
+        "name": "Postal Museum",
+        "city": "Inconnue",
+        "lat": 34.014865,
+        "lon": -6.834712,
+        "category": "attraction"
+    },
+    {
+        "name": "Empreinte de dinosaures",
+        "city": "Inconnue",
+        "lat": 31.7264155,
+        "lon": -6.9087313,
+        "category": "attraction"
+    },
+    {
+        "name": "C",
+        "city": "Inconnue",
+        "lat": 33.7102502,
+        "lon": -7.1397423,
+        "category": "monument"
+    },
+    {
+        "name": "piste",
+        "city": "Inconnue",
+        "lat": 30.0629106,
+        "lon": -6.4976691,
+        "category": "monument"
+    },
+    {
+        "name": "Passo tra erg.",
+        "city": "Inconnue",
+        "lat": 30.1201148,
+        "lon": -5.6310034,
+        "category": "attraction"
+    },
+    {
+        "name": "Ali’s Family",
+        "city": "Inconnue",
+        "lat": 32.2688409,
+        "lon": -9.2410503,
+        "category": "attraction"
+    },
+    {
+        "name": "Village Français Abandonné",
+        "city": "Inconnue",
+        "lat": 31.0415836,
+        "lon": -3.9501894,
+        "category": "attraction"
+    },
+    {
+        "name": "Oasis",
+        "city": "Inconnue",
+        "lat": 31.1035906,
+        "lon": -4.0107579,
+        "category": "attraction"
+    },
+    {
+        "name": "Entrance to tanneries (guide)",
+        "city": "Inconnue",
+        "lat": 31.6323633,
+        "lon": -7.9774563,
+        "category": "attraction"
+    },
+    {
+        "name": "أوزود",
+        "city": "Inconnue",
+        "lat": 31.8323732,
+        "lon": -7.3105335,
+        "category": "attraction"
+    },
+    {
+        "name": "Garage Allel",
+        "city": "Inconnue",
+        "lat": 33.5752092,
+        "lon": -7.6013663,
+        "category": "attraction"
+    },
+    {
+        "name": "Surfspot Km11 Km12",
+        "city": "Inconnue",
+        "lat": 30.495287,
+        "lon": -9.6765935,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes & Desert Marrakech",
+        "city": "Inconnue",
+        "lat": 31.7134057,
+        "lon": -7.9259787,
+        "category": "attraction"
+    },
+    {
+        "name": "Avfart buschcamp",
+        "city": "Inconnue",
+        "lat": 34.0524096,
+        "lon": -5.5384754,
+        "category": "attraction"
+    },
+    {
+        "name": "Brennofen für Keramik",
+        "city": "Ksar Mouy, 19 km nördlich Goulmima",
+        "lat": 31.8316387,
+        "lon": -4.9786228,
+        "category": "attraction"
+    },
+    {
+        "name": "Citerne Portugaise",
+        "city": "Inconnue",
+        "lat": 33.2565611,
+        "lon": -8.5024821,
+        "category": "attraction"
+    },
+    {
+        "name": "Tannery",
+        "city": "Inconnue",
+        "lat": 35.5729657,
+        "lon": -5.3678144,
+        "category": "attraction"
+    },
+    {
+        "name": "عزيز",
+        "city": "Inconnue",
+        "lat": 31.6771202,
+        "lon": -7.9665483,
+        "category": "attraction"
+    },
+    {
+        "name": "اجواء عرق الشكاكة",
+        "city": "Inconnue",
+        "lat": 29.8278009,
+        "lon": -5.7282825,
+        "category": "attraction"
+    },
+    {
+        "name": "aziz",
+        "city": "Inconnue",
+        "lat": 31.6762559,
+        "lon": -7.966126,
+        "category": "attraction"
+    },
+    {
+        "name": "goats in argan tree",
+        "city": "Inconnue",
+        "lat": 30.193279,
+        "lon": -8.9695295,
+        "category": "attraction"
+    },
+    {
+        "name": "رشيد الجمال",
+        "city": "Inconnue",
+        "lat": 31.662789,
+        "lon": -7.970495,
+        "category": "attraction"
+    },
+    {
+        "name": "siyed el bernoussi",
+        "city": "Inconnue",
+        "lat": 33.6163207,
+        "lon": -7.498655,
+        "category": "monument"
+    },
+    {
+        "name": "Ville Marocaine de Laâyoune مدينة العيون المغربية",
+        "city": "Laâyoune",
+        "lat": 27.1568528,
+        "lon": -13.1981518,
+        "category": "attraction"
+    },
+    {
+        "name": "منطقة الكويرة المغربية",
+        "city": "الكويرة",
+        "lat": 20.8332829,
+        "lon": -17.089316,
+        "category": "attraction"
+    },
+    {
+        "name": "Ville de Laâyoune مدينة العيون",
+        "city": "Laâyoune",
+        "lat": 27.1525859,
+        "lon": -13.1896492,
+        "category": "attraction"
+    },
+    {
+        "name": "لتن",
+        "city": "Inconnue",
+        "lat": 32.0599724,
+        "lon": -7.5737701,
+        "category": "attraction"
+    },
+    {
+        "name": "barber house",
+        "city": "Inconnue",
+        "lat": 31.5697006,
+        "lon": -5.6073934,
+        "category": "attraction"
+    },
+    {
+        "name": "Tunnel du Tagountsa",
+        "city": "Inconnue",
+        "lat": 32.1688731,
+        "lon": -4.9431465,
+        "category": "monument"
+    },
+    {
+        "name": "Casa Barata Market",
+        "city": "Inconnue",
+        "lat": 35.7494163,
+        "lon": -5.8315164,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Onsar",
+        "city": "Inconnue",
+        "lat": 35.170827,
+        "lon": -5.2575962,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Jiaf",
+        "city": "Inconnue",
+        "lat": 35.5738702,
+        "lon": -5.3653178,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Tut",
+        "city": "Inconnue",
+        "lat": 35.5713586,
+        "lon": -5.3719206,
+        "category": "attraction"
+    },
+    {
+        "name": "Place El Haouta",
+        "city": "Inconnue",
+        "lat": 35.1689822,
+        "lon": -5.2636419,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Petit Socco",
+        "city": "Inconnue",
+        "lat": 35.7854895,
+        "lon": -5.8105922,
+        "category": "attraction"
+    },
+    {
+        "name": "Instituto Cervantes Tetuan",
+        "city": "Inconnue",
+        "lat": 35.5693553,
+        "lon": -5.3704002,
+        "category": "attraction"
+    },
+    {
+        "name": "Four traditionnel",
+        "city": "Inconnue",
+        "lat": 35.5718017,
+        "lon": -5.3656143,
+        "category": "attraction"
+    },
+    {
+        "name": "The Attar Oven",
+        "city": "Inconnue",
+        "lat": 35.5726252,
+        "lon": -5.3649382,
+        "category": "attraction"
+    },
+    {
+        "name": "The Masdaa Skala Oven",
+        "city": "Inconnue",
+        "lat": 35.5700559,
+        "lon": -5.3650656,
+        "category": "attraction"
+    },
+    {
+        "name": "Jenoui Oven",
+        "city": "Inconnue",
+        "lat": 35.5705908,
+        "lon": -5.3641887,
+        "category": "attraction"
+    },
+    {
+        "name": "Hammam El-Tub Oven",
+        "city": "Inconnue",
+        "lat": 35.5694795,
+        "lon": -5.3649182,
+        "category": "attraction"
+    },
+    {
+        "name": "The Souika Ulia Oven",
+        "city": "Inconnue",
+        "lat": 35.569987,
+        "lon": -5.36575,
+        "category": "attraction"
+    },
+    {
+        "name": "Ben Qarrish House",
+        "city": "Inconnue",
+        "lat": 35.5724125,
+        "lon": -5.3722153,
+        "category": "attraction"
+    },
+    {
+        "name": "The Al-Ayoun Oven",
+        "city": "Inconnue",
+        "lat": 35.5728561,
+        "lon": -5.3720731,
+        "category": "attraction"
+    },
+    {
+        "name": "Funduq Slama",
+        "city": "Inconnue",
+        "lat": 35.5716096,
+        "lon": -5.3682517,
+        "category": "attraction"
+    },
+    {
+        "name": "السمارة المحتلة",
+        "city": "Inconnue",
+        "lat": 26.7440917,
+        "lon": -11.6680135,
+        "category": "attraction"
+    },
+    {
+        "name": "قصبة مولاي اسماعيل",
+        "city": "Inconnue",
+        "lat": 34.4300532,
+        "lon": -2.9244525,
+        "category": "monument"
+    },
+    {
+        "name": "Ain Toto",
+        "city": "Inconnue",
+        "lat": 33.9108854,
+        "lon": -5.4155811,
+        "category": "attraction"
+    },
+    {
+        "name": "Monar",
+        "city": "Inconnue",
+        "lat": 34.0365823,
+        "lon": -6.7942033,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes & Desert",
+        "city": "Inconnue",
+        "lat": 31.4373684,
+        "lon": -8.1435855,
+        "category": "attraction"
+    },
+    {
+        "name": "Tililan Pass",
+        "city": "Inconnue",
+        "lat": 29.7414069,
+        "lon": -9.0935306,
+        "category": "attraction"
+    },
+    {
+        "name": "م٢ اهل بداد ايرني",
+        "city": "Inconnue",
+        "lat": 26.5573859,
+        "lon": -10.3292689,
+        "category": "attraction"
+    },
+    {
+        "name": "مراح ربيب",
+        "city": "Inconnue",
+        "lat": 26.7445162,
+        "lon": -10.2748617,
+        "category": "attraction"
+    },
+    {
+        "name": "RTAA 003",
+        "city": "Inconnue",
+        "lat": 29.1957127,
+        "lon": -8.241256,
+        "category": "attraction"
+    },
+    {
+        "name": "موسم طانطان - ساحة السلم و التسامح",
+        "city": "Inconnue",
+        "lat": 28.4609735,
+        "lon": -11.103802,
+        "category": "monument"
+    },
+    {
+        "name": "BOI 001",
+        "city": "Inconnue",
+        "lat": 29.177649,
+        "lon": -9.7104798,
+        "category": "attraction"
+    },
+    {
+        "name": "المنحل الجماعي إنزكري",
+        "city": "Inconnue",
+        "lat": 30.8006917,
+        "lon": -9.1764156,
+        "category": "attraction"
+    },
+    {
+        "name": "Tighmert",
+        "city": "Inconnue",
+        "lat": 31.5031108,
+        "lon": -5.5169571,
+        "category": "attraction"
+    },
+    {
+        "name": "جاكوزي الكبريت",
+        "city": "Inconnue",
+        "lat": 23.7959511,
+        "lon": -15.9105423,
+        "category": "attraction"
+    },
+    {
+        "name": "تامطروشت",
+        "city": "Inconnue",
+        "lat": 33.776796,
+        "lon": -4.0772146,
+        "category": "attraction"
+    },
+    {
+        "name": "دار تلمنبهي",
+        "city": "Inconnue",
+        "lat": 35.7895147,
+        "lon": -5.8173749,
+        "category": "attraction"
+    },
+    {
+        "name": "Source oum rabia",
+        "city": "Inconnue",
+        "lat": 33.0172706,
+        "lon": -5.317181,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطئ أوتشام بني سعيد",
+        "city": "Inconnue",
+        "lat": 35.5065576,
+        "lon": -5.1544238,
+        "category": "attraction"
+    },
+    {
+        "name": "Ourika Valley",
+        "city": "Inconnue",
+        "lat": 31.344454,
+        "lon": -7.7518272,
+        "category": "attraction"
+    },
+    {
+        "name": "الوس لعجرم",
+        "city": "Inconnue",
+        "lat": 26.2140897,
+        "lon": -9.9916993,
+        "category": "attraction"
+    },
+    {
+        "name": "مكطع تسكيمت",
+        "city": "Inconnue",
+        "lat": 26.1001293,
+        "lon": -9.9360604,
+        "category": "attraction"
+    },
+    {
+        "name": "شبكة",
+        "city": "Inconnue",
+        "lat": 26.100254,
+        "lon": -9.9587864,
+        "category": "attraction"
+    },
+    {
+        "name": "ترخيس",
+        "city": "Inconnue",
+        "lat": 26.7473339,
+        "lon": -8.7319217,
+        "category": "attraction"
+    },
+    {
+        "name": "ودي",
+        "city": "Inconnue",
+        "lat": 26.1022954,
+        "lon": -9.9411809,
+        "category": "attraction"
+    },
+    {
+        "name": "مقيدر ألطرفاية",
+        "city": "Inconnue",
+        "lat": 26.6010991,
+        "lon": -8.7392837,
+        "category": "attraction"
+    },
+    {
+        "name": "طب الخامسة",
+        "city": "Inconnue",
+        "lat": 26.2293782,
+        "lon": -9.5112495,
+        "category": "attraction"
+    },
+    {
+        "name": "ريزوو",
+        "city": "Inconnue",
+        "lat": 26.1213357,
+        "lon": -9.7097663,
+        "category": "attraction"
+    },
+    {
+        "name": "السيد العسري",
+        "city": "Inconnue",
+        "lat": 26.1244934,
+        "lon": -10.0047916,
+        "category": "attraction"
+    },
+    {
+        "name": "أحب الناظور",
+        "city": "Inconnue",
+        "lat": 35.1820872,
+        "lon": -2.9230718,
+        "category": "attraction"
+    },
+    {
+        "name": "خليج الصدف",
+        "city": "Inconnue",
+        "lat": 35.1959212,
+        "lon": -2.8510973,
+        "category": "attraction"
+    },
+    {
+        "name": "منجم حديد مهجور",
+        "city": "Inconnue",
+        "lat": 35.1252735,
+        "lon": -3.0233153,
+        "category": "attraction"
+    },
+    {
+        "name": "بحيرة إيكسان",
+        "city": "Inconnue",
+        "lat": 35.1153663,
+        "lon": -3.0111287,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء الرمود",
+        "city": "Inconnue",
+        "lat": 35.2437378,
+        "lon": -3.9657283,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء إيزدي",
+        "city": "Inconnue",
+        "lat": 35.2453539,
+        "lon": -3.9630927,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء مقطوعة",
+        "city": "Inconnue",
+        "lat": 35.2296227,
+        "lon": -3.9189111,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء تايدوين",
+        "city": "Inconnue",
+        "lat": 35.2197029,
+        "lon": -4.0843837,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء ثيمرصاد",
+        "city": "Inconnue",
+        "lat": 35.1002468,
+        "lon": -2.4897247,
+        "category": "attraction"
+    },
+    {
+        "name": "الشاطيء الأحمر",
+        "city": "Inconnue",
+        "lat": 35.1048453,
+        "lon": -2.4805928,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء الشعابي",
+        "city": "Inconnue",
+        "lat": 35.1850426,
+        "lon": -3.3480512,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء المطاديرو",
+        "city": "Inconnue",
+        "lat": 35.2367346,
+        "lon": -3.9233752,
+        "category": "attraction"
+    },
+    {
+        "name": "Plage Chelihate",
+        "city": "Inconnue",
+        "lat": 34.2672096,
+        "lon": -6.6727245,
+        "category": "attraction"
+    },
+    {
+        "name": "Boukmour Plage Sauvage",
+        "city": "Inconnue",
+        "lat": 34.4871346,
+        "lon": -6.5145761,
+        "category": "attraction"
+    },
+    {
+        "name": "جبل أفشتال",
+        "city": "Inconnue",
+        "lat": 35.0330815,
+        "lon": -4.9834761,
+        "category": "attraction"
+    },
+    {
+        "name": "كهف إيفري نعمار",
+        "city": "Inconnue",
+        "lat": 34.7844176,
+        "lon": -3.0923538,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء مرقجمار",
+        "city": "Inconnue",
+        "lat": 35.2342885,
+        "lon": -3.990991,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء تاوسارت",
+        "city": "Inconnue",
+        "lat": 35.2049574,
+        "lon": -4.1137097,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطئ ثكزيرين",
+        "city": "Inconnue",
+        "lat": 35.1875675,
+        "lon": -4.2125162,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء ماس أشرقي",
+        "city": "Inconnue",
+        "lat": 35.1839506,
+        "lon": -4.2172455,
+        "category": "attraction"
+    },
+    {
+        "name": "جزيرة حربول",
+        "city": "Inconnue",
+        "lat": 35.1677222,
+        "lon": -4.3143155,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء إتراكنا",
+        "city": "Inconnue",
+        "lat": 35.1877755,
+        "lon": -4.2083565,
+        "category": "attraction"
+    },
+    {
+        "name": "جزيرة تگزرين",
+        "city": "Inconnue",
+        "lat": 35.1897423,
+        "lon": -4.2144787,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء مرسى شرقي",
+        "city": "Inconnue",
+        "lat": 35.1612989,
+        "lon": -4.3208971,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء مرسا إيغانيمان",
+        "city": "Inconnue",
+        "lat": 35.1485706,
+        "lon": -4.375121,
+        "category": "attraction"
+    },
+    {
+        "name": "شاطيء سبع بيبان",
+        "city": "Inconnue",
+        "lat": 35.1569174,
+        "lon": -4.3306354,
+        "category": "attraction"
+    },
+    {
+        "name": "جنة الڤالهالا",
+        "city": "Inconnue",
+        "lat": 35.2301764,
+        "lon": -2.990451,
+        "category": "attraction"
+    },
+    {
+        "name": "Cat's House",
+        "city": "Inconnue",
+        "lat": 35.7904371,
+        "lon": -5.8167985,
+        "category": "attraction"
+    },
+    {
+        "name": "Playa Cala Blanca",
+        "city": "Inconnue",
+        "lat": 35.3619317,
+        "lon": -2.9707671,
+        "category": "monument"
+    },
+    {
+        "name": "TAMTROUCHT",
+        "city": "Inconnue",
+        "lat": 33.7750663,
+        "lon": -4.0763686,
+        "category": "attraction"
+    },
+    {
+        "name": "Afousar",
+        "city": "Inconnue",
+        "lat": 33.8474972,
+        "lon": -4.0251894,
+        "category": "attraction"
+    },
+    {
+        "name": "Borj El baroud",
+        "city": "Inconnue",
+        "lat": 31.4879322,
+        "lon": -9.777636,
+        "category": "attraction"
+    },
+    {
+        "name": "الصخور الملونة",
+        "city": "Inconnue",
+        "lat": 29.6786627,
+        "lon": -8.977099,
+        "category": "attraction"
+    },
+    {
+        "name": "القاعة متعددة التخصصات",
+        "city": "Inconnue",
+        "lat": 31.5920079,
+        "lon": -8.0303282,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8463376,
+        "lon": -1.768189,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8493293,
+        "lon": -1.7791581,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8594402,
+        "lon": -1.7489509,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8519137,
+        "lon": -1.7427196,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8507905,
+        "lon": -1.7486938,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.862975,
+        "lon": -1.7475698,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.859381,
+        "lon": -1.740124,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8684757,
+        "lon": -1.7502134,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8547991,
+        "lon": -1.7563374,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8491317,
+        "lon": -1.7561915,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.836242,
+        "lon": -1.7374991,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8392673,
+        "lon": -1.7288388,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8632339,
+        "lon": -1.7183595,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8601986,
+        "lon": -1.7205052,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.858289,
+        "lon": -1.7619747,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8549098,
+        "lon": -1.7726264,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8084144,
+        "lon": -1.7121729,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8050779,
+        "lon": -1.7115077,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8061781,
+        "lon": -1.7245969,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7986787,
+        "lon": -1.7260432,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8031914,
+        "lon": -1.7226443,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8038407,
+        "lon": -1.716958,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8081547,
+        "lon": -1.718254,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8159875,
+        "lon": -1.6923673,
+        "category": "attraction"
+    },
+    {
+        "name": "TatfiBio Cooperative (Argan oil making)",
+        "city": "Inconnue",
+        "lat": 31.3701983,
+        "lon": -8.1271175,
+        "category": "attraction"
+    },
+    {
+        "name": "Photo stop",
+        "city": "Inconnue",
+        "lat": 31.1566461,
+        "lon": -7.9236636,
+        "category": "attraction"
+    },
+    {
+        "name": "vis",
+        "city": "Inconnue",
+        "lat": 31.588591,
+        "lon": -5.5956488,
+        "category": "attraction"
+    },
+    {
+        "name": "Royal Palace",
+        "city": "Inconnue",
+        "lat": 33.5808165,
+        "lon": -7.6059407,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab el Khemis",
+        "city": "Inconnue",
+        "lat": 31.6391004,
+        "lon": -7.9858434,
+        "category": "monument"
+    },
+    {
+        "name": "Dr Hssaynate",
+        "city": "Inconnue",
+        "lat": 34.345461,
+        "lon": -4.5055069,
+        "category": "attraction"
+    },
+    {
+        "name": "Kitesensation Essaouira",
+        "city": "Essaouira",
+        "lat": 31.505606,
+        "lon": -9.762855,
+        "category": "attraction"
+    },
+    {
+        "name": "Mgoun Tours",
+        "city": "Inconnue",
+        "lat": 32.1312922,
+        "lon": -6.3991035,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbat souss",
+        "city": "Agadir",
+        "lat": 30.3846123,
+        "lon": -9.5726284,
+        "category": "attraction"
+    },
+    {
+        "name": "Granarie de Tasguente",
+        "city": "Inconnue",
+        "lat": 30.2261642,
+        "lon": -8.4926885,
+        "category": "attraction"
+    },
+    {
+        "name": "Souk Bazazme",
+        "city": "Inconnue",
+        "lat": 33.8945402,
+        "lon": -5.5693854,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges",
+        "city": "Inconnue",
+        "lat": 31.3975932,
+        "lon": -6.2001599,
+        "category": "attraction"
+    },
+    {
+        "name": "Three blue doors",
+        "city": "Inconnue",
+        "lat": 35.1707458,
+        "lon": -5.2595052,
+        "category": "attraction"
+    },
+    {
+        "name": "Square at Riad Dar Laman",
+        "city": "Inconnue",
+        "lat": 35.1698171,
+        "lon": -5.2636097,
+        "category": "attraction"
+    },
+    {
+        "name": "bab targwa",
+        "city": "Inconnue",
+        "lat": 29.7039512,
+        "lon": -9.7253307,
+        "category": "attraction"
+    },
+    {
+        "name": "Ancienne usine de bois",
+        "city": "Inconnue",
+        "lat": 31.9932667,
+        "lon": -6.137613,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges d'Amsafrane (Oued Ahansal)",
+        "city": "Inconnue",
+        "lat": 31.9758496,
+        "lon": -6.1145904,
+        "category": "attraction"
+    },
+    {
+        "name": "Station service - Décor de film",
+        "city": "Inconnue",
+        "lat": 30.9230221,
+        "lon": -7.2329597,
+        "category": "attraction"
+    },
+    {
+        "name": "Ighrem n'Ouchettin",
+        "city": "Inconnue",
+        "lat": 32.0622483,
+        "lon": -5.8002188,
+        "category": "attraction"
+    },
+    {
+        "name": "Anchor Point",
+        "city": "Inconnue",
+        "lat": 30.5452832,
+        "lon": -9.7267868,
+        "category": "attraction"
+    },
+    {
+        "name": "Spot de surf du port",
+        "city": "Inconnue",
+        "lat": 29.3485906,
+        "lon": -10.1950385,
+        "category": "attraction"
+    },
+    {
+        "name": "Abri troglodyte",
+        "city": "Inconnue",
+        "lat": 30.4741873,
+        "lon": -7.6248718,
+        "category": "attraction"
+    },
+    {
+        "name": "Abri troglodyte",
+        "city": "Inconnue",
+        "lat": 30.4754818,
+        "lon": -7.6256657,
+        "category": "attraction"
+    },
+    {
+        "name": "5km",
+        "city": "Inconnue",
+        "lat": 32.5394814,
+        "lon": -7.1936493,
+        "category": "attraction"
+    },
+    {
+        "name": "Dune de sable",
+        "city": "Inconnue",
+        "lat": 30.76427,
+        "lon": -9.8286928,
+        "category": "monument"
+    },
+    {
+        "name": "Horloge Bouinaniyya de Fès دار المكانة",
+        "city": "Inconnue",
+        "lat": 34.0623835,
+        "lon": -4.9828355,
+        "category": "monument"
+    },
+    {
+        "name": "Source de Moulay",
+        "city": "Inconnue",
+        "lat": 32.2598493,
+        "lon": -4.393309,
+        "category": "attraction"
+    },
+    {
+        "name": "Aoukerda, hier keine Sehenswürdigkeit",
+        "city": "Inconnue",
+        "lat": 29.3640107,
+        "lon": -9.0286205,
+        "category": "attraction"
+    },
+    {
+        "name": "Gorges du Toudra",
+        "city": "Inconnue",
+        "lat": 31.5873522,
+        "lon": -5.5914946,
+        "category": "attraction"
+    },
+    {
+        "name": "Visitors Gate Royal Palace",
+        "city": "Inconnue",
+        "lat": 34.0096914,
+        "lon": -6.8303222,
+        "category": "attraction"
+    },
+    {
+        "name": "Medina Marrakech مدينة مراكش",
+        "city": "Inconnue",
+        "lat": 31.6259056,
+        "lon": -7.9887525,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Rob",
+        "city": "Inconnue",
+        "lat": 31.6171268,
+        "lon": -7.9907346,
+        "category": "attraction"
+    },
+    {
+        "name": "Coastal Cliff & Timlalin Dunes",
+        "city": "Inconnue",
+        "lat": 30.7619844,
+        "lon": -9.8295958,
+        "category": "attraction"
+    },
+    {
+        "name": "Porte de Guelmim",
+        "city": "Inconnue",
+        "lat": 29.0163418,
+        "lon": -10.0337088,
+        "category": "attraction"
+    },
+    {
+        "name": "Lou's Rides",
+        "city": "Inconnue",
+        "lat": 31.511809,
+        "lon": -9.7699045,
+        "category": "attraction"
+    },
+    {
+        "name": "Lou's Rides",
+        "city": "Inconnue",
+        "lat": 31.5117732,
+        "lon": -9.7700006,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Oualidia",
+        "city": "Inconnue",
+        "lat": 32.7365591,
+        "lon": -9.0319485,
+        "category": "monument"
+    },
+    {
+        "name": "Horse Adventure Essaouira",
+        "city": "Inconnue",
+        "lat": 31.4789057,
+        "lon": -9.7642691,
+        "category": "attraction"
+    },
+    {
+        "name": "عين سفيرجلة",
+        "city": "Inconnue",
+        "lat": 33.6582122,
+        "lon": -7.1629969,
+        "category": "attraction"
+    },
+    {
+        "name": "منعرجات كريفلة",
+        "city": "Inconnue",
+        "lat": 33.7506664,
+        "lon": -6.7411729,
+        "category": "attraction"
+    },
+    {
+        "name": "قنطرة وادي الشراط",
+        "city": "Inconnue",
+        "lat": 33.8148272,
+        "lon": -7.1100953,
+        "category": "monument"
+    },
+    {
+        "name": "طريق البسابس",
+        "city": "Inconnue",
+        "lat": 33.7281078,
+        "lon": -7.1517348,
+        "category": "attraction"
+    },
+    {
+        "name": "Le portail de Moulay Ismaïl",
+        "city": "Inconnue",
+        "lat": 33.890669,
+        "lon": -5.5638293,
+        "category": "attraction"
+    },
+    {
+        "name": "باب سيدي عمر",
+        "city": "Inconnue",
+        "lat": 33.89207,
+        "lon": -5.559279,
+        "category": "attraction"
+    },
+    {
+        "name": "باب منصور",
+        "city": "Inconnue",
+        "lat": 33.893054,
+        "lon": -5.564055,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بريمة",
+        "city": "Inconnue",
+        "lat": 33.893875,
+        "lon": -5.568753,
+        "category": "monument"
+    },
+    {
+        "name": "باب الدار الكبيرة",
+        "city": "Inconnue",
+        "lat": 33.890919,
+        "lon": -5.561739,
+        "category": "attraction"
+    },
+    {
+        "name": "باب تيزمي",
+        "city": "Inconnue",
+        "lat": 33.900119,
+        "lon": -5.567457,
+        "category": "attraction"
+    },
+    {
+        "name": "باب فيلالة",
+        "city": "Inconnue",
+        "lat": 33.891909,
+        "lon": -5.563891,
+        "category": "attraction"
+    },
+    {
+        "name": "باب عقبة زيدان",
+        "city": "Inconnue",
+        "lat": 33.894946,
+        "lon": -5.563411,
+        "category": "attraction"
+    },
+    {
+        "name": "باب منصور لعلج",
+        "city": "Inconnue",
+        "lat": 33.892685,
+        "lon": -5.564664,
+        "category": "attraction"
+    },
+    {
+        "name": "باب الأنوار",
+        "city": "Inconnue",
+        "lat": 33.892364,
+        "lon": -5.565055,
+        "category": "attraction"
+    },
+    {
+        "name": "باب عيسي",
+        "city": "Inconnue",
+        "lat": 33.893442,
+        "lon": -5.56393,
+        "category": "attraction"
+    },
+    {
+        "name": "باب مولاي إسماعيل",
+        "city": "Inconnue",
+        "lat": 33.890676,
+        "lon": -5.563774,
+        "category": "attraction"
+    },
+    {
+        "name": "باب لالة عودة",
+        "city": "Inconnue",
+        "lat": 33.892908,
+        "lon": -5.563914,
+        "category": "attraction"
+    },
+    {
+        "name": "باب الحجر",
+        "city": "Inconnue",
+        "lat": 33.892961,
+        "lon": -5.558822,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بردعين",
+        "city": "Inconnue",
+        "lat": 33.89985,
+        "lon": -5.567488,
+        "category": "attraction"
+    },
+    {
+        "name": "باب الدار الكبيرة",
+        "city": "Inconnue",
+        "lat": 33.892356,
+        "lon": -5.55982,
+        "category": "attraction"
+    },
+    {
+        "name": "باب الخميس",
+        "city": "Inconnue",
+        "lat": 33.891289,
+        "lon": -5.572363,
+        "category": "attraction"
+    },
+    {
+        "name": "باب القصدير",
+        "city": "Inconnue",
+        "lat": 33.86667,
+        "lon": -5.543456,
+        "category": "attraction"
+    },
+    {
+        "name": "باب سراغ",
+        "city": "Inconnue",
+        "lat": 33.886443,
+        "lon": -5.553264,
+        "category": "attraction"
+    },
+    {
+        "name": "باب مراح",
+        "city": "Inconnue",
+        "lat": 33.890231,
+        "lon": -5.561752,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Bettioui",
+        "city": "Inconnue",
+        "lat": 33.870618,
+        "lon": -5.563449,
+        "category": "attraction"
+    },
+    {
+        "name": "باب كبيش",
+        "city": "Inconnue",
+        "lat": 33.861547,
+        "lon": -5.551149,
+        "category": "attraction"
+    },
+    {
+        "name": "باب الدار الكبيرة الشمالي",
+        "city": "Inconnue",
+        "lat": 33.8911743,
+        "lon": -5.5618238,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بين القباب",
+        "city": "Inconnue",
+        "lat": 33.888385,
+        "lon": -5.566314,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية العطارين",
+        "city": "Inconnue",
+        "lat": 33.5773659,
+        "lon": -7.600121,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية السعديين",
+        "city": "Inconnue",
+        "lat": 33.5772324,
+        "lon": -7.6000481,
+        "category": "attraction"
+    },
+    {
+        "name": "باب مراكش",
+        "city": "Inconnue",
+        "lat": 33.5969325,
+        "lon": -7.6178656,
+        "category": "attraction"
+    },
+    {
+        "name": "حديقة الجامعة العربية",
+        "city": "Inconnue",
+        "lat": 33.5892029,
+        "lon": -7.6237159,
+        "category": "attraction"
+    },
+    {
+        "name": "Coupole Zevaco الكرة الأرضية",
+        "city": "Inconnue",
+        "lat": 33.5964546,
+        "lon": -7.6176281,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat elbaraka",
+        "city": "Inconnue",
+        "lat": 33.593174,
+        "lon": -7.6126819,
+        "category": "attraction"
+    },
+    {
+        "name": "المركب التجاري الصفوة",
+        "city": "Inconnue",
+        "lat": 33.5928917,
+        "lon": -7.611784,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Taieba",
+        "city": "Inconnue",
+        "lat": 33.5935745,
+        "lon": -7.611392,
+        "category": "attraction"
+    },
+    {
+        "name": "برج مولاي عمر",
+        "city": "Inconnue",
+        "lat": 33.9108798,
+        "lon": -5.5242082,
+        "category": "attraction"
+    },
+    {
+        "name": "Coco park",
+        "city": "Inconnue",
+        "lat": 33.834299,
+        "lon": -5.5521666,
+        "category": "attraction"
+    },
+    {
+        "name": "نحث الكراب",
+        "city": "Inconnue",
+        "lat": 33.8810081,
+        "lon": -5.5583868,
+        "category": "attraction"
+    },
+    {
+        "name": "Escaleras de colores",
+        "city": "Inconnue",
+        "lat": 35.1697893,
+        "lon": -5.2637313,
+        "category": "monument"
+    },
+    {
+        "name": "Medina antigua",
+        "city": "Inconnue",
+        "lat": 35.1694038,
+        "lon": -5.2600463,
+        "category": "monument"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.8223621,
+        "lon": -1.6785413,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7951322,
+        "lon": -1.7139163,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7917411,
+        "lon": -1.7258253,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7911819,
+        "lon": -1.7282072,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7906227,
+        "lon": -1.7316189,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7894141,
+        "lon": -1.7283359,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7968277,
+        "lon": -1.7352238,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7884581,
+        "lon": -1.748828,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7887647,
+        "lon": -1.7473903,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7862392,
+        "lon": -1.7469397,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7853373,
+        "lon": -1.7434421,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7883859,
+        "lon": -1.7391506,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7899012,
+        "lon": -1.7619815,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7873757,
+        "lon": -1.7631402,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7846157,
+        "lon": -1.7622819,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7819638,
+        "lon": -1.7649856,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7823246,
+        "lon": -1.7580333,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7843812,
+        "lon": -1.7537847,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7878628,
+        "lon": -1.7572823,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7874479,
+        "lon": -1.7747274,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7870871,
+        "lon": -1.7783752,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7983248,
+        "lon": -1.788353,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7954388,
+        "lon": -1.787838,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.798433,
+        "lon": -1.7837396,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7949699,
+        "lon": -1.7831817,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7918132,
+        "lon": -1.7847481,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7939237,
+        "lon": -1.7916146,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.7913442,
+        "lon": -1.7927089,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 32.787069,
+        "lon": -1.7918935,
+        "category": "attraction"
+    },
+    {
+        "name": "Berbere Self Shop",
+        "city": "Inconnue",
+        "lat": 31.7454486,
+        "lon": -3.7813711,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7278296,
+        "lon": -3.8852725,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7272486,
+        "lon": -3.8816298,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7258101,
+        "lon": -3.8790604,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7245238,
+        "lon": -3.8823616,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7179118,
+        "lon": -3.8919073,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7178841,
+        "lon": -3.889468,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7253952,
+        "lon": -3.9096978,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7278987,
+        "lon": -3.8991601,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7304299,
+        "lon": -3.894623,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7391985,
+        "lon": -3.8938099,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7447165,
+        "lon": -3.8957451,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7426144,
+        "lon": -3.9145601,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7386453,
+        "lon": -3.9140885,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7328365,
+        "lon": -3.9124623,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7356441,
+        "lon": -3.91952,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7330993,
+        "lon": -3.917227,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7217296,
+        "lon": -3.9132266,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7160028,
+        "lon": -3.9128851,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7133329,
+        "lon": -3.9138608,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7119633,
+        "lon": -3.9154545,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7139001,
+        "lon": -3.9163326,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7108013,
+        "lon": -3.9166579,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7090858,
+        "lon": -3.9223333,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7084633,
+        "lon": -3.9192435,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7163348,
+        "lon": -3.9077464,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7217573,
+        "lon": -3.8968509,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7237353,
+        "lon": -3.8915495,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7256027,
+        "lon": -3.8881671,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7071628,
+        "lon": -3.8702302,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7093625,
+        "lon": -3.869222,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7095285,
+        "lon": -3.8658233,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.6952919,
+        "lon": -3.8749624,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.6916805,
+        "lon": -3.8732875,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.6916324,
+        "lon": -3.9055753,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.6897153,
+        "lon": -3.8933873,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7368626,
+        "lon": -3.8803448,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7375287,
+        "lon": -3.8788321,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7386054,
+        "lon": -3.8727703,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7372367,
+        "lon": -3.870603,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7386419,
+        "lon": -3.875549,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7353753,
+        "lon": -3.8750233,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7323185,
+        "lon": -3.8744869,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7281007,
+        "lon": -3.8782385,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7273542,
+        "lon": -3.8666866,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7262584,
+        "lon": -3.8693763,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.726126,
+        "lon": -3.8740905,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7342535,
+        "lon": -3.8756195,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunas",
+        "city": "Inconnue",
+        "lat": 31.7333626,
+        "lon": -3.8754779,
+        "category": "attraction"
+    },
+    {
+        "name": "Sand River Crossing",
+        "city": "Inconnue",
+        "lat": 30.7936848,
+        "lon": -4.1453367,
+        "category": "attraction"
+    },
+    {
+        "name": "Ain Zarqa",
+        "city": "Inconnue",
+        "lat": 35.520034,
+        "lon": -5.3412095,
+        "category": "attraction"
+    },
+    {
+        "name": "Local market place",
+        "city": "Inconnue",
+        "lat": 33.5983158,
+        "lon": -7.6215186,
+        "category": "attraction"
+    },
+    {
+        "name": "Night market",
+        "city": "Inconnue",
+        "lat": 30.4064173,
+        "lon": -9.551043,
+        "category": "attraction"
+    },
+    {
+        "name": "small dune",
+        "city": "Inconnue",
+        "lat": 31.489218,
+        "lon": -9.7692838,
+        "category": "attraction"
+    },
+    {
+        "name": "WeCasablanca Sign",
+        "city": "Inconnue",
+        "lat": 33.5916488,
+        "lon": -7.6182757,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Akrim",
+        "city": "Inconnue",
+        "lat": 33.5745621,
+        "lon": -7.598187,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية السعيدي",
+        "city": "Inconnue",
+        "lat": 33.5769386,
+        "lon": -7.6000619,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Al Andalous",
+        "city": "Inconnue",
+        "lat": 33.5730629,
+        "lon": -7.5988131,
+        "category": "attraction"
+    },
+    {
+        "name": "Centre Commercial Mediouna",
+        "city": "Inconnue",
+        "lat": 33.572937,
+        "lon": -7.5979381,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية أخماسي",
+        "city": "Inconnue",
+        "lat": 33.5726852,
+        "lon": -7.5978122,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Lahlou",
+        "city": "Inconnue",
+        "lat": 33.5731888,
+        "lon": -7.598187,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Ben Slimane",
+        "city": "Inconnue",
+        "lat": 33.5740623,
+        "lon": -7.5991869,
+        "category": "attraction"
+    },
+    {
+        "name": "Derb Sultan Gallery",
+        "city": "Inconnue",
+        "lat": 33.5754395,
+        "lon": -7.5993118,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Aziza",
+        "city": "Inconnue",
+        "lat": 33.5736885,
+        "lon": -7.5983129,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية الشاوية",
+        "city": "Inconnue",
+        "lat": 33.5774384,
+        "lon": -7.5995622,
+        "category": "attraction"
+    },
+    {
+        "name": "سوق البيض بالجملة",
+        "city": "Inconnue",
+        "lat": 33.5835648,
+        "lon": -7.6032429,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية الأمراء",
+        "city": "Inconnue",
+        "lat": 33.5784378,
+        "lon": -7.6000619,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat El Fath",
+        "city": "Inconnue",
+        "lat": 33.5778122,
+        "lon": -7.5985632,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية عزيزة",
+        "city": "Inconnue",
+        "lat": 33.5758133,
+        "lon": -7.5993118,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Achamal",
+        "city": "Inconnue",
+        "lat": 33.5786858,
+        "lon": -7.5990629,
+        "category": "attraction"
+    },
+    {
+        "name": "Caesarea 15 Ramadan",
+        "city": "Inconnue",
+        "lat": 33.5876884,
+        "lon": -7.6091881,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat El Haffari",
+        "city": "Inconnue",
+        "lat": 33.5731888,
+        "lon": -7.601562,
+        "category": "attraction"
+    },
+    {
+        "name": "مجموعة شيك فولار",
+        "city": "Inconnue",
+        "lat": 33.5753975,
+        "lon": -7.6015,
+        "category": "attraction"
+    },
+    {
+        "name": "مركز سوق الحبوس",
+        "city": "Inconnue",
+        "lat": 33.5778122,
+        "lon": -7.6045632,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية البيضاء 2",
+        "city": "Inconnue",
+        "lat": 33.5854378,
+        "lon": -7.606688,
+        "category": "attraction"
+    },
+    {
+        "name": "derb kabir",
+        "city": "Inconnue",
+        "lat": 33.5734367,
+        "lon": -7.5958128,
+        "category": "attraction"
+    },
+    {
+        "name": "قيسارية الزاس",
+        "city": "Inconnue",
+        "lat": 33.5865631,
+        "lon": -7.6083131,
+        "category": "attraction"
+    },
+    {
+        "name": "برج الياقوت",
+        "city": "Inconnue",
+        "lat": 33.5890617,
+        "lon": -7.6101871,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Derb Omar",
+        "city": "Inconnue",
+        "lat": 33.5899353,
+        "lon": -7.6096878,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Al Omra",
+        "city": "Inconnue",
+        "lat": 33.5916862,
+        "lon": -7.6098132,
+        "category": "attraction"
+    },
+    {
+        "name": "غرفة التجارة الصناعية و الخدمات",
+        "city": "Inconnue",
+        "lat": 33.5948143,
+        "lon": -7.613688,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariat Lahrizi",
+        "city": "Inconnue",
+        "lat": 33.5896873,
+        "lon": -7.6106882,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissaria",
+        "city": "Inconnue",
+        "lat": 33.5898132,
+        "lon": -7.6089382,
+        "category": "attraction"
+    },
+    {
+        "name": "Kissariate safrioui",
+        "city": "Inconnue",
+        "lat": 33.5906868,
+        "lon": -7.6105628,
+        "category": "attraction"
+    },
+    {
+        "name": "Monkeys",
+        "city": "Inconnue",
+        "lat": 33.4146601,
+        "lon": -5.1799661,
+        "category": "attraction"
+    },
+    {
+        "name": "رمزي سطور",
+        "city": "Inconnue",
+        "lat": 33.6059074,
+        "lon": -7.5096502,
+        "category": "attraction"
+    },
+    {
+        "name": "Cirque de Jaafar",
+        "city": "Inconnue",
+        "lat": 32.5458264,
+        "lon": -4.9215147,
+        "category": "attraction"
+    },
+    {
+        "name": "Pass du Cobra",
+        "city": "Inconnue",
+        "lat": 29.9089421,
+        "lon": -6.8470167,
+        "category": "attraction"
+    },
+    {
+        "name": "Passage Amazigh",
+        "city": "Inconnue",
+        "lat": 31.7782435,
+        "lon": -6.0712129,
+        "category": "attraction"
+    },
+    {
+        "name": "Rond Point Le ballon de foot",
+        "city": "Inconnue",
+        "lat": 34.0027328,
+        "lon": -4.9739137,
+        "category": "attraction"
+    },
+    {
+        "name": "Ait Ben Hmad Igherm",
+        "city": "Inconnue",
+        "lat": 31.8462044,
+        "lon": -6.1105463,
+        "category": "attraction"
+    },
+    {
+        "name": "Shortcut to Tinerhourhine",
+        "city": "Inconnue",
+        "lat": 31.1644788,
+        "lon": -7.8905087,
+        "category": "attraction"
+    },
+    {
+        "name": "Shortcut to Ikkiss",
+        "city": "Inconnue",
+        "lat": 31.1585482,
+        "lon": -7.8850234,
+        "category": "attraction"
+    },
+    {
+        "name": "BERTAM DUNES",
+        "city": "Inconnue",
+        "lat": 29.8704361,
+        "lon": -5.8087617,
+        "category": "attraction"
+    },
+    {
+        "name": "Jardin bio-aromatique d‘Ourika",
+        "city": "Inconnue",
+        "lat": 31.3803802,
+        "lon": -7.7843858,
+        "category": "attraction"
+    },
+    {
+        "name": "Station de Pisciculture Ras El Ma",
+        "city": "Inconnue",
+        "lat": 33.464258,
+        "lon": -5.1485279,
+        "category": "attraction"
+    },
+    {
+        "name": "Dakhla quad",
+        "city": "Inconnue",
+        "lat": 23.901923,
+        "lon": -15.7868902,
+        "category": "attraction"
+    },
+    {
+        "name": "دوار اسفاو",
+        "city": "Inconnue",
+        "lat": 28.4653904,
+        "lon": -10.3172743,
+        "category": "attraction"
+    },
+    {
+        "name": "Tagadirt",
+        "city": "Inconnue",
+        "lat": 28.4740739,
+        "lon": -10.3139606,
+        "category": "attraction"
+    },
+    {
+        "name": "Tagadirt",
+        "city": "Inconnue",
+        "lat": 28.4741938,
+        "lon": -10.3141022,
+        "category": "attraction"
+    },
+    {
+        "name": "حقول",
+        "city": "Inconnue",
+        "lat": 28.4712685,
+        "lon": -10.319878,
+        "category": "attraction"
+    },
+    {
+        "name": "حقول",
+        "city": "Inconnue",
+        "lat": 28.4712685,
+        "lon": -10.3202566,
+        "category": "attraction"
+    },
+    {
+        "name": "زاوية ايت بوهو",
+        "city": "Inconnue",
+        "lat": 28.3488307,
+        "lon": -10.6168477,
+        "category": "attraction"
+    },
+    {
+        "name": "زاوية ناحية 3",
+        "city": "Inconnue",
+        "lat": 28.3910923,
+        "lon": -10.5643981,
+        "category": "attraction"
+    },
+    {
+        "name": "التواغيل",
+        "city": "Inconnue",
+        "lat": 28.471767,
+        "lon": -10.3201048,
+        "category": "attraction"
+    },
+    {
+        "name": "حقول",
+        "city": "Inconnue",
+        "lat": 28.4713133,
+        "lon": -10.3198562,
+        "category": "attraction"
+    },
+    {
+        "name": "Grotte Thami 2",
+        "city": "Inconnue",
+        "lat": 33.8511581,
+        "lon": -4.872797,
+        "category": "attraction"
+    },
+    {
+        "name": "سناتو سيدي محمد",
+        "city": "Inconnue",
+        "lat": 33.4535575,
+        "lon": -4.3314314,
+        "category": "attraction"
+    },
+    {
+        "name": "إيسوكا",
+        "city": "Inconnue",
+        "lat": 33.4420851,
+        "lon": -4.3491589,
+        "category": "attraction"
+    },
+    {
+        "name": "تجلمانت",
+        "city": "Inconnue",
+        "lat": 33.5051372,
+        "lon": -4.4113621,
+        "category": "attraction"
+    },
+    {
+        "name": "Dinosaur's Footprints ANZA",
+        "city": "Agadir ⴰⴳⴰⴷⵉⵔ أگادير",
+        "lat": 30.4461302,
+        "lon": -9.6610329,
+        "category": "attraction"
+    },
+    {
+        "name": "Effondrements",
+        "city": "Inconnue",
+        "lat": 24.3534457,
+        "lon": -15.2859643,
+        "category": "attraction"
+    },
+    {
+        "name": "Casa del Mar",
+        "city": "Inconnue",
+        "lat": 27.946201,
+        "lon": -12.9309627,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab El Mechouar",
+        "city": "Inconnue",
+        "lat": 31.5111051,
+        "lon": -9.7717674,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Abouam",
+        "city": "Inconnue",
+        "lat": 31.2817805,
+        "lon": -4.269052,
+        "category": "attraction"
+    },
+    {
+        "name": "Stadttor",
+        "city": "Inconnue",
+        "lat": 31.282423,
+        "lon": -4.270556,
+        "category": "attraction"
+    },
+    {
+        "name": "Banana point",
+        "city": "Inconnue",
+        "lat": 30.5022102,
+        "lon": -9.6834593,
+        "category": "attraction"
+    },
+    {
+        "name": "Tombouctou 52 jours",
+        "city": "Inconnue",
+        "lat": 30.3191505,
+        "lon": -5.8361403,
+        "category": "attraction"
+    },
+    {
+        "name": "ديناصور أنزا",
+        "city": "Inconnue",
+        "lat": 30.4462521,
+        "lon": -9.6611686,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 28.8379303,
+        "lon": -10.8526829,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 28.835388,
+        "lon": -10.8564769,
+        "category": "attraction"
+    },
+    {
+        "name": "Place des Nations Unies ساحة الأمم المتحدة",
+        "city": "Inconnue",
+        "lat": 33.5949962,
+        "lon": -7.6186635,
+        "category": "attraction"
+    },
+    {
+        "name": "شلال آيت حسان",
+        "city": "Ait Hassan آيت حسان ⴰⵢⵜ ⵃⴰⵙⵙⴰⵏ",
+        "lat": 33.4957775,
+        "lon": -4.0363092,
+        "category": "attraction"
+    },
+    {
+        "name": "Camping Afnan Agafay",
+        "city": "Inconnue",
+        "lat": 31.3943283,
+        "lon": -8.1472738,
+        "category": "attraction"
+    },
+    {
+        "name": "إيروكان  Iroukan",
+        "city": "Ait Hassan آيت حسان ⴰⵢⵜ ⵃⴰⵙⵙⴰⵏ",
+        "lat": 33.4865197,
+        "lon": -4.0355791,
+        "category": "attraction"
+    },
+    {
+        "name": "منزل فاجعة بوغيلاس 1984. Bugilas Tragedy House 1984",
+        "city": "آيت حسان  Ait Hassan  ⴰⵢⵜ ⵃⴰⵙⴰⵏ",
+        "lat": 33.4884583,
+        "lon": -4.0353102,
+        "category": "attraction"
+    },
+    {
+        "name": "تزبين منحدر خطير Tizbin - Dangerous slope",
+        "city": "Ait Hassan آيت حسان ⴰⵢⵜ ⵃⴰⵙⵙⴰⵏ",
+        "lat": 33.4927284,
+        "lon": -4.0399823,
+        "category": "attraction"
+    },
+    {
+        "name": "أملاملي  Amlamli",
+        "city": "آيت حسان",
+        "lat": 33.4990098,
+        "lon": -4.0468135,
+        "category": "attraction"
+    },
+    {
+        "name": "أفتيس ومالو مكان استشهاد مقاوم عائلة انشريفن",
+        "city": "آيت حسان",
+        "lat": 33.4999077,
+        "lon": -4.0466642,
+        "category": "attraction"
+    },
+    {
+        "name": "Gedenkstein an den Besuch von Hassan II. im Verkehrskreisel des Grenz-Dorfes Tah.",
+        "city": "Inconnue",
+        "lat": 27.6719707,
+        "lon": -12.956247,
+        "category": "monument"
+    },
+    {
+        "name": "Photospot",
+        "city": "Inconnue",
+        "lat": 35.7906624,
+        "lon": -5.9235866,
+        "category": "attraction"
+    },
+    {
+        "name": "Terrasse Sweet Sunset",
+        "city": "Inconnue",
+        "lat": 35.7908443,
+        "lon": -5.92387,
+        "category": "attraction"
+    },
+    {
+        "name": "Al-Ajiba Zauia",
+        "city": "Inconnue",
+        "lat": 35.169704,
+        "lon": -5.2614867,
+        "category": "attraction"
+    },
+    {
+        "name": "Rif Al-Andalus Msid",
+        "city": "Inconnue",
+        "lat": 35.1693571,
+        "lon": -5.2609712,
+        "category": "attraction"
+    },
+    {
+        "name": "Ben Abdelhadi Oven",
+        "city": "Inconnue",
+        "lat": 35.169334,
+        "lon": -5.2602785,
+        "category": "attraction"
+    },
+    {
+        "name": "Al-Haouta Oven",
+        "city": "Inconnue",
+        "lat": 35.1688277,
+        "lon": -5.2635495,
+        "category": "attraction"
+    },
+    {
+        "name": "The Rif Andalus Oven",
+        "city": "Inconnue",
+        "lat": 35.1699046,
+        "lon": -5.2617357,
+        "category": "attraction"
+    },
+    {
+        "name": "The Aboudi House",
+        "city": "Inconnue",
+        "lat": 35.1698523,
+        "lon": -5.2595556,
+        "category": "attraction"
+    },
+    {
+        "name": "dunes",
+        "city": "Inconnue",
+        "lat": 21.8455892,
+        "lon": -16.3969827,
+        "category": "attraction"
+    },
+    {
+        "name": "dunes",
+        "city": "Inconnue",
+        "lat": 21.8615662,
+        "lon": -16.4137927,
+        "category": "attraction"
+    },
+    {
+        "name": "Rucher d‘Inzerki",
+        "city": "Inconnue",
+        "lat": 30.7990687,
+        "lon": -9.1911597,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Ghemat",
+        "city": "Inconnue",
+        "lat": 31.6238691,
+        "lon": -7.974541,
+        "category": "attraction"
+    },
+    {
+        "name": "Timoulay n‘Ouamalougt",
+        "city": "Inconnue",
+        "lat": 29.2125967,
+        "lon": -9.3655094,
+        "category": "attraction"
+    },
+    {
+        "name": "Timoulay n‘Ouamalougt Lalla Mlouka",
+        "city": "Inconnue",
+        "lat": 29.2114412,
+        "lon": -9.3651343,
+        "category": "attraction"
+    },
+    {
+        "name": "Rahba Kedima Square",
+        "city": "Inconnue",
+        "lat": 31.6288833,
+        "lon": -7.9870453,
+        "category": "attraction"
+    },
+    {
+        "name": "Erg Chebbi ⵉⴷⵀⴰⵏ ⵛⴱⴱⵉ عرق الشبي",
+        "city": "Inconnue",
+        "lat": 31.1380932,
+        "lon": -3.9761108,
+        "category": "attraction"
+    },
+    {
+        "name": "M'Nar Park",
+        "city": "Tanger",
+        "lat": 35.808184,
+        "lon": -5.7421989,
+        "category": "attraction"
+    },
+    {
+        "name": "Lac Iriki ⴰⴳⵍⵎⴰⵎ ⵉⵕⵉⵇⵉ بحيرة إيريكي",
+        "city": "Inconnue",
+        "lat": 29.8176161,
+        "lon": -6.5092866,
+        "category": "attraction"
+    },
+    {
+        "name": "Cimitière Juif Miaara",
+        "city": "Inconnue",
+        "lat": 31.6203377,
+        "lon": -7.9790684,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar M'Aadid ⵇⵚⵕ ⵎⵄⴰⴹⵉⴹ قصر المعاديد",
+        "city": "Inconnue",
+        "lat": 31.4665066,
+        "lon": -4.2152439,
+        "category": "attraction"
+    },
+    {
+        "name": "Dar El Bacha دار الباشا",
+        "city": "Inconnue",
+        "lat": 31.6297414,
+        "lon": -7.9926577,
+        "category": "monument"
+    },
+    {
+        "name": "Palais Royal de Casablanca",
+        "city": "Inconnue",
+        "lat": 33.5802278,
+        "lon": -7.6046729,
+        "category": "attraction"
+    },
+    {
+        "name": "Zaouia de Cheikh Ma El Aïnin زاوية الشيخ مع العينين",
+        "city": "السمارة",
+        "lat": 26.7423654,
+        "lon": -11.6801234,
+        "category": "attraction"
+    },
+    {
+        "name": "Ville portugaise de Mazagan مدينة مازاكان البرتغالية",
+        "city": "Inconnue",
+        "lat": 33.2568895,
+        "lon": -8.502479,
+        "category": "castle"
+    },
+    {
+        "name": "Anciens Abattoirs de Casablanca",
+        "city": "Inconnue",
+        "lat": 33.5947826,
+        "lon": -7.5822194,
+        "category": "attraction"
+    },
+    {
+        "name": "Volubilis وليلي ⵡⴰⵍⵉⵍⵉ",
+        "city": "Inconnue",
+        "lat": 34.0734541,
+        "lon": -5.5552436,
+        "category": "attraction"
+    },
+    {
+        "name": "Palmeraie d'Ait Mansour",
+        "city": "Inconnue",
+        "lat": 29.5427191,
+        "lon": -8.8686082,
+        "category": "attraction"
+    },
+    {
+        "name": "Joutia de Derb Ghallef جوطية درب غلف",
+        "city": "Inconnue",
+        "lat": 33.5708368,
+        "lon": -7.6297945,
+        "category": "attraction"
+    },
+    {
+        "name": "Erg Chigaga ⵉⴷⵀⴰⵏ ⵏ ⵛⵉⴳⴰⴳⴰ عرق شقاق",
+        "city": "Inconnue",
+        "lat": 29.8411518,
+        "lon": -6.2843788,
+        "category": "attraction"
+    },
+    {
+        "name": "Palais Al Mansour",
+        "city": "Inconnue",
+        "lat": 33.8680813,
+        "lon": -5.5599036,
+        "category": "monument"
+    },
+    {
+        "name": "Dune de Tinfou",
+        "city": "Inconnue",
+        "lat": 30.2411444,
+        "lon": -5.6025373,
+        "category": "attraction"
+    },
+    {
+        "name": "Post Office",
+        "city": "Inconnue",
+        "lat": 33.5963033,
+        "lon": -7.6085311,
+        "category": "attraction"
+    },
+    {
+        "name": "Magana الماكنة (الساعة)",
+        "city": "Inconnue",
+        "lat": 34.7963354,
+        "lon": -5.5798031,
+        "category": "monument"
+    },
+    {
+        "name": "Tour Hassan صومعة حسان",
+        "city": "Inconnue",
+        "lat": 34.0241354,
+        "lon": -6.8227883,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar El Aïn Asserdoun ⵜⴰⴳⴰⴷⵉⵔⵜ ⵏ ⵟⵉⵟⵟ ⴰⵙⵔⴷⵓⵏ",
+        "city": "Inconnue",
+        "lat": 32.3244367,
+        "lon": -6.3376518,
+        "category": "monument"
+    },
+    {
+        "name": "Aïn Assardoun ⵟⵉⵟⵟ ⴰⵙⵔⴷⵓⵏ",
+        "city": "Inconnue",
+        "lat": 32.3253198,
+        "lon": -6.3361662,
+        "category": "monument"
+    },
+    {
+        "name": "Marché central",
+        "city": "Inconnue",
+        "lat": 33.5948319,
+        "lon": -7.6120128,
+        "category": "attraction"
+    },
+    {
+        "name": "Mausolée Mohammed V ضريح محمد الخامس",
+        "city": "Inconnue",
+        "lat": 34.0226604,
+        "lon": -6.8214248,
+        "category": "monument"
+    },
+    {
+        "name": "Bab Rouah",
+        "city": "Inconnue",
+        "lat": 34.0128132,
+        "lon": -6.8375663,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Soufara",
+        "city": "Inconnue",
+        "lat": 34.0132836,
+        "lon": -6.8352213,
+        "category": "attraction"
+    },
+    {
+        "name": "Source des poissons sacrés",
+        "city": "Inconnue",
+        "lat": 31.5545768,
+        "lon": -5.5851347,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Ziri ibn Attiya",
+        "city": "Inconnue",
+        "lat": 34.6907379,
+        "lon": -1.918243,
+        "category": "attraction"
+    },
+    {
+        "name": "Village Artisanal",
+        "city": "Inconnue",
+        "lat": 34.7108581,
+        "lon": -1.9193502,
+        "category": "attraction"
+    },
+    {
+        "name": "Chez Ali",
+        "city": "Inconnue",
+        "lat": 31.7027188,
+        "lon": -8.0205443,
+        "category": "attraction"
+    },
+    {
+        "name": "La Kasbah",
+        "city": "Inconnue",
+        "lat": 34.5829273,
+        "lon": -2.5094402,
+        "category": "attraction"
+    },
+    {
+        "name": "École Sidi Ziane",
+        "city": "Inconnue",
+        "lat": 34.6786042,
+        "lon": -1.9145775,
+        "category": "attraction"
+    },
+    {
+        "name": "Prison de Qara سجن قارا",
+        "city": "Inconnue",
+        "lat": 33.8907594,
+        "lon": -5.5648774,
+        "category": "attraction"
+    },
+    {
+        "name": "Tour Machqouq البرج المشقوق",
+        "city": "Inconnue",
+        "lat": 33.8806019,
+        "lon": -5.5722397,
+        "category": "monument"
+    },
+    {
+        "name": "les écuries",
+        "city": "Inconnue",
+        "lat": 33.8892185,
+        "lon": -5.5658759,
+        "category": "monument"
+    },
+    {
+        "name": "Tour Bni mhammed برج بني محمد",
+        "city": "Inconnue",
+        "lat": 33.8875266,
+        "lon": -5.5676256,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بردعاين الشمالي",
+        "city": "Inconnue",
+        "lat": 33.90105,
+        "lon": -5.5683032,
+        "category": "monument"
+    },
+    {
+        "name": "Macro Fossiles Kasbah",
+        "city": "Inconnue",
+        "lat": 31.4168269,
+        "lon": -4.2441072,
+        "category": "attraction"
+    },
+    {
+        "name": "La Source Bleue de Meski",
+        "city": "Inconnue",
+        "lat": 31.8565146,
+        "lon": -4.2819757,
+        "category": "attraction"
+    },
+    {
+        "name": "Manar Marbre",
+        "city": "Inconnue",
+        "lat": 31.4298917,
+        "lon": -4.2420479,
+        "category": "attraction"
+    },
+    {
+        "name": "Erg Sedrar",
+        "city": "Inconnue",
+        "lat": 29.7546175,
+        "lon": -6.1194516,
+        "category": "attraction"
+    },
+    {
+        "name": "Erg Smar",
+        "city": "Inconnue",
+        "lat": 29.7137578,
+        "lon": -6.0845829,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah de Télouet",
+        "city": "Inconnue",
+        "lat": 31.2869336,
+        "lon": -7.2367275,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah",
+        "city": "Inconnue",
+        "lat": 34.6784469,
+        "lon": -1.9130449,
+        "category": "attraction"
+    },
+    {
+        "name": "Gare Historique المحطة تاريخية",
+        "city": "Inconnue",
+        "lat": 34.697777,
+        "lon": -1.9116905,
+        "category": "attraction"
+    },
+    {
+        "name": "Dar Sebti",
+        "city": "Inconnue",
+        "lat": 34.6772405,
+        "lon": -1.9119846,
+        "category": "attraction"
+    },
+    {
+        "name": "Erg de Ouzina",
+        "city": "Inconnue",
+        "lat": 30.7834624,
+        "lon": -4.1953612,
+        "category": "attraction"
+    },
+    {
+        "name": "Oasis Sidi Yahya واحة سيدي يحيى",
+        "city": "وجدة",
+        "lat": 34.6659467,
+        "lon": -1.8632228,
+        "category": "attraction"
+    },
+    {
+        "name": "Berber Market",
+        "city": "Inconnue",
+        "lat": 31.3149141,
+        "lon": -7.7476934,
+        "category": "attraction"
+    },
+    {
+        "name": "Gare CTM Casablanca - principale",
+        "city": "Casablanca",
+        "lat": 33.596247,
+        "lon": -7.6111837,
+        "category": "attraction"
+    },
+    {
+        "name": "Lala Oum Hani لالة أم هاني",
+        "city": "Inconnue",
+        "lat": 34.8010867,
+        "lon": -5.5924959,
+        "category": "monument"
+    },
+    {
+        "name": "Gorges Akka n’Daghour",
+        "city": "Inconnue",
+        "lat": 31.528943,
+        "lon": -6.6129517,
+        "category": "attraction"
+    },
+    {
+        "name": "Le Petit Sahara",
+        "city": "Inconnue",
+        "lat": 29.8388741,
+        "lon": -9.5329139,
+        "category": "attraction"
+    },
+    {
+        "name": "Horse of Settat",
+        "city": "Inconnue",
+        "lat": 33.0023017,
+        "lon": -7.6198188,
+        "category": "monument"
+    },
+    {
+        "name": "Gorges de Todgha Aghbalou N Todra",
+        "city": "Tinghir",
+        "lat": 31.5884044,
+        "lon": -5.592924,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah Boulaouane",
+        "city": "Inconnue",
+        "lat": 32.8568939,
+        "lon": -8.0201293,
+        "category": "attraction"
+    },
+    {
+        "name": "Jardins exotiques de Bouknadel",
+        "city": "Salé سلا",
+        "lat": 34.0953914,
+        "lon": -6.7670519,
+        "category": "attraction"
+    },
+    {
+        "name": "Anima - Le Retour du Paradis",
+        "city": "Inconnue",
+        "lat": 31.4017349,
+        "lon": -7.8273306,
+        "category": "attraction"
+    },
+    {
+        "name": "Gouffre d'Akhfenir",
+        "city": "Inconnue",
+        "lat": 28.107061,
+        "lon": -12.0376777,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Laabidate Ait Annaj قصر لعبيدات أيت النج",
+        "city": "Inconnue",
+        "lat": 32.1187674,
+        "lon": -1.2392724,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Oudaghir Ait Addi قصرالوداغير آيت عدي",
+        "city": "Inconnue",
+        "lat": 32.1156656,
+        "lon": -1.2338114,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Oulad Slimane قصر أولاد سليمان",
+        "city": "Inconnue",
+        "lat": 32.1140051,
+        "lon": -1.230193,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Jouaber (Oulad Jaber) قصر الجوابر (أولاد جابر)",
+        "city": "Inconnue",
+        "lat": 32.1152034,
+        "lon": -1.2370443,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Oulad Mahrez قصر أولاد محرز",
+        "city": "Inconnue",
+        "lat": 32.1127231,
+        "lon": -1.2334274,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Al Maiz قصر المعيز",
+        "city": "Inconnue",
+        "lat": 32.1143835,
+        "lon": -1.2277762,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Hammam Fougani Ait Aamer قصر الحمام الفوقاني آيت عامر",
+        "city": "Inconnue",
+        "lat": 32.1184287,
+        "lon": -1.2177138,
+        "category": "attraction"
+    },
+    {
+        "name": "Ksar Hammam Tahtani (Ait Ouadday) قصر الحمام التحتاني (آيت وداي)",
+        "city": "Inconnue",
+        "lat": 32.1156098,
+        "lon": -1.2176003,
+        "category": "attraction"
+    },
+    {
+        "name": "Tachraft Oudaghir تاشرافت الوداغير",
+        "city": "Inconnue",
+        "lat": 32.1181124,
+        "lon": -1.2335978,
+        "category": "attraction"
+    },
+    {
+        "name": "Bahbouha بحبوحة",
+        "city": "Inconnue",
+        "lat": 32.1149963,
+        "lon": -1.2358064,
+        "category": "attraction"
+    },
+    {
+        "name": "Muraille ottomane الجدار العثماني",
+        "city": "Inconnue",
+        "lat": 32.1134939,
+        "lon": -1.2377177,
+        "category": "attraction"
+    },
+    {
+        "name": "Arrahba الرحبة",
+        "city": "Inconnue",
+        "lat": 32.1164601,
+        "lon": -1.2342437,
+        "category": "attraction"
+    },
+    {
+        "name": "سوق القريعة",
+        "city": "Inconnue",
+        "lat": 33.5632591,
+        "lon": -7.5991091,
+        "category": "attraction"
+    },
+    {
+        "name": "Tannery",
+        "city": "Inconnue",
+        "lat": 31.6335938,
+        "lon": -7.9784699,
+        "category": "attraction"
+    },
+    {
+        "name": "Tannerie de Sidi Moussa",
+        "city": "Fes Médina",
+        "lat": 34.064246,
+        "lon": -4.9759149,
+        "category": "attraction"
+    },
+    {
+        "name": "قرية الخراب القديمة",
+        "city": "Inconnue",
+        "lat": 31.6542527,
+        "lon": -4.201261,
+        "category": "attraction"
+    },
+    {
+        "name": "Kasbah de Témara",
+        "city": "Inconnue",
+        "lat": 33.9262474,
+        "lon": -6.9135152,
+        "category": "monument"
+    },
+    {
+        "name": "Fes Tannery",
+        "city": "FES medina",
+        "lat": 34.0660356,
+        "lon": -4.9708693,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بوجلود",
+        "city": "Inconnue",
+        "lat": 34.0616993,
+        "lon": -4.9840191,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Al Qsar",
+        "city": "Municipalité de Méchouar Fès Jdid المشور فاس الجديد",
+        "lat": 34.0531719,
+        "lon": -4.9935719,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab R'cif",
+        "city": "Inconnue",
+        "lat": 34.0623381,
+        "lon": -4.9727555,
+        "category": "attraction"
+    },
+    {
+        "name": "Médina de Tétouan (ancienne Titawin) المدينة التوأم",
+        "city": "Inconnue",
+        "lat": 35.5710889,
+        "lon": -5.3693167,
+        "category": "Monument"
+    },
+    {
+        "name": "Centre Commercial Jawhara",
+        "city": "Inconnue",
+        "lat": 33.5933251,
+        "lon": -7.5140005,
+        "category": "attraction"
+    },
+    {
+        "name": "Mosquée el haj fateh",
+        "city": "Inconnue",
+        "lat": 33.5439736,
+        "lon": -7.6791189,
+        "category": "attraction"
+    },
+    {
+        "name": "كنيس ابن دنان",
+        "city": "Municipalité de Méchouar Fès Jdid المشور فاس الجديد",
+        "lat": 34.0525177,
+        "lon": -4.9915239,
+        "category": "Monument"
+    },
+    {
+        "name": "Souk El Ma",
+        "city": "Inconnue",
+        "lat": 34.6802626,
+        "lon": -1.913717,
+        "category": "attraction"
+    },
+    {
+        "name": "Ancienne Synagogue",
+        "city": "Inconnue",
+        "lat": 34.6823191,
+        "lon": -1.9155345,
+        "category": "attraction"
+    },
+    {
+        "name": "Place Al Attarine",
+        "city": "Inconnue",
+        "lat": 34.6795497,
+        "lon": -1.912525,
+        "category": "attraction"
+    },
+    {
+        "name": "باب بالقاري",
+        "city": "Inconnue",
+        "lat": 33.8855464,
+        "lon": -5.5652842,
+        "category": "attraction"
+    },
+    {
+        "name": "Arc de triomphe de Caracalla",
+        "city": "Inconnue",
+        "lat": 34.074034,
+        "lon": -5.5553677,
+        "category": "monument"
+    },
+    {
+        "name": "The Khettaras",
+        "city": "Inconnue",
+        "lat": 31.5306173,
+        "lon": -4.4956277,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Maalga",
+        "city": "Inconnue",
+        "lat": 34.0384231,
+        "lon": -6.8287955,
+        "category": "attraction"
+    },
+    {
+        "name": "Borj Ilkibir",
+        "city": "Inconnue",
+        "lat": 34.0469739,
+        "lon": -6.8288494,
+        "category": "attraction"
+    },
+    {
+        "name": "Borj Mellah",
+        "city": "Inconnue",
+        "lat": 34.0325844,
+        "lon": -6.8205681,
+        "category": "attraction"
+    },
+    {
+        "name": "Borj Adoumoue, Bastion des Larmes",
+        "city": "Inconnue",
+        "lat": 34.0424356,
+        "lon": -6.8324177,
+        "category": "attraction"
+    },
+    {
+        "name": "Jemaâ El Fna جامع الفناء",
+        "city": "Inconnue",
+        "lat": 31.6258197,
+        "lon": -7.989239,
+        "category": "attraction"
+    },
+    {
+        "name": "roches colorées",
+        "city": "Inconnue",
+        "lat": 29.6689869,
+        "lon": -8.9739363,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.6278818,
+        "lon": -4.544902,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.6191395,
+        "lon": -4.5401492,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.5951322,
+        "lon": -4.4913716,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.5909555,
+        "lon": -4.4839366,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.5779364,
+        "lon": -4.4845984,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.6029168,
+        "lon": -4.4900861,
+        "category": "attraction"
+    },
+    {
+        "name": "Dunes",
+        "city": "Inconnue",
+        "lat": 31.5795826,
+        "lon": -4.4630652,
+        "category": "attraction"
+    },
+    {
+        "name": "Porte de Guelmim Ville",
+        "city": "Inconnue",
+        "lat": 28.9995485,
+        "lon": -10.0846239,
+        "category": "monument"
+    },
+    {
+        "name": "برج القمرة",
+        "city": "Inconnue",
+        "lat": 35.4662334,
+        "lon": -6.037774,
+        "category": "attraction"
+    },
+    {
+        "name": "Zoo",
+        "city": "Inconnue",
+        "lat": 34.0588092,
+        "lon": -4.9890883,
+        "category": "attraction"
+    },
+    {
+        "name": "Forteresse portugaise de Ksar es-Seghir",
+        "city": "Inconnue",
+        "lat": 35.8427736,
+        "lon": -5.5584719,
+        "category": "attraction"
+    },
+    {
+        "name": "Porche monumental",
+        "city": "Inconnue",
+        "lat": 34.0256727,
+        "lon": -6.8387313,
+        "category": "attraction"
+    },
+    {
+        "name": "تلاتٌ نفلوين Tlat Neflouine",
+        "city": "Ait Hassan آيت حسان ⴰⵢⵜ ⵃⴰⵙⵙⴰⵏ",
+        "lat": 33.4949387,
+        "lon": -4.036331,
+        "category": "attraction"
+    },
+    {
+        "name": "Bab Moulay Youssef",
+        "city": "Inconnue",
+        "lat": 31.5127489,
+        "lon": -9.7699722,
+        "category": "attraction"
+    },
+    {
+        "name": "Réservoir du Barrage Al Hassan Addakhil",
+        "city": "Inconnue",
+        "lat": 32.0139519,
+        "lon": -4.4452733,
+        "category": "attraction"
+    },
+    {
+        "name": "Medersa Ben Youssef",
+        "city": "Inconnue",
+        "lat": 31.6319835,
+        "lon": -7.9862513,
+        "category": "attraction"
+    },
+    {
+        "name": "Palais El Badi قصر البديع",
+        "city": "Inconnue",
+        "lat": 31.6181786,
+        "lon": -7.9853687,
+        "category": "attraction"
+    },
+    {
+        "name": "Mosquée Hassan II مسجد الحسن الثاني",
+        "city": "Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء",
+        "lat": 33.6082269,
+        "lon": -7.6323991,
+        "category": "attraction"
+    },
+    {
+        "name": "Îles Purpuraires جزر موكادور",
+        "city": "Inconnue",
+        "lat": 31.4976236,
+        "lon": -9.7881923,
+        "category": "Monument"
+    },
+    {
+        "name": "Plaza Toro بلاصة تورو",
+        "city": "Inconnue",
+        "lat": 35.7645349,
+        "lon": -5.7965294,
+        "category": "attraction"
+    },
+    {
+        "name": "Palais Bahia قصر الباهية",
+        "city": "Marrakech",
+        "lat": 31.6216368,
+        "lon": -7.9820295,
+        "category": "attraction"
+    },
+    {
+        "name": "Mausolée de Moulay Abdallah زاوية مولاي عبد الله",
+        "city": "Inconnue",
+        "lat": 34.0569518,
+        "lon": -4.9940985,
+        "category": "monument"
+    },
+    {
+        "name": "Ville historique de Meknès مدينة مكناس التاريخيّة",
+        "city": "Inconnue",
+        "lat": 33.886749,
+        "lon": -5.5561274,
+        "category": "Monument"
+    },
+    {
+        "name": "Rabat, capitale moderne et ville historique",
+        "city": "Inconnue",
+        "lat": 34.0147311,
+        "lon": -6.8337771,
+        "category": "Monument"
+    },
+    {
+        "name": "Médina de Marrakech مدينة مراكش",
+        "city": "Inconnue",
+        "lat": 31.6082337,
+        "lon": -7.9978668,
+        "category": "Monument"
+    },
+    {
+        "name": "مدينة الصويرة (قديمًا موغادور)",
+        "city": "Inconnue",
+        "lat": 31.505119,
+        "lon": -9.7794911,
+        "category": "Monument"
+    },
+    {
+        "name": "Médina d’Essaouira مدينة الصويرة",
+        "city": "Inconnue",
+        "lat": 31.5131351,
+        "lon": -9.7698034,
+        "category": "Monument"
+    },
+    {
+        "name": "Todgha Gorge",
+        "city": "Inconnue",
+        "lat": 31.6048926,
+        "lon": -5.5579794,
+        "category": "attraction"
+    }
+]
