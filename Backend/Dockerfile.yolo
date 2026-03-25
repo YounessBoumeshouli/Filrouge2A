@@ -1,0 +1,41 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Disable pip hash requirement (IMPORTANT FIX)
+ENV PIP_REQUIRE_HASHES=0
+ENV PIP_NO_CACHE_DIR=1
+
+# Install ONLY necessary system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgomp1 \
+    libjpeg-dev \
+    libpng-dev \
+    libtiff-dev \
+    libopenblas-dev \
+    python3-dev \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
+COPY requirements_yolo.txt requirements.txt
+
+# Install Python dependencies (with timeout to avoid broken downloads)
+RUN pip install --timeout 1000 -r requirements.txt
+
+# Copy app
+COPY yolo_api.py .
+COPY models/ ./models/
+COPY price_helper.py .
+
+# Expose port
+EXPOSE 8002
+
+# Run API
+CMD ["python", "yolo_api.py"]
