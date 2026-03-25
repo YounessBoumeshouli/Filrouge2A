@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_products": 6,
+    "total_valid_pairs": 296,
+    "total_issues": 55,
+    "training_ready": true
+  },
+  "products": {
+    "1": {
+      "name": "Ceramic Vase",
+      "images": 101,
+      "labels": 88,
+      "matched_pairs": 87,
+      "orphaned_images": 14,
+      "orphaned_labels": 1,
+      "invalid_labels": 0
+    },
+    "2": {
+      "name": "Tagine",
+      "images": 120,
+      "labels": 109,
+      "matched_pairs": 109,
+      "orphaned_images": 11,
+      "orphaned_labels": 0,
+      "invalid_labels": 0
+    },
+    "3": {
+      "name": "Ceramic Cups",
+      "images": 14,
+      "labels": 12,
+      "matched_pairs": 12,
+      "orphaned_images": 2,
+      "orphaned_labels": 0,
+      "invalid_labels": 0
+    },
+    "51": {
+      "name": "Handcrafted Tamegroute Ceramic Cake Stand with Sca",
+      "images": 61,
+      "labels": 58,
+      "matched_pairs": 58,
+      "orphaned_images": 3,
+      "orphaned_labels": 0,
+      "invalid_labels": 0
+    },
+    "66": {
+      "name": "White Ceramic Divided Plate with Silver Accents  5",
+      "images": 26,
+      "labels": 14,
+      "matched_pairs": 14,
+      "orphaned_images": 12,
+      "orphaned_labels": 0,
+      "invalid_labels": 0
+    },
+    "68": {
+      "name": "Tamegroute Ceramic Pitcher  Handmade Moroccan Wate",
+      "images": 28,
+      "labels": 16,
+      "matched_pairs": 16,
+      "orphaned_images": 12,
+      "orphaned_labels": 0,
+      "invalid_labels": 0
+    }
+  }
+}
