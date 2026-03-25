@@ -1,0 +1,87 @@
+{
+  "dataset_path": "..\\..\\marrakech_dataset_enhanced",
+  "total_images": 188,
+  "num_categories": 8,
+  "categories": [
+    "argan",
+    "crafts",
+    "jewelry",
+    "lanterns",
+    "leather",
+    "price_tags",
+    "spices",
+    "textiles"
+  ],
+  "category_stats": {
+    "argan": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "crafts": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "jewelry": {
+      "image_count": 13,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "lanterns": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "leather": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "price_tags": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "spices": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    },
+    "textiles": {
+      "image_count": 25,
+      "subdirectories": [
+        "bing",
+        "google",
+        "unsplash"
+      ]
+    }
+  },
+  "distribution": {
+    "min_count": 13,
+    "max_count": 25,
+    "avg_count": 23.5
+  },
+  "has_splits": false
+}

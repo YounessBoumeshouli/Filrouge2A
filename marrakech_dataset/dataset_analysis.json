@@ -1,0 +1,98 @@
+{
+  "dataset_path": "..\\..\\marrakech_dataset",
+  "total_images": 23791,
+  "num_categories": 6,
+  "categories": [
+    "JEWELERY",
+    "crafts",
+    "lantern",
+    "material_fabric",
+    "spices",
+    "textile"
+  ],
+  "category_stats": {
+    "JEWELERY": {
+      "image_count": 4677,
+      "subdirectories": [
+        "data",
+        "data\\test",
+        "data\\test\\jewellery bracelet",
+        "data\\test\\jewellery diamond",
+        "data\\test\\jewellery necklace",
+        "data\\test\\jewellery ring",
+        "data\\train",
+        "data\\train\\jewellery bracelet",
+        "data\\train\\jewellery diamond",
+        "data\\train\\jewellery necklace",
+        "data\\train\\jewellery ring",
+        "data\\val",
+        "data\\val\\jewellery bracelet",
+        "data\\val\\jewellery diamond",
+        "data\\val\\jewellery necklace",
+        "data\\val\\jewellery ring"
+      ]
+    },
+    "crafts": {
+      "image_count": 607,
+      "subdirectories": []
+    },
+    "lantern": {
+      "image_count": 729,
+      "subdirectories": [
+        "data",
+        "data\\test",
+        "data\\test\\lantern",
+        "data\\train",
+        "data\\train\\lantern",
+        "data\\val",
+        "data\\val\\lantern"
+      ]
+    },
+    "material_fabric": {
+      "image_count": 3397,
+      "subdirectories": [
+        "data",
+        "data\\test",
+        "data\\test\\material fabric",
+        "data\\train",
+        "data\\train\\material fabric",
+        "data\\val",
+        "data\\val\\material fabric"
+      ]
+    },
+    "spices": {
+      "image_count": 11000,
+      "subdirectories": [
+        "black pepper",
+        "cardamom",
+        "cinnamon",
+        "cloves",
+        "coriander",
+        "cumin",
+        "ginger",
+        "nutmeg",
+        "paprika",
+        "saffron",
+        "turmeric"
+      ]
+    },
+    "textile": {
+      "image_count": 3381,
+      "subdirectories": [
+        "data",
+        "data\\test",
+        "data\\test\\material carpet",
+        "data\\train",
+        "data\\train\\material carpet",
+        "data\\val",
+        "data\\val\\material carpet"
+      ]
+    }
+  },
+  "distribution": {
+    "min_count": 607,
+    "max_count": 11000,
+    "avg_count": 3965.1666666666665
+  },
+  "has_splits": false
+}

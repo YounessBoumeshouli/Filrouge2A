@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "source": "Morocco Travel Planner — Marrakech Souk Price Guide 2025/2026",
+    "url": "https://moroccotravelplanner.com/marrakech-souk-price-guide-and-opening-hours-2025-2026-edition/",
+    "currency": "MAD (Moroccan Dirham)",
+    "generated_at": "2026-03-09T11:44:49.133094",
+    "note": "Prices are averages. Haggling expected. Deeper in souks = lower prices."
+  },
+  "categories": [
+    "jewelry",
+    "lanterns",
+    "leather",
+    "textiles",
+    "spices",
+    "price_tags",
+    "argan",
+    "crafts"
+  ],
+  "price_reference": [
+    {
+      "category": "leather",
+      "product": "Leather Slippers (Babouches)",
+      "arabic_name": "بلغة",
+      "souk": "Souk Smata / Souk Cherratine",
+      "price_min_mad": 80,
+      "price_max_mad": 150,
+      "notes": "Traditional pointed-toe leather slippers. Price rises with embroidery quality."
+    },
+    {
+      "category": "leather",
+      "product": "Leather Bag",
+      "arabic_name": "شنطة جلدية",
+      "souk": "Souk Cherratine",
+      "price_min_mad": 200,
+      "price_max_mad": 600,
+      "notes": "Handmade backpacks, purses, belts. Quality varies widely."
+    },
+    {
+      "category": "crafts",
+      "product": "Small Tagine Pot",
+      "arabic_name": "طاجين",
+      "souk": "Souk Semmarine",
+      "price_min_mad": 20,
+      "price_max_mad": 50,
+      "notes": "Decorative or functional clay cooking pot."
+    },
+    {
+      "category": "crafts",
+      "product": "Ceramic Bowl",
+      "arabic_name": "طبق خزفي",
+      "souk": "Souk Semmarine / Chabi Chic",
+      "price_min_mad": 50,
+      "price_max_mad": 150,
+      "notes": "Hand-painted. Larger decorative pieces cost more."
+    },
+    {
+      "category": "crafts",
+      "product": "Handwoven Basket",
+      "arabic_name": "سلة مصنوعة يدويا",
+      "souk": "Souk Chouari / Rahba Kedima",
+      "price_min_mad": 100,
+      "price_max_mad": 200,
+      "notes": "Colorful, lightweight. Good travel souvenir."
+    },
+    {
+      "category": "textiles",
+      "product": "Scarf",
+      "arabic_name": "وشاح",
+      "souk": "Souk Semmarine / Souk Ahiak",
+      "price_min_mad": 50,
+      "price_max_mad": 70,
+      "notes": "Lightweight cotton or silk blend."
+    },
+    {
+      "category": "textiles",
+      "product": "Small Silk Rug",
+      "arabic_name": "زربية صغيرة",
+      "souk": "Souk Zrabi",
+      "price_min_mad": 300,
+      "price_max_mad": 800,
+      "notes": "Handwoven. Price depends heavily on size and knot density."
+    },
+    {
+      "category": "textiles",
+      "product": "Berber Carpet / Beni Ourain Rug",
+      "arabic_name": "زربية بربرية",
+      "souk": "Souk Zrabi / 33 Rue Majorelle",
+      "price_min_mad": 800,
+      "price_max_mad": 5000,
+      "notes": "High-end handcrafted rugs. Shipping often available from shops."
+    },
+    {
+      "category": "textiles",
+      "product": "Kaftan / Djellaba",
+      "arabic_name": "قفطان / جلابة",
+      "souk": "Souk Ahiak / boutiques in Gueliz",
+      "price_min_mad": 150,
+      "price_max_mad": 1500,
+      "notes": "Price varies hugely by fabric quality and embroidery detail."
+    },
+    {
+      "category": "lanterns",
+      "product": "Brass Lantern (small–medium)",
+      "arabic_name": "فانوس نحاسي",
+      "souk": "Souk Haddadine",
+      "price_min_mad": 100,
+      "price_max_mad": 500,
+      "notes": "From guide table. More elaborate/large ones: 300–800 MAD."
+    },
+    {
+      "category": "lanterns",
+      "product": "Moroccan Lantern (large / decorative)",
+      "arabic_name": "فانوس مغربي كبير",
+      "souk": "Souk Haddadine / Chabi Chic",
+      "price_min_mad": 300,
+      "price_max_mad": 800,
+      "notes": "Metal and glass. Creates stunning shadow patterns when lit."
+    },
+    {
+      "category": "argan",
+      "product": "Argan Oil (medium bottle)",
+      "arabic_name": "زيت أركان",
+      "souk": "Souk El Attarine / Arganino / Assouss Argane",
+      "price_min_mad": 150,
+      "price_max_mad": 300,
+      "notes": "Morocco's 'liquid gold'. Real argan oil: thick paste, strong nut smell."
+    },
+    {
+      "category": "spices",
+      "product": "Spices (per 100g)",
+      "arabic_name": "بهارات",
+      "souk": "Rahba Kedima / Souk Ableuh / Souk El Attarine",
+      "price_min_mad": 30,
+      "price_max_mad": 80,
+      "notes": "Cumin, saffron, ras el hanout, dried rosebuds. Price by weight."
+    },
+    {
+      "category": "jewelry",
+      "product": "Brass / Silver Jewelry",
+      "arabic_name": "مجوهرات",
+      "souk": "Souk des Bijoutiers",
+      "price_min_mad": 100,
+      "price_max_mad": 3000,
+      "notes": "Berber cuffs, earrings, Tuareg designs. Vintage pieces cost more."
+    },
+    {
+      "category": "price_tags",
+      "product": "Perfume / Solid Musk",
+      "arabic_name": "عطر / مسك",
+      "souk": "Souk El Attarine / Maison De La Parfum Marrakech",
+      "price_min_mad": 50,
+      "price_max_mad": 300,
+      "notes": "Sold as stones or essential oils."
+    }
+  ]
+}
