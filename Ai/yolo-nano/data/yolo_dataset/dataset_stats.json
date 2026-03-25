@@ -1,0 +1,26 @@
+{
+  "total_images": 23791,
+  "num_classes": 6,
+  "class_counts": {
+    "JEWELERY": 4677,
+    "crafts": 607,
+    "lantern": 729,
+    "material_fabric": 3397,
+    "spices": 11000,
+    "textile": 3381
+  },
+  "categories": [
+    "JEWELERY",
+    "crafts",
+    "lantern",
+    "material_fabric",
+    "spices",
+    "textile"
+  ],
+  "pre_split_categories": [
+    "JEWELERY",
+    "lantern",
+    "material_fabric",
+    "textile"
+  ]
+}

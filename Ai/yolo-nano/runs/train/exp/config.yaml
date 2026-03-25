@@ -1,0 +1,63 @@
+augment:
+  degrees: 0.0
+  fliplr: 0.5
+  flipud: 0.0
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  mixup: 0.0
+  mosaic: 1.0
+  perspective: 0.0
+  scale: 0.5
+  shear: 0.0
+  translate: 0.1
+data:
+  names:
+  - JEWELERY
+  - crafts
+  - lantern
+  - material_fabric
+  - spices
+  - textile
+  nc: 6
+  path: c:\Users\boume\Briefs\Filrouge2A\Ai\yolo-nano\data\yolo_dataset
+  test: test/images
+  train: train/images
+  val: val/images
+inference:
+  agnostic_nms: false
+  conf_thres: 0.25
+  iou_thres: 0.45
+  max_det: 1000
+loss:
+  box: 0.05
+  cls: 0.5
+  obj: 1.0
+model:
+  anchors: 3
+  architecture: nano
+  depth_multiple: 0.33
+  input_size:
+  - 416
+  - 416
+  name: yolo-nano
+  num_classes: 17
+  width_multiple: 0.25
+optimizer:
+  lr0: 0.01
+  lrf: 0.01
+  momentum: 0.937
+  name: SGD
+  weight_decay: 0.0005
+train:
+  batch_size: 16
+  dropout_rate: 0.2
+  early_stopping: true
+  epochs: 100
+  learning_rate: 0.01
+  momentum: 0.937
+  patience: 10
+  warmup_bias_lr: 0.1
+  warmup_epochs: 3
+  warmup_momentum: 0.8
+  weight_decay: 0.001

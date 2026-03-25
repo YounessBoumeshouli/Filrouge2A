@@ -1,0 +1,27 @@
+{
+  "class_to_id": {
+    "JEWELERY": 0,
+    "crafts": 1,
+    "lantern": 2,
+    "material_fabric": 3,
+    "spices": 4,
+    "textile": 5
+  },
+  "id_to_class": {
+    "0": "JEWELERY",
+    "1": "crafts",
+    "2": "lantern",
+    "3": "material_fabric",
+    "4": "spices",
+    "5": "textile"
+  },
+  "num_classes": 6,
+  "categories": [
+    "JEWELERY",
+    "crafts",
+    "lantern",
+    "material_fabric",
+    "spices",
+    "textile"
+  ]
+}

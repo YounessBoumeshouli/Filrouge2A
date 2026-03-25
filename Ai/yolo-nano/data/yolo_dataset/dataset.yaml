@@ -1,0 +1,12 @@
+names:
+- JEWELERY
+- crafts
+- lantern
+- material_fabric
+- spices
+- textile
+nc: 6
+path: c:\Users\boume\Briefs\Filrouge2A\Ai\yolo-nano\data\yolo_dataset
+test: test/images
+train: train/images
+val: val/images

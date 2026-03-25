@@ -1,0 +1,12 @@
+{
+  "model_path": "c:\\Users\\boume\\Briefs\\Filrouge2A\\Ai\\models\\custom_yolo_model.pt",
+  "classes": [
+    "Ceramic Vase",
+    "Ceramic Cups",
+    "Handcrafted Tamegroute Ceramic Cake Stand with Sca",
+    "White Ceramic Divided Plate with Silver Accents  5",
+    "Tamegroute Ceramic Pitcher  Handmade Moroccan Wate"
+  ],
+  "dataset": "c:\\Users\\boume\\Briefs\\Filrouge2A\\Ai\\data\\custom_dataset\\dataset.yaml",
+  "note": "This is a base YOLOv8n model. For better performance on ceramics, train with your dataset."
+}
