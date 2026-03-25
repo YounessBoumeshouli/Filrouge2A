@@ -1,1 +1,7 @@
 /.idea
+package.json
+package-lock.json
+Ai/monuments_maroc.json
+__init__.py
+Frontend/node_modules/
+node_modules/
