@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime, Text, Boolean, ForeignKey, ARRAY
-from sqlalchemy.dialects.postgresql import UUID, JSONB
+from sqlalchemy.dialects.postgresql import UUID, JSON
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 from .database import Base
@@ -24,7 +24,6 @@ class Location(Base):
     description = Column(Text)
     image_url = Column(String, nullable=True)
 
-# Tracking Models
 class UserProfile(Base):
     __tablename__ = "user_profiles"
     
@@ -36,7 +35,7 @@ class UserProfile(Base):
     user_agent_hash = Column(String(64))
     consent_given = Column(Boolean, default=False)
     consent_timestamp = Column(DateTime)
-    preferences = Column(JSONB, default={})
+    preferences = Column(JSON, default={})
     total_sessions = Column(Integer, default=1)
     total_location_scans = Column(Integer, default=0)
     total_price_scans = Column(Integer, default=0)
@@ -49,7 +48,7 @@ class UserSession(Base):
     session_start = Column(DateTime, default=func.now())
     session_end = Column(DateTime)
     pages_visited = Column(Integer, default=0)
-    features_used = Column(ARRAY(String), default=[])
+    features_used = Column(JSON)
     session_duration = Column(Integer, default=0)
 
 class LocationScanHistory(Base):
@@ -59,7 +58,7 @@ class LocationScanHistory(Base):
     user_profile_id = Column(UUID(as_uuid=True), ForeignKey("user_profiles.id", ondelete="CASCADE"))
     scan_timestamp = Column(DateTime, default=func.now())
     location_type = Column(String(50))
-    location_data = Column(JSONB)
+    location_data = Column(JSON)
     scan_method = Column(String(50))
     accuracy_level = Column(String(20))
 
@@ -98,8 +97,8 @@ class UserJourneyMap(Base):
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     user_profile_id = Column(UUID(as_uuid=True), ForeignKey("user_profiles.id", ondelete="CASCADE"))
     journey_date = Column(DateTime, default=func.current_date())
-    locations_visited = Column(JSONB, default=[])
-    activities = Column(JSONB, default=[])
-    expenses = Column(JSONB, default=[])
+    locations_visited = Column(JSON, default=[])
+    activities = Column(JSON, default=[])
+    expenses = Column(JSON, default=[])
     satisfaction_score = Column(Integer)
     notes = Column(Text)
