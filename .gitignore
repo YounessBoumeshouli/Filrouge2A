@@ -5,3 +5,5 @@ Ai/monuments_maroc.json
 __init__.py
 Frontend/node_modules/
 node_modules/
+images/
+logs/
