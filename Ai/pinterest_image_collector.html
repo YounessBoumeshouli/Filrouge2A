@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Image URL Collector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e60023;
+            text-align: center;
+        }
+        .step {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #e60023;
+            border-radius: 5px;
+        }
+        .step h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        button {
+            background: #e60023;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #d50020;
+        }
+        .url-list {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .pinterest-link {
+            display: inline-block;
+            background: #e60023;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .pinterest-link:hover {
+            background: #d50020;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏺 Pinterest Image Collector</h1>
+        <p><strong>Target:</strong> Handcrafted Tamegroute Ceramic Cake Stand</p>
+        
+        <div class="step">
+            <h3>Step 1: Open Pinterest</h3>
+            <p>Click the link below to open Pinterest search:</p>
+            <a href="https://www.pinterest.com/search/pins/?q=Handcrafted%20Tamegroute%20Ceramic%20Cake%20Stand" 
+               target="_blank" class="pinterest-link">🔍 Search Pinterest</a>
+        </div>
+        
+        <div class="step">
+            <h3>Step 2: Collect Image URLs</h3>
+            <p>For each image you want to download:</p>
+            <ol>
+                <li>Right-click on the image</li>
+                <li>Select "Copy image address" or "Copy image URL"</li>
+                <li>Paste the URL in the text area below</li>
+                <li>Add one URL per line</li>
+            </ol>
+        </div>
+        
+        <div class="step">
+            <h3>Step 3: Paste URLs Here</h3>
+            <textarea id="urlList" placeholder="Paste Pinterest image URLs here, one per line...
+Example:
+https://i.pinimg.com/736x/ab/cd/ef/abcdef123456.jpg
+https://i.pinimg.com/736x/12/34/56/123456abcdef.jpg"></textarea>
+            <br>
+            <button onclick="processUrls()">📋 Process URLs</button>
+            <button onclick="clearUrls()">🗑️ Clear</button>
+        </div>
+        
+        <div class="step">
+            <h3>Step 4: Generated Python Code</h3>
+            <p>Copy this code and save it as <code>download_images.py</code>:</p>
+            <textarea id="pythonCode" readonly></textarea>
+            <br>
+            <button onclick="copyCode()">📄 Copy Code</button>
+        </div>
+        
+        <div class="step">
+            <h3>Step 5: Run the Download</h3>
+            <p>Save the generated code and run:</p>
+            <code>python download_images.py</code>
+        </div>
+    </div>
+
+    <script>
+        function processUrls() {
+            const urls = document.getElementById('urlList').value
+                .split('\n')
+                .map(url => url.trim())
+                .filter(url => url && !url.startsWith('#'))
+                .map(url => `    "${url}",`);
+            
+            if (urls.length === 0) {
+                alert('Please paste some image URLs first!');
+                return;
+            }
+            
+            const pythonCode = `#!/usr/bin/env python3
+import requests
+from pathlib import Path
+from PIL import Image
+import io
+import time
+
+# Image URLs collected from Pinterest
+IMAGE_URLS = [
+${urls.join('\n')}
+]
+
+def download_image(url, save_path):
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Referer': 'https://www.pinterest.com/',
+        }
+        
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        
+        img = Image.open(io.BytesIO(response.content))
+        if img.mode in ('RGBA', 'P', 'LA'):
+            img = img.convert('RGB')
+        
+        # Resize if too large
+        if img.width > 1024 or img.height > 1024:
+            img.thumbnail((1024, 1024), Image.Resampling.LANCZOS)
+        
+        img.save(save_path, 'JPEG', quality=90)
+        print(f"✅ Downloaded: {save_path.name} ({img.width}x{img.height})")
+        return True
+        
+    except Exception as e:
+        print(f"❌ Failed to download {url[:50]}...: {e}")
+        return False
+
+def main():
+    output_folder = Path(r"c:\Users\boume\Briefs\Filrouge2A\images\product_51_Handcrafted Tamegroute Ceramic Cake Stand with Sca")
+    output_folder.mkdir(parents=True, exist_ok=True)
+    
+    downloaded = 0
+    current_num = 20  # Start from image_20.jpg
+    
+    print(f"🏺 Downloading {len(IMAGE_URLS)} images...")
+    print(f"📁 Output folder: {output_folder}")
+    
+    for i, url in enumerate(IMAGE_URLS):
+        save_path = output_folder / f"image_{current_num}.jpg"
+        
+        # Skip existing files
+        if save_path.exists():
+            print(f"⏭️ Skipping image_{current_num}.jpg (exists)")
+            current_num += 1
+            continue
+        
+        print(f"📥 Downloading {i+1}/{len(IMAGE_URLS)}: image_{current_num}.jpg")
+        
+        if download_image(url, save_path):
+            downloaded += 1
+            current_num += 1
+            time.sleep(1)  # Be respectful
+        else:
+            continue
+    
+    print(f"\n🎉 Downloaded {downloaded} images!")
+    print(f"📁 Saved to: {output_folder}")
+
+if __name__ == "__main__":
+    main()`;
+            
+            document.getElementById('pythonCode').value = pythonCode;
+            alert(`Generated code for ${urls.length} URLs!`);
+        }
+        
+        function clearUrls() {
+            document.getElementById('urlList').value = '';
+            document.getElementById('pythonCode').value = '';
+        }
+        
+        function copyCode() {
+            const code = document.getElementById('pythonCode');
+            code.select();
+            document.execCommand('copy');
+            alert('Code copied to clipboard!');
+        }
+    </script>
+</body>
+</html>
