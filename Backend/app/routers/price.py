@@ -1,4 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
+from pydantic import BaseModel
+from typing import Optional
 from sqlalchemy.orm import Session
 import json
 import base64
@@ -6,6 +8,9 @@ import sys
 import os
 from ..database import get_db
 from ..models import ScanHistory
+
+class ImageRequest(BaseModel):
+    image: Optional[str] = None
 
 model_api = None
 classifier_status = "No classifier loaded"
@@ -40,16 +45,22 @@ router = APIRouter(prefix="/api/price", tags=["price"])
 
 @router.post("/analyze")
 async def analyze_price(
-    file: UploadFile = File(None), image: str = None, db: Session = Depends(get_db)
+    file: UploadFile = File(None),
+    body: ImageRequest = None,
+    db: Session = Depends(get_db)
 ):
     try:
-        # Handle both file upload and base64 image
+        image = body.image if body else None
+
         if file:
             if not file.content_type.startswith("image/"):
                 raise HTTPException(status_code=400, detail="File must be an image")
             contents = await file.read()
             image_base64 = base64.b64encode(contents).decode("utf-8")
         elif image:
+            # Strip data URI prefix if present
+            if "," in image:
+                image = image.split(",")[1]
             image_base64 = image
         else:
             raise HTTPException(

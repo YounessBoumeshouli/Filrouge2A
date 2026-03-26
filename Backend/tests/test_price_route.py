@@ -22,9 +22,8 @@ def test_analyze_price_success_file(client, dummy_image):
     assert response.status_code == 200
     assert response.json()["success"] is True
 
-
 def test_analyze_price_success_base64(client):
-    dummy_b64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+    dummy_b64 = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
 
     with patch("app.routers.price.model_api") as mock_model:
         mock_model.predict_from_base64.return_value = {
