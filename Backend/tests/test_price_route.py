@@ -1,6 +1,5 @@
 import pytest
 from unittest.mock import patch
-import json
 @pytest.fixture
 def dummy_image():
     return b"dummy_image_content"
