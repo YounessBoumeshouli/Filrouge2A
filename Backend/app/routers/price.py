@@ -9,8 +9,10 @@ import os
 from ..database import get_db
 from ..models import ScanHistory
 
+
 class ImageRequest(BaseModel):
     image: Optional[str] = None
+
 
 model_api = None
 classifier_status = "No classifier loaded"
@@ -47,7 +49,7 @@ router = APIRouter(prefix="/api/price", tags=["price"])
 async def analyze_price(
     file: UploadFile = File(None),
     body: ImageRequest = None,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
 ):
     try:
         image = body.image if body else None
