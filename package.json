@@ -1,0 +1,17 @@
+{
+  "name": "yolo-model-server",
+  "version": "1.0.0",
+  "description": "Simple server for YOLO model API",
+  "main": "model_server.js",
+  "scripts": {
+    "start": "node model_server.js",
+    "dev": "nodemon model_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
