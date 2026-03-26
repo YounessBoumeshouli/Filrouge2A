@@ -5,8 +5,6 @@ Comprehensive model evaluation to identify prediction issues
 
 import os
 import sys
-import json
-import numpy as np
 from collections import defaultdict
 
 # Add AI path

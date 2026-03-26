@@ -11,7 +11,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import uvicorn
 import cv2
-import numpy as np
 from PIL import Image
 import io
 import base64

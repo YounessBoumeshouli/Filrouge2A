@@ -1,10 +1,8 @@
-import random
 
 class AIService:
     @staticmethod
     def analyze_location(image_bytes: bytes) -> dict:
         # TODO: Integrate real AI model (YOLO/ResNet/Google Vision)
-        # Mock response
         return {
             "name": "Hassan II Mosque",
             "city": "Casablanca",

@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, Header
 from app.core.exceptions import AppException
 import re
 from app.core.database import get_db
-from app.schemas.user import UserCreate, LoginRequest, Token, UserRead
+from app.schemas.user import UserCreate, LoginRequest, Token
 from sqlalchemy.orm import Session
 from app.services.user_service import Create_user, get_user_by_email, get_user_by_id
 from app.services.auth_service import authenticate_user

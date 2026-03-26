@@ -3,7 +3,7 @@
 Script to regenerate RAG embeddings with new Marrakech places data
 """
 
-import os
+# import os
 import sys
 import json
 import logging
@@ -21,7 +21,7 @@ def regenerate_embeddings():
     """Regenerate embeddings with new Marrakech data"""
     try:
         # Import after path setup
-        from app.rag.retriever_simple import model, client, collection
+        from app.rag.retriever_simple import model, client
         
         logger.info("🗑️ Clearing existing embeddings...")
         

@@ -1,5 +1,4 @@
 import socket
-import sys
 
 def is_port_available(port):
     """Check if a port is available"""

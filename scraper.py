@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 import json
 import os
 from urllib.parse import urljoin, urlparse
@@ -84,23 +84,28 @@ class MoroccanCeramicScraper:
             try:
                 title_element = self.driver.find_element(By.CSS_SELECTOR, "h1, .product-title, .title")
                 product_data['title'] = title_element.text.strip()
-            except:
+            except Exception as e:
                 product_data['title'] = "No title found"
+                print(f"{product_data} , {e}")
             
             # Get description
             try:
                 desc_element = self.driver.find_element(By.CSS_SELECTOR, ".description, .product-description, p")
                 product_data['description'] = desc_element.text.strip()
-            except:
+            except Exception as e:
                 product_data['description'] = "No description found"
+                print(f"{product_data} , {e}")
+
+
             
             # Get price
             try:
                 price_element = self.driver.find_element(By.CSS_SELECTOR, ".price, .product-price, [class*='price']")
                 product_data['price'] = price_element.text.strip()
-            except:
+            except Exception as e :
                 product_data['price'] = "Price not found"
-            
+                print(f"{product_data}, {e}")
+                
             # Get images
             image_elements = self.driver.find_elements(By.CSS_SELECTOR, "img")
             for img in image_elements:

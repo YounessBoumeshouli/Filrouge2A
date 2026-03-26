@@ -8,10 +8,9 @@ from sqlalchemy.orm import sessionmaker
 from datetime import datetime, timedelta
 import os
 import logging
-from typing import List, Dict, Any
+from typing import Dict, Any
 import json
 
-# Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

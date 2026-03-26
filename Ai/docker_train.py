@@ -9,7 +9,7 @@ Optimized YOLO training script for Docker container environment.
 import shutil
 from pathlib import Path
 import torch
-
+import os
 # Disable MLflow completely
 os.environ['MLFLOW_TRACKING_URI'] = ''
 os.environ['MLFLOW_DISABLE'] = '1'

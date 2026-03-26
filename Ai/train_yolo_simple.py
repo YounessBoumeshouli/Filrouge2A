@@ -351,7 +351,7 @@ def main():
             for i, cls in enumerate(classes):
                 print(f"   {i}: {cls}")
         else:
-            print(f"\n❌ Training failed!")
+            print("\n❌ Training failed!")
             
     except Exception as e:
         print(f"\n💥 Error: {e}")

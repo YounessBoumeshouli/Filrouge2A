@@ -23,7 +23,7 @@ def query_root(query: QueryCreate, db: Session = Depends(get_db)):
         print(f"❓ Question: {query.query_text}")
         print("="*50 + "\n")
         
-        logger.info(f"=== NOUVELLE REQUÊTE ===")
+        logger.info("=== NOUVELLE REQUÊTE ===")
         logger.info(f"👤 User ID: {query.user_id}")
         logger.info(f"❓ Question: {query.query_text}")
         

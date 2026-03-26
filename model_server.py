@@ -1,13 +1,11 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from flask_cors import CORS
-import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
 @app.route('/model-info', methods=['GET'])
 def model_info():
-    """Return model information"""
     return jsonify({
         "model_name": "YOLOv8",
         "version": "8.0.0",

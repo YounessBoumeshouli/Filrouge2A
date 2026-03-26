@@ -1,8 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from typing import List, Optional
+from typing import  Optional
 from datetime import datetime
-import json
 import uuid
 
 from ..database import get_db
@@ -61,8 +60,6 @@ async def start_journey(request: JourneyStartRequest, db: Session = Depends(get_
             db.commit()
             db.refresh(user_profile)
 
-        # Create new journey
-        journey_id = str(uuid.uuid4())
         journey = UserJourneyMap(
             user_profile_id=user_profile.id,
             journey_date=datetime.now(),

@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 """
 Test script for the updated Marrakech RAG system
 """
 
 import requests
-import json
+# import json
 import time
 
 # Test the RAG API with Marrakech queries

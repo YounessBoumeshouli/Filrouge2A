@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-
+import pytest
 # Test the RAG API - Updated for new port
 BASE_URL = "http://localhost:8002"  # Changed from 8001 to 8002
 @pytest.fixture

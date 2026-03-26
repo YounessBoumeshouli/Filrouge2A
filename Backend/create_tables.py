@@ -5,11 +5,9 @@ This script creates all the required tables for the Tourist Helper application
 """
 
 import sys
-import os
 sys.path.append('/app')
 
 from app.database import engine, Base
-from app.models import *
 
 def create_tables():
     """Create all database tables"""

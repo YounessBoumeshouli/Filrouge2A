@@ -2,19 +2,14 @@ from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
 from sqlalchemy.orm import Session
 import json
 import base64
-import io
-from PIL import Image
 import sys
 import os
 from ..database import get_db
-from ..schemas import PriceResponse
 from ..models import ScanHistory
 
-# Try to load classifiers, but make them optional
 model_api = None
 classifier_status = "No classifier loaded"
 
-# Add the AI model path to Python path
 ai_path = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'Ai', 'efficientNet')
 if os.path.exists(ai_path):
     sys.path.append(ai_path)

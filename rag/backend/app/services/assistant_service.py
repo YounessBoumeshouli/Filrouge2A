@@ -215,8 +215,8 @@ def generate(question: str, evaluate: bool = False, k: int = 5) -> str:
             if mlflow.active_run():
                 mlflow.log_param("error", error_msg[:100])
                 mlflow.log_metric("success", 0)
-        except:
-            pass
+        except Exception as e:
+                print(f"MLflow logging failed: {e}")
         
         if "timed out" in error_msg.lower() or "timeout" in error_msg.lower():
             raise Exception(

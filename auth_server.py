@@ -19,8 +19,8 @@ if os.path.exists(USERS_FILE):
     try:
         with open(USERS_FILE, 'r') as f:
             users_db = json.load(f)
-    except:
-        users_db = {}
+    except (FileNotFoundError, json.JSONDecodeError):
+            users_db = {}
 
 def save_users():
     """Save users to file"""

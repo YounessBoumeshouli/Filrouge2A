@@ -20,7 +20,6 @@ Usage:
     python build_price_dataset.py
 """
 
-import os
 import csv
 import json
 import hashlib

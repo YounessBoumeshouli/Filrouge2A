@@ -1,5 +1,4 @@
 import pytest
-import base64
 from unittest.mock import patch
 
 @pytest.fixture

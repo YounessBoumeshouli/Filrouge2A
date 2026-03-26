@@ -53,8 +53,7 @@ class YOLONanoService:
             sys.path.append(str(Path(__file__).parent.parent.parent / 'Ai' / 'yolo-nano'))
             
             from utils.models import YOLONano
-            from utils.general import non_max_suppression, scale_coords, plot_one_box
-            
+
             # Load config
             with open(config_path, 'r') as f:
                 config = yaml.safe_load(f)

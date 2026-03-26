@@ -16,9 +16,7 @@ start_time = time.time()
 
 with mlflow.start_run(run_name="table_chunking"):
 
-    # ---------------------------
-    # Log Static Params
-    # ---------------------------
+
     mlflow.log_param("input_markdown_file", md_file)
     mlflow.log_param("output_json_file", json_output)
     mlflow.log_param("chunking_strategy", "table_row_based")

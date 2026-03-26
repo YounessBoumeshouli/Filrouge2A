@@ -4,7 +4,6 @@ FastAPI endpoints for object detection using YOLO-Nano
 """
 
 from fastapi import APIRouter, HTTPException, UploadFile, File
-from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List, Optional
 import base64
