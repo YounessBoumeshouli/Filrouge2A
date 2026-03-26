@@ -8,7 +8,7 @@ FastAPI server to serve the trained YOLO model for frontend integration.
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+# from fastapi.responses import JSONResponse
 import uvicorn
 import cv2
 from PIL import Image

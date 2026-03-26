@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import  Optional
 from datetime import datetime
-import uuid
+# import uuid
 
 from ..database import get_db
 from ..models import UserProfile, LocationScanHistory, UserJourneyMap

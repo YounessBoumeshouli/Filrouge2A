@@ -177,7 +177,7 @@ class PriceHelper:
                 "class_name": class_name
             }
         
-        product_data = self.price_data[class_name]
+        # product_data = self.price_data[class_name]
         
         # Get base price range in MAD
         # base_min = product_data["price_min_mad"]

@@ -43,8 +43,8 @@ with mlflow.start_run(run_name="table_chunking"):
         chunks = []
         buffer = ""
 
-        for l in lines[2:]:
-            buffer += l + "\n"
+        for line in lines[2:]:
+            buffer += line + "\n"
             if buffer.count("|") >= num_cols + 1:
                 cells = [c.strip().replace("\n"," ") for c in buffer.strip().strip("|").split("|")]
                 row = {}

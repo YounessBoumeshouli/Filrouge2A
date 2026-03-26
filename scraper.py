@@ -105,7 +105,7 @@ class MoroccanCeramicScraper:
             except Exception as e :
                 product_data['price'] = "Price not found"
                 print(f"{product_data}, {e}")
-                
+
             # Get images
             image_elements = self.driver.find_elements(By.CSS_SELECTOR, "img")
             for img in image_elements:

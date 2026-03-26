@@ -1,5 +1,5 @@
 import requests
-import json
+# import json
 import time
 import pytest
 # Test the RAG API - Updated for new port
