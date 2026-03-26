@@ -8,7 +8,6 @@ import pytest
 BASE_URL = "http://localhost:8002"  # Changed from 8001 to 8002
 
 
-
 def is_server_running():
     try:
         requests.get(f"{BASE_URL}/health", timeout=2)
@@ -16,14 +15,16 @@ def is_server_running():
     except Exception:
         return False
 
+
 pytestmark = pytest.mark.skipif(
-    not is_server_running(),
-    reason="RAG API server not running on port 8002"
+    not is_server_running(), reason="RAG API server not running on port 8002"
 )
+
 
 @pytest.fixture
 def question():
     return "What is Marrakech famous for?"
+
 
 def test_health():
     """Test health endpoint"""
@@ -31,7 +32,6 @@ def test_health():
     assert response.status_code == 200
     data = response.json()
     assert "status" in data or "health" in data.get("status", "")
-
 
 
 def test_query(question):
