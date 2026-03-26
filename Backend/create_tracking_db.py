@@ -11,13 +11,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database configuration
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/tourist_helper")
+DATABASE_URL = os.getenv(
+    "DATABASE_URL", "postgresql://user:password@localhost/tourist_helper"
+)
+
 
 def create_tracking_tables():
     """Create all tracking tables"""
-    
+
     engine = create_engine(DATABASE_URL)
-    
+
     # SQL statements to create tracking tables
     tracking_tables_sql = """
     -- User Profiles Table
@@ -153,28 +156,29 @@ def create_tracking_tables():
     LEFT JOIN hotel_stays hs ON up.user_id = hs.user_id
     GROUP BY up.user_id, up.email, up.traveler_type, up.created_at, up.last_active;
     """
-    
+
     try:
         with engine.connect() as connection:
             # Execute the SQL statements
-            for statement in tracking_tables_sql.split(';'):
+            for statement in tracking_tables_sql.split(";"):
                 if statement.strip():
                     connection.execute(text(statement))
             connection.commit()
-            
+
         print("✅ Successfully created all tracking tables and indexes")
         print("✅ Created triggers for automatic last_active updates")
         print("✅ Created user_analytics view")
-        
+
     except Exception as e:
         print(f"❌ Error creating tracking tables: {e}")
         raise
 
+
 def create_sample_data():
     """Create sample tracking data for testing"""
-    
+
     engine = create_engine(DATABASE_URL)
-    
+
     sample_data_sql = """
     -- Insert sample user
     INSERT INTO user_profiles (email, traveler_type, consent_tracking) 
@@ -238,25 +242,26 @@ def create_sample_data():
         ('Hand-painted Tagine', 'Ceramics', 35.0, 45.0, 'Souk Semmarine')
     ) AS products(product_name, product_category, detected_price, owner_asking_price, location);
     """
-    
+
     try:
         with engine.connect() as connection:
-            for statement in sample_data_sql.split(';'):
+            for statement in sample_data_sql.split(";"):
                 if statement.strip():
                     connection.execute(text(statement))
             connection.commit()
-            
+
         print("✅ Successfully created sample tracking data")
-        
+
     except Exception as e:
         print(f"❌ Error creating sample data: {e}")
+
 
 if __name__ == "__main__":
     print("🚀 Creating tracking database tables...")
     create_tracking_tables()
-    
+
     print("\n📊 Creating sample data...")
     create_sample_data()
-    
+
     print("\n✅ Database setup complete!")
     print("You can now use the tracking system with real database persistence.")

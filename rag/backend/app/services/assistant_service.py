@@ -12,7 +12,9 @@ logger = logging.getLogger(__name__)
 # Prometheus metrics
 query_counter = Counter("rag_queries_total", "Total RAG queries")
 latency_hist = Histogram("rag_latency_seconds", "RAG response latency")
-retrieval_hist = Histogram("rag_retrieval_docs", "Docs retrieved per query", buckets=[1,2,3,5,10])
+retrieval_hist = Histogram(
+    "rag_retrieval_docs", "Docs retrieved per query", buckets=[1, 2, 3, 5, 10]
+)
 ollama_calls = Counter("ollama_calls_total", "Total Ollama API calls")
 ollama_errors = Counter("ollama_errors_total", "Total Ollama API errors")
 
@@ -28,14 +30,10 @@ LLM_CONFIG = {
     "top_p": 0.9,
     "top_k": 40,
     "num_predict": 2000,
-    "timeout": 600
+    "timeout": 600,
 }
 
-RETRY_CONFIG = {
-    "max_retries": 3,
-    "initial_delay": 2,
-    "backoff_factor": 2
-}
+RETRY_CONFIG = {"max_retries": 3, "initial_delay": 2, "backoff_factor": 2}
 
 SYSTEM_PROMPT = """
 Tu es CliniQ, Tu dois répondre UNIQUEMENT avec les informations du CONTEXTE ci-dessous.
@@ -69,6 +67,7 @@ Ensuite, rédige uniquement les informations disponibles dans le contexte, en co
 
 ⚠️ Ne jamais ajouter d’exemples, de causes possibles, ni de recommandations personnelles."""
 
+
 def check_ollama_health() -> bool:
     """Vérifie si Ollama est accessible"""
     try:
@@ -79,13 +78,16 @@ def check_ollama_health() -> bool:
         logger.warning(f"⚠️ Ollama non accessible: {str(e)}")
         return False
 
+
 def pull_model_if_needed(model_name: str) -> bool:
     """Télécharge le modèle si nécessaire"""
     try:
         client = ollama.Client(host=OLLAMA_HOST, timeout=30)
         models = client.list()
-        model_exists = any(model_name in m.get('name', '') for m in models.get('models', []))
-        
+        model_exists = any(
+            model_name in m.get("name", "") for m in models.get("models", [])
+        )
+
         if not model_exists:
             logger.info(f"📥 Téléchargement du modèle {model_name}...")
             client.pull(model_name)
@@ -94,6 +96,7 @@ def pull_model_if_needed(model_name: str) -> bool:
     except Exception as e:
         logger.error(f"❌ Erreur téléchargement modèle: {str(e)}")
         return False
+
 
 def generate_with_retry(client, model, messages, options, max_retries=3):
     """Génère une réponse avec retry logic"""
@@ -106,47 +109,52 @@ def generate_with_retry(client, model, messages, options, max_retries=3):
             error_msg = str(e).lower()
             if "timed out" in error_msg or "timeout" in error_msg:
                 if attempt < max_retries - 1:
-                    delay = RETRY_CONFIG["initial_delay"] * (RETRY_CONFIG["backoff_factor"] ** attempt)
+                    delay = RETRY_CONFIG["initial_delay"] * (
+                        RETRY_CONFIG["backoff_factor"] ** attempt
+                    )
                     logger.warning(f"⏳ Timeout - nouvelle tentative dans {delay}s...")
                     time.sleep(delay)
                     continue
             raise
     raise Exception(f"Échec après {max_retries} tentatives")
 
+
 def generate(question: str, evaluate: bool = False, k: int = 5) -> str:
     query_counter.inc()
     start_time = time.time()
-    
+
     try:
         with mlflow.start_run():
             if not check_ollama_health():
-                raise Exception("❌ Ollama n'est pas accessible. Vérifiez qu'Ollama est démarré sur votre machine.")
-            
+                raise Exception(
+                    "❌ Ollama n'est pas accessible. Vérifiez qu'Ollama est démarré sur votre machine."
+                )
+
             print(f"\n🔍 Recherche de documents pour: {question[:50]}...")
             logger.info(f"🔍 Recherche de documents pour: {question[:50]}...")
-            
+
             chunks = hybrid_search(question, k) or []
             num_docs = len(chunks)
-            
+
             print(f"✓ {num_docs} documents trouvés")
             logger.info(f"✓ {num_docs} documents trouvés")
-            
+
             # Log to MLflow
             mlflow.log_param("query", question[:100])  # Truncate for readability
             mlflow.log_param("k", k)
             mlflow.log_metric("num_docs_retrieved", num_docs)
-            
+
             # Log to Prometheus
             retrieval_hist.observe(num_docs)
-            
+
             if chunks:
                 print("📄 Aperçu des documents:")
                 logger.info("📄 Aperçu des documents:")
                 for i, chunk in enumerate(chunks[:3], 1):
-                    preview = chunk.get('content', '')[:80]
+                    preview = chunk.get("content", "")[:80]
                     print(f"  Doc {i}: {preview}...")
                     logger.info(f"  Doc {i}: {preview}...")
-            
+
             retrieval_context = [c.get("content", "") for c in chunks]
             context = "\n\n---\n\n".join(retrieval_context)
             print(f"📝 Contexte total: {len(context)} caractères")
@@ -154,70 +162,73 @@ def generate(question: str, evaluate: bool = False, k: int = 5) -> str:
 
             print(f"\n🤖 Génération de la réponse avec {LLM_CONFIG['model']}...")
             logger.info(f"🤖 Génération de la réponse avec {LLM_CONFIG['model']}...")
-            
+
             client = ollama.Client(host=OLLAMA_HOST, timeout=LLM_CONFIG["timeout"])
             full_prompt = SYSTEM_PROMPT.format(context=context, question=question)
-            
+
             print(f"📋 Prompt total: {len(full_prompt)} caractères")
             logger.info(f"📋 Prompt total: {len(full_prompt)} caractères")
 
             print("🚀 Envoi de la requête au modèle...")
             logger.info("🚀 Envoi de la requête au modèle...")
-            
+
             ollama_calls.inc()
             response = generate_with_retry(
                 client=client,
                 model=LLM_CONFIG["model"],
                 messages=[
-                    {"role": "system", "content": "Tu es un assistant clinique strict basé sur RAG."},
-                    {"role": "user", "content": full_prompt}
+                    {
+                        "role": "system",
+                        "content": "Tu es un assistant clinique strict basé sur RAG.",
+                    },
+                    {"role": "user", "content": full_prompt},
                 ],
                 options={
                     "temperature": LLM_CONFIG["temperature"],
                     "top_p": LLM_CONFIG["top_p"],
                     "top_k": LLM_CONFIG["top_k"],
-                    "num_predict": LLM_CONFIG["num_predict"]
+                    "num_predict": LLM_CONFIG["num_predict"],
                 },
-                max_retries=RETRY_CONFIG["max_retries"]
+                max_retries=RETRY_CONFIG["max_retries"],
             )
 
             print("📥 Réponse reçue du modèle")
             logger.info("📥 Réponse reçue du modèle")
-            
+
             answer = response["message"]["content"].replace("\n", " ")
-            
+
             # Calculate and log latency
             latency = time.time() - start_time
-            
+
             print(f"✓ Réponse générée avec succès ({len(answer)} caractères)")
             logger.info(f"✓ Réponse générée avec succès ({len(answer)} caractères)")
-            
+
             print(f"💬 Aperçu: {answer[:100]}...\n")
             logger.info(f"💬 Aperçu: {answer[:100]}...")
-            
+
             # Log to MLflow
             mlflow.log_metric("latency", latency)
             mlflow.log_metric("response_length", len(answer))
             mlflow.log_param("model", LLM_CONFIG["model"])
-            
+
             # Log to Prometheus
             latency_hist.observe(latency)
-            
+
             return answer
     except Exception as e:
         ollama_errors.inc()
         error_msg = str(e)
         print(f"❌ Erreur: {error_msg}")
         logger.error(f"❌ Erreur: {error_msg}")
-        
+
         # Log error to MLflow if run is active
         try:
             if mlflow.active_run():
                 mlflow.log_param("error", error_msg[:100])
                 mlflow.log_metric("success", 0)
         except Exception as e:
-                print(f"MLflow logging failed: {e}")
-        
+            print(f"MLflow logging failed: {e}")
+
         if "timed out" in error_msg.lower() or "timeout" in error_msg.lower():
             raise Exception(
                 "⏱️ Le modèle prend trop de temps à répondre. "
@@ -225,8 +236,3 @@ def generate(question: str, evaluate: bool = False, k: int = 5) -> str:
                 "3) Votre machine a assez de ressources (RAM/CPU)."
             )
         raise Exception(f"Erreur génération: {error_msg}")
-
-
-
-
-

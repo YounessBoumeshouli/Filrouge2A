@@ -3,13 +3,14 @@ from app.schemas.user import UserCreate
 from app.models.user import Users
 from app.core.security import hash_password
 
-def Create_user(db:Session,user: UserCreate):
+
+def Create_user(db: Session, user: UserCreate):
     try:
         db_User = Users(
             username=user.username,
             email=user.email,
             hashed_password=hash_password(user.password),
-            role=user.role
+            role=user.role,
         )
         db.add(db_User)
         db.commit()
@@ -19,14 +20,18 @@ def Create_user(db:Session,user: UserCreate):
         db.rollback()
         raise e
 
-def get_user_by_id(db:Session, user_id:int):
+
+def get_user_by_id(db: Session, user_id: int):
     return db.query(Users).filter(Users.id == user_id).first()
 
-def get_user_by_email(db:Session, email:str):
+
+def get_user_by_email(db: Session, email: str):
     return db.query(Users).filter(Users.email == email).first()
+
 
 def get_all_users(db: Session):
     return db.query(Users).all()
+
 
 def delete_user(db: Session, user_id: int):
     user = db.query(Users).filter(Users.id == user_id).first()

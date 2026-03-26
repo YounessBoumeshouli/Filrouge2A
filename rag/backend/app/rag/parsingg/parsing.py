@@ -1,5 +1,5 @@
 from llama_parse import LlamaParse
-import os 
+import os
 from dotenv import load_dotenv
 
 pdf_path = r"../data/marrakech-places-rag.pdf"
@@ -12,7 +12,8 @@ parser = LlamaParse(
     api_key=os.environ.get("llamaParse_Key"),
     result_type="markdown",
     verbose=True,
-    language="fr")
+    language="fr",
+)
 
 documents = parser.load_data(pdf_path)
 

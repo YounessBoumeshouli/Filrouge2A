@@ -11,6 +11,7 @@ from app.core.config import settings
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
+
 def validate_password(password):
     if len(password) < 8:
         raise AppException("Le mot de passe doit contenir au moins 8 caractères")
@@ -20,10 +21,10 @@ def validate_password(password):
         raise AppException("Le mot de passe doit contenir une minuscule")
     if not re.search(r"[0-9]", password):
         raise AppException("Le mot de passe doit contenir un chiffre")
-    
-    
+
+
 @router.post("/register", response_model=Token)
-def register(request: UserCreate, db: Session=Depends(get_db)):
+def register(request: UserCreate, db: Session = Depends(get_db)):
     existing_user = get_user_by_email(db, request.email)
     if existing_user:
         raise AppException("Utilisateur déjà existant")
@@ -32,12 +33,14 @@ def register(request: UserCreate, db: Session=Depends(get_db)):
     token = authenticate_user(db, request.email, request.password)
     return token
 
+
 @router.post("/login", response_model=Token)
-def login(request: LoginRequest, db: Session=Depends(get_db)):
+def login(request: LoginRequest, db: Session = Depends(get_db)):
     token = authenticate_user(db, request.email, request.password)
     if not token:
         raise AppException("Email ou mot de passe incorrect")
     return token
+
 
 @router.get("/me")
 def read_users_me(authorization: str = Header(None), db: Session = Depends(get_db)):
@@ -45,7 +48,9 @@ def read_users_me(authorization: str = Header(None), db: Session = Depends(get_d
         raise AppException("Token manquant")
     token = authorization.split(" ")[1]
     try:
-        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        payload = jwt.decode(
+            token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM]
+        )
         user_id = payload.get("sub")
         if not user_id:
             raise AppException("Token invalide")
@@ -57,7 +62,7 @@ def read_users_me(authorization: str = Header(None), db: Session = Depends(get_d
             "username": user.username,
             "email": user.email,
             "role": user.role,
-            "created_at": str(user.created_at)
+            "created_at": str(user.created_at),
         }
     except JWTError:
         raise AppException("Token invalide ou expiré")

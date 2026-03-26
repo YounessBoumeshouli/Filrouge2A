@@ -34,11 +34,13 @@ with mlflow.start_run(run_name="text_chunking"):
 
                 if line.startswith("#"):
                     if current_title and current_content:
-                        all_chunks.append({
-                            "title": current_title.replace("#", "").strip(),
-                            "content": "\n".join(current_content).strip(),
-                            "page": page_number
-                        })
+                        all_chunks.append(
+                            {
+                                "title": current_title.replace("#", "").strip(),
+                                "content": "\n".join(current_content).strip(),
+                                "page": page_number,
+                            }
+                        )
 
                     current_title = line
                     current_content = []
@@ -48,14 +50,15 @@ with mlflow.start_run(run_name="text_chunking"):
                         current_content.append(line)
 
             if current_title and current_content:
-                all_chunks.append({
-                    "title": current_title.replace("#", "").strip(),
-                    "content": "\n".join(current_content).strip(),
-                    "page": page_number
-                })
+                all_chunks.append(
+                    {
+                        "title": current_title.replace("#", "").strip(),
+                        "content": "\n".join(current_content).strip(),
+                        "page": page_number,
+                    }
+                )
 
         return pages, all_chunks
-
 
     def add_domain_metadata(chunks):
         for chunk in chunks:
@@ -72,7 +75,6 @@ with mlflow.start_run(run_name="text_chunking"):
 
         return chunks
 
-
     pages, chunks = chunk_markdown_by_title(md_file)
     chunks = add_domain_metadata(chunks)
 
@@ -84,7 +86,7 @@ with mlflow.start_run(run_name="text_chunking"):
 
     chunk_lengths = [len(chunk["content"]) for chunk in chunks]
 
-    avg_chunk_length = sum(chunk_lengths)/len(chunk_lengths) if chunk_lengths else 0
+    avg_chunk_length = sum(chunk_lengths) / len(chunk_lengths) if chunk_lengths else 0
     max_chunk_length = max(chunk_lengths) if chunk_lengths else 0
 
     duration = time.time() - start_time

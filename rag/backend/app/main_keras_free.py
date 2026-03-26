@@ -2,7 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from app.services.assistant_service_simple import generate
-from app.core.exceptions import AppException, app_exception_handler, global_exception_handler
+from app.core.exceptions import (
+    AppException,
+    app_exception_handler,
+    global_exception_handler,
+)
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -21,39 +25,42 @@ app.add_middleware(
 app.add_exception_handler(AppException, app_exception_handler)
 app.add_exception_handler(Exception, global_exception_handler)
 
+
 class QueryRequest(BaseModel):
     query: str
     k: int = 5
+
 
 class QueryResponse(BaseModel):
     query: str
     answer: str
     status: str = "success"
 
+
 @app.get("/")
 def root():
     return {"message": "RAG API - Medical Assistant (Simple)", "status": "running"}
+
 
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "service": "rag-api-simple"}
 
+
 @app.post("/query", response_model=QueryResponse)
 def query_rag(request: QueryRequest):
     try:
         logger.info(f"Processing query: {request.query[:50]}...")
-        
+
         answer = generate(request.query, k=request.k)
-        
-        return QueryResponse(
-            query=request.query,
-            answer=answer,
-            status="success"
-        )
+
+        return QueryResponse(query=request.query, answer=answer, status="success")
     except Exception as e:
         logger.error(f"Error processing query: {str(e)}")
         raise AppException(f"Error processing query: {str(e)}", status_code=500)
 
+
 if __name__ == "__main__":
     import uvicorn
+
     uvicorn.run(app, host="0.0.0.0", port=8001)

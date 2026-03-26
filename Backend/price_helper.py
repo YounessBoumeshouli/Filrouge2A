@@ -12,15 +12,16 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 class PriceHelper:
     """
     Price prediction helper for ceramic products detected by YOLO model.
     Uses market data from Marrakech souks to estimate fair price ranges.
     """
-    
+
     def __init__(self):
         """Initialize the price helper with ceramic product price data"""
-        
+
         # Price data based on Marrakech souk market research
         # Prices in MAD (Moroccan Dirhams) - 1 EUR ≈ 11 MAD, 1 USD ≈ 10 MAD
         self.price_data = {
@@ -36,14 +37,13 @@ class PriceHelper:
                 "souk_location": "Souk Semmarine / Chabi Chic",
                 "notes": "Hand-painted ceramic vases. Price varies by size, design complexity, and craftsmanship quality.",
                 "factors": {
-                    "small": 0.7,      # 70% of base price for small items
-                    "medium": 1.0,     # 100% base price
-                    "large": 1.5,      # 150% for large items
-                    "decorative": 1.3, # 130% for highly decorative pieces
-                    "plain": 0.8       # 80% for plain/simple designs
-                }
+                    "small": 0.7,  # 70% of base price for small items
+                    "medium": 1.0,  # 100% base price
+                    "large": 1.5,  # 150% for large items
+                    "decorative": 1.3,  # 130% for highly decorative pieces
+                    "plain": 0.8,  # 80% for plain/simple designs
+                },
             },
-            
             # Class 1 - Tagine
             "Tagine": {
                 "price_min_mad": 50,
@@ -60,10 +60,9 @@ class PriceHelper:
                     "medium": 1.0,
                     "large": 1.4,
                     "decorative": 1.6,
-                    "functional": 0.9
-                }
+                    "functional": 0.9,
+                },
             },
-            
             # Class 2 - Ceramic Cups
             "Ceramic Cups": {
                 "price_min_mad": 30,
@@ -77,12 +76,11 @@ class PriceHelper:
                 "notes": "Traditional Moroccan tea glasses and ceramic cups. Often sold in sets.",
                 "factors": {
                     "single": 1.0,
-                    "set": 0.8,        # 20% discount for sets
+                    "set": 0.8,  # 20% discount for sets
                     "decorative": 1.2,
-                    "plain": 0.9
-                }
+                    "plain": 0.9,
+                },
             },
-            
             # Class 3 - Handcrafted Tamegroute Ceramic Cake Stand
             "Handcrafted Tamegroute Ceramic Cake Stand": {
                 "price_min_mad": 150,
@@ -99,10 +97,9 @@ class PriceHelper:
                     "medium": 1.0,
                     "large": 1.3,
                     "authentic_tamegroute": 1.4,
-                    "replica": 0.7
-                }
+                    "replica": 0.7,
+                },
             },
-            
             # Class 4 - White Ceramic Divided Plate with Silver Accents
             "White Ceramic Divided Plate with Silver Accents": {
                 "price_min_mad": 100,
@@ -120,10 +117,9 @@ class PriceHelper:
                     "large": 1.2,
                     "silver_accents": 1.3,
                     "gold_accents": 1.5,
-                    "plain": 0.8
-                }
+                    "plain": 0.8,
+                },
             },
-            
             # Class 5 - Tamegroute Ceramic Pitcher
             "Tamegroute Ceramic Pitcher Handmade Moroccan Water": {
                 "price_min_mad": 120,
@@ -141,45 +137,49 @@ class PriceHelper:
                     "large": 1.3,
                     "authentic_tamegroute": 1.4,
                     "functional": 0.9,
-                    "decorative": 1.2
-                }
-            }
+                    "decorative": 1.2,
+                },
+            },
         }
-        
+
         # Currency conversion rates (approximate)
         self.currency_rates = {
             "MAD": 1.0,
-            "USD": 0.1,    # 1 MAD ≈ 0.1 USD
-            "EUR": 0.09    # 1 MAD ≈ 0.09 EUR
+            "USD": 0.1,  # 1 MAD ≈ 0.1 USD
+            "EUR": 0.09,  # 1 MAD ≈ 0.09 EUR
         }
-        
+
         logger.info("PriceHelper initialized with ceramic product price data")
-    
-    def get_price_estimate(self, class_name: str, confidence: float = 1.0, 
-                          size_factor: str = "medium", currency: str = "USD") -> Dict:
+
+    def get_price_estimate(
+        self,
+        class_name: str,
+        confidence: float = 1.0,
+        size_factor: str = "medium",
+        currency: str = "USD",
+    ) -> Dict:
         """
         Get price estimate for a detected ceramic product.
-        
+
         Args:
             class_name: Name of the detected class
             confidence: Detection confidence (0.0-1.0)
             size_factor: Size estimation ("small", "medium", "large")
             currency: Target currency ("MAD", "USD", "EUR")
-            
+
         Returns:
             Dictionary with price estimate and metadata
         """
-        
+
         if class_name not in self.price_data:
             return {
                 "success": False,
                 "error": f"No price data available for class: {class_name}",
-                "class_name": class_name
+                "class_name": class_name,
             }
-        
+
         # product_data = self.price_data[class_name]
-        
+
         # Get base price range in MAD
         # base_min = product_data["price_min_mad"]
         # base_max = product_data["price_max_mad"]
-        

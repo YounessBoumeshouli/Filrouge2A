@@ -10,17 +10,21 @@ from ..models import ScanHistory
 model_api = None
 classifier_status = "No classifier loaded"
 
-ai_path = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'Ai', 'efficientNet')
+ai_path = os.path.join(
+    os.path.dirname(__file__), "..", "..", "..", "Ai", "efficientNet"
+)
 if os.path.exists(ai_path):
     sys.path.append(ai_path)
-    
+
     try:
         from rule_based_classifier import RuleBasedClassifier
+
         model_api = RuleBasedClassifier()
         classifier_status = "✅ Rule-based classifier loaded successfully"
     except ImportError:
         try:
             from improved_classifier import ImprovedPriceClassifier
+
             model_api = ImprovedPriceClassifier()
             classifier_status = "✅ Improved price classifier loaded successfully"
         except ImportError:
@@ -33,20 +37,25 @@ else:
 print(classifier_status)
 router = APIRouter(prefix="/api/price", tags=["price"])
 
+
 @router.post("/analyze")
-async def analyze_price(file: UploadFile = File(None), image: str = None, db: Session = Depends(get_db)):
+async def analyze_price(
+    file: UploadFile = File(None), image: str = None, db: Session = Depends(get_db)
+):
     try:
         # Handle both file upload and base64 image
         if file:
-            if not file.content_type.startswith('image/'):
+            if not file.content_type.startswith("image/"):
                 raise HTTPException(status_code=400, detail="File must be an image")
             contents = await file.read()
-            image_base64 = base64.b64encode(contents).decode('utf-8')
+            image_base64 = base64.b64encode(contents).decode("utf-8")
         elif image:
             image_base64 = image
         else:
-            raise HTTPException(status_code=400, detail="Either file or image data required")
-        
+            raise HTTPException(
+                status_code=400, detail="Either file or image data required"
+            )
+
         # Use trained model if available
         if model_api:
             result = model_api.predict_from_base64(image_base64)
@@ -60,7 +69,7 @@ async def analyze_price(file: UploadFile = File(None), image: str = None, db: Se
                 "top_suggestions": [
                     {"category": "leather", "confidence": 0.15},
                     {"category": "textiles", "confidence": 0.14},
-                    {"category": "crafts", "confidence": 0.13}
+                    {"category": "crafts", "confidence": 0.13},
                 ],
                 "all_predictions": {
                     "leather": 0.15,
@@ -70,22 +79,22 @@ async def analyze_price(file: UploadFile = File(None), image: str = None, db: Se
                     "jewelry": 0.12,
                     "lanterns": 0.11,
                     "argan": 0.11,
-                    "price_tags": 0.12
-                }
+                    "price_tags": 0.12,
+                },
             }
-        
+
         # Save to history if successful
         if result.get("success"):
             history_entry = ScanHistory(
                 scan_type="price",
                 query_text="Image Scan",
                 result_data=json.dumps(result),
-                confidence_score=result.get("confidence", 0)
+                confidence_score=result.get("confidence", 0),
             )
             db.add(history_entry)
             db.commit()
             db.refresh(history_entry)
-        
+
         return result
     except HTTPException:
         raise

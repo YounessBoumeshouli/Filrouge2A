@@ -12,8 +12,12 @@ start_time = time.time()
 
 with mlflow.start_run(run_name="embedding_ingestion"):
 
-    text_chunks_path = os.path.join(os.path.dirname(__file__), "../../data/text_chunks.json")
-    table_chunks_path = os.path.join(os.path.dirname(__file__), "../../data/table_chunks.json")
+    text_chunks_path = os.path.join(
+        os.path.dirname(__file__), "../../data/text_chunks.json"
+    )
+    table_chunks_path = os.path.join(
+        os.path.dirname(__file__), "../../data/table_chunks.json"
+    )
     DB_PATH = os.path.join(os.path.dirname(__file__), "../../data/chroma_db")
 
     with open(text_chunks_path, "r", encoding="utf-8") as f:
@@ -48,13 +52,15 @@ with mlflow.start_run(run_name="embedding_ingestion"):
 
         collection.add(
             ids=[f"text_{i}"],
-            metadatas=[{
-                "title": chunk["title"],
-                "page": chunk["page"],
-                "domain": chunk.get("domain", "")
-            }],
+            metadatas=[
+                {
+                    "title": chunk["title"],
+                    "page": chunk["page"],
+                    "domain": chunk.get("domain", ""),
+                }
+            ],
             documents=[chunk["content"]],
-            embeddings=[embedding.tolist()]
+            embeddings=[embedding.tolist()],
         )
 
         total_indexed += 1
@@ -62,17 +68,14 @@ with mlflow.start_run(run_name="embedding_ingestion"):
     for i, table in enumerate(table_chunks):
         row_data = table.get("row", {})
         full_text = " ".join([f"{k}: {v}" for k, v in row_data.items()])
-        
+
         embedding = model.encode(full_text)
 
         collection.add(
             ids=[f"table_{i}"],
-            metadatas=[{
-                "table_id": table.get("table_id"),
-                "type": "table"
-            }],
+            metadatas=[{"table_id": table.get("table_id"), "type": "table"}],
             documents=[json.dumps(row_data, ensure_ascii=False)],
-            embeddings=[embedding.tolist()]
+            embeddings=[embedding.tolist()],
         )
 
         total_indexed += 1

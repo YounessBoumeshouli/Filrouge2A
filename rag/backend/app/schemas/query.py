@@ -2,9 +2,11 @@ from pydantic import BaseModel, ConfigDict
 from typing import Optional
 from datetime import datetime
 
+
 class QueryCreate(BaseModel):
     query_text: str
     user_id: int
+
 
 class QueryRead(BaseModel):
     id: int

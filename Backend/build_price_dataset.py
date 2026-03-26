@@ -182,26 +182,50 @@ PRICE_REFERENCE = [
 
 # Keyword → category mapping for auto-labelling images by filename
 KEYWORD_MAP = {
-    "slipper": "leather", "babouche": "leather", "bag": "leather",
-    "leather": "leather", "cuir": "leather",
-    "spice": "spices", "épice": "spices", "epice": "spices",
-    "saffron": "spices", "cumin": "spices", "ras": "spices",
-    "tagine": "crafts", "ceramic": "crafts", "pottery": "crafts",
-    "basket": "crafts", "wood": "crafts",
-    "scarf": "textiles", "carpet": "textiles", "rug": "textiles",
-    "textile": "textiles", "kaftan": "textiles", "djellaba": "textiles",
-    "lantern": "lanterns", "lamp": "lanterns", "fano": "lanterns",
-    "argan": "argan", "oil": "argan",
-    "jewelry": "jewelry", "jewel": "jewelry", "silver": "jewelry",
-    "ring": "jewelry", "bracelet": "jewelry",
-    "price": "price_tags", "tag": "price_tags", "label": "price_tags",
-    "dirham": "price_tags", "mad": "price_tags",
+    "slipper": "leather",
+    "babouche": "leather",
+    "bag": "leather",
+    "leather": "leather",
+    "cuir": "leather",
+    "spice": "spices",
+    "épice": "spices",
+    "epice": "spices",
+    "saffron": "spices",
+    "cumin": "spices",
+    "ras": "spices",
+    "tagine": "crafts",
+    "ceramic": "crafts",
+    "pottery": "crafts",
+    "basket": "crafts",
+    "wood": "crafts",
+    "scarf": "textiles",
+    "carpet": "textiles",
+    "rug": "textiles",
+    "textile": "textiles",
+    "kaftan": "textiles",
+    "djellaba": "textiles",
+    "lantern": "lanterns",
+    "lamp": "lanterns",
+    "fano": "lanterns",
+    "argan": "argan",
+    "oil": "argan",
+    "jewelry": "jewelry",
+    "jewel": "jewelry",
+    "silver": "jewelry",
+    "ring": "jewelry",
+    "bracelet": "jewelry",
+    "price": "price_tags",
+    "tag": "price_tags",
+    "label": "price_tags",
+    "dirham": "price_tags",
+    "mad": "price_tags",
 }
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  HELPERS
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def guess_category(filename: str) -> str:
     name = filename.lower()
@@ -232,9 +256,9 @@ def price_range_str(row: dict) -> str:
 # ══════════════════════════════════════════════════════════════════════════════
 
 DATASET_ROOT = Path("marrakech_dataset")
-OUTPUT_CSV   = Path("marrakech_price_dataset.csv")
-OUTPUT_JSON  = Path("marrakech_price_labels.json")
-OUTPUT_HTML  = Path("price_reference_card.html")
+OUTPUT_CSV = Path("marrakech_price_dataset.csv")
+OUTPUT_JSON = Path("marrakech_price_labels.json")
+OUTPUT_HTML = Path("price_reference_card.html")
 
 
 def build_csv_dataset():
@@ -253,7 +277,8 @@ def build_csv_dataset():
         return []
 
     all_images = [
-        f for f in DATASET_ROOT.rglob("*")
+        f
+        for f in DATASET_ROOT.rglob("*")
         if f.is_file() and f.suffix.lower() in image_extensions
     ]
 
@@ -270,26 +295,28 @@ def build_csv_dataset():
         price_rows = price_lookup.get(category, [{}])
         ref = price_rows[0]  # take first match as primary reference
 
-        rows.append({
-            "filepath": str(img_path),
-            "filename": img_path.name,
-            "folder_category": folder_cat,
-            "inferred_category": filename_cat,
-            "final_category": category,
-            "product": ref.get("product", ""),
-            "arabic_name": ref.get("arabic_name", ""),
-            "souk_location": ref.get("souk", ""),
-            "price_min_mad": ref.get("price_min_mad", ""),
-            "price_max_mad": ref.get("price_max_mad", ""),
-            "price_range": price_range_str(ref) if ref else "",
-            "notes": ref.get("notes", ""),
-            "width_px": info["width"],
-            "height_px": info["height"],
-            "size_kb": info["size_kb"],
-            "hash": info["hash"],
-            "annotated": "no",   # to be filled during annotation
-            "annotation_file": "",
-        })
+        rows.append(
+            {
+                "filepath": str(img_path),
+                "filename": img_path.name,
+                "folder_category": folder_cat,
+                "inferred_category": filename_cat,
+                "final_category": category,
+                "product": ref.get("product", ""),
+                "arabic_name": ref.get("arabic_name", ""),
+                "souk_location": ref.get("souk", ""),
+                "price_min_mad": ref.get("price_min_mad", ""),
+                "price_max_mad": ref.get("price_max_mad", ""),
+                "price_range": price_range_str(ref) if ref else "",
+                "notes": ref.get("notes", ""),
+                "width_px": info["width"],
+                "height_px": info["height"],
+                "size_kb": info["size_kb"],
+                "hash": info["hash"],
+                "annotated": "no",  # to be filled during annotation
+                "annotation_file": "",
+            }
+        )
 
     # Write CSV
     if rows:
@@ -325,9 +352,14 @@ def build_html_reference_card():
     rows_html = ""
     for p in PRICE_REFERENCE:
         badge_color = {
-            "spices": "#e67e22", "leather": "#8B4513", "crafts": "#27ae60",
-            "textiles": "#8e44ad", "lanterns": "#f39c12", "argan": "#16a085",
-            "jewelry": "#2980b9", "price_tags": "#e74c3c",
+            "spices": "#e67e22",
+            "leather": "#8B4513",
+            "crafts": "#27ae60",
+            "textiles": "#8e44ad",
+            "lanterns": "#f39c12",
+            "argan": "#16a085",
+            "jewelry": "#2980b9",
+            "price_tags": "#e74c3c",
         }.get(p["category"], "#7f8c8d")
 
         rows_html += f"""
@@ -426,8 +458,12 @@ if __name__ == "__main__":
     print(f"  {OUTPUT_HTML}     ← printable price reference card")
     print("=" * 60)
     print("\n  NEXT STEPS:")
-    print("  1. Open price_reference_card.html in browser (great reference while annotating)")
-    print("  2. Upload marrakech_price_dataset.csv + images to Roboflow or Label Studio")
+    print(
+        "  1. Open price_reference_card.html in browser (great reference while annotating)"
+    )
+    print(
+        "  2. Upload marrakech_price_dataset.csv + images to Roboflow or Label Studio"
+    )
     print("  3. Draw bounding boxes around price tags in the price_tags/ images")
     print("  4. Use marrakech_price_labels.json to assign correct price categories")
     print("  5. Train EasyOCR / PaddleOCR on the annotated dataset")
