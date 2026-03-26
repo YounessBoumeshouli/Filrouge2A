@@ -11,9 +11,8 @@ import os
 import shutil
 import yaml
 import random
-import json
 from pathlib import Path
-from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+from PIL import Image, ImageEnhance, ImageFilter
 import numpy as np
 
 def disable_mlflow():
@@ -82,7 +81,7 @@ class SimpleYOLOTrainer:
     def create_augmented_dataset(self, all_pairs, classes, train_split=0.8, augment_count=2):
         """Create augmented dataset with train/val split"""
         
-        print(f"\n🔄 Creating augmented dataset...")
+        print("\n🔄 Creating augmented dataset...")
         print(f"📊 Original pairs: {len(all_pairs)}")
         print(f"🔀 Augmentations per image: {augment_count}")
         
@@ -142,7 +141,7 @@ class SimpleYOLOTrainer:
         with open(self.output_dir / 'dataset.yaml', 'w') as f:
             yaml.dump(dataset_config, f)
         
-        print(f"✅ Dataset created!")
+        print("✅ Dataset created!")
         print(f"🚂 Train images: {train_count}")
         print(f"✅ Val images: {val_count}")
         
@@ -255,7 +254,7 @@ class SimpleYOLOTrainer:
 def train_with_cli(dataset_yaml, model_path, epochs=80):
     """Train using command line to avoid MLflow issues"""
     
-    print(f"\n🚀 Training YOLO model...")
+    print("\n🚀 Training YOLO model...")
     print(f"📊 Dataset: {dataset_yaml}")
     print(f"🔄 Epochs: {epochs}")
     
@@ -346,7 +345,7 @@ def main():
         success = train_with_cli(dataset_yaml, MODEL_PATH, EPOCHS)
         
         if success:
-            print(f"\n🎉 TRAINING COMPLETED!")
+            print("\n🎉 TRAINING COMPLETED!")
             print(f"💾 Model: {MODEL_PATH}")
             print(f"📊 Classes: {len(classes)}")
             for i, cls in enumerate(classes):

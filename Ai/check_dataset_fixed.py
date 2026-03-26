@@ -7,7 +7,6 @@ Check the integrity of your dataset before training.
 """
 
 from pathlib import Path
-import os
 
 def check_dataset(images_root):
     """Check dataset integrity and report issues"""

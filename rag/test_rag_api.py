@@ -4,7 +4,9 @@ import time
 
 # Test the RAG API - Updated for new port
 BASE_URL = "http://localhost:8002"  # Changed from 8001 to 8002
-
+@pytest.fixture
+def question():
+    return "What is Marrakech famous for?"
 def test_health():
     """Test health endpoint"""
     try:

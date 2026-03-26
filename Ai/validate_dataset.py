@@ -37,7 +37,7 @@ def validate_dataset(images_root):
         # Extract product ID
         parts = product_folder.name.split('_', 2)
         if len(parts) < 2:
-            print(f"  ❌ Invalid folder name format")
+            print("  ❌ Invalid folder name format")
             continue
             
         product_id = parts[1]
@@ -51,7 +51,7 @@ def validate_dataset(images_root):
                 break
         
         if not label_folder:
-            print(f"  ❌ No corresponding label folder found")
+            print("  ❌ No corresponding label folder found")
             total_issues += 1
             continue
         
@@ -158,33 +158,33 @@ def validate_dataset(images_root):
         total_issues += len(orphaned_images) + len(orphaned_labels) + len(invalid_labels)
     
     # Summary
-    print(f"\n" + "=" * 50)
-    print(f"📊 VALIDATION SUMMARY")
-    print(f"=" * 50)
+    print("\n" + "=" * 50)
+    print("📊 VALIDATION SUMMARY")
+    print("=" * 50)
     print(f"📦 Products validated: {len(validation_results)}")
     print(f"✅ Total valid pairs: {total_pairs}")
     print(f"⚠️ Total issues: {total_issues}")
     
     # Detailed breakdown
-    print(f"\n📋 DETAILED BREAKDOWN:")
+    print("\n📋 DETAILED BREAKDOWN:")
     for product_id, results in validation_results.items():
         status = "✅" if results['matched_pairs'] > 0 else "❌"
         print(f"{status} {results['name']}: {results['matched_pairs']} pairs")
     
     # Training readiness
-    print(f"\n🚀 TRAINING READINESS:")
+    print("\n🚀 TRAINING READINESS:")
     if total_pairs >= 50:
-        print(f"✅ Dataset is ready for training!")
+        print("✅ Dataset is ready for training!")
         print(f"   - {total_pairs} valid image-label pairs")
         print(f"   - {len(validation_results)} product categories")
     elif total_pairs >= 20:
-        print(f"⚠️ Dataset is minimal but trainable")
+        print("⚠️ Dataset is minimal but trainable")
         print(f"   - {total_pairs} valid pairs (recommend 50+)")
-        print(f"   - Consider adding more data for better results")
+        print("   - Consider adding more data for better results")
     else:
-        print(f"❌ Dataset too small for effective training")
+        print("❌ Dataset too small for effective training")
         print(f"   - Only {total_pairs} valid pairs (need 20+ minimum)")
-        print(f"   - Add more labeled data before training")
+        print("   - Add more labeled data before training")
     
     if total_issues > 0:
         print(f"⚠️ {total_issues} issues found - consider fixing before training")
@@ -215,10 +215,10 @@ def main():
     ready, results = validate_dataset(IMAGES_ROOT)
     
     if ready:
-        print(f"\n🎉 Your dataset is ready for YOLO training!")
-        print(f"Run: python train_yolo_simple.py")
+        print("\n🎉 Your dataset is ready for YOLO training!")
+        print("Run: python train_yolo_simple.py")
     else:
-        print(f"\n⚠️ Please fix the issues before training")
+        print("\n⚠️ Please fix the issues before training")
 
 if __name__ == "__main__":
     main()
