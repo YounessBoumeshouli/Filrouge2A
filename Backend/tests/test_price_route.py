@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import patch
-
+import json
 @pytest.fixture
 def dummy_image():
     return b"dummy_image_content"
@@ -38,9 +38,8 @@ def test_analyze_price_success_base64(client):
                 "success": True, 
                 "product_type": "textiles"
             }
-        
-        response = client.post("/api/price/analyze", data={"image": dummy_b64})
-        
+
+        response = client.post("/api/price/analyze", json={"image": dummy_b64})
         assert response.status_code == 200
         assert response.json()["success"] is True
 
