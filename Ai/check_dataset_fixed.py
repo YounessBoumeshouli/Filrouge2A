@@ -120,8 +120,10 @@ def check_dataset(images_root):
     return len(issues) == 0
 
 def main():
-    IMAGES_ROOT = r"c:\Users\boume\Briefs\Filrouge2A\images"
-    
+    # IMAGES_ROOT = r"c:\Users\boume\Briefs\Filrouge2A\images"
+
+    IMAGES_ROOT = Path(__file__).parent / "images"
+
     print("Checking dataset integrity...")
     print(f"Images root: {IMAGES_ROOT}")
     print()

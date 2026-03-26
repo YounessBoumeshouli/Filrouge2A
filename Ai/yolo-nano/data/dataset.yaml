@@ -1,7 +1,0 @@
-path: data
-train: train/images
-val: val/images
-test: test/images
-
-nc: 17
-names: ['argan', 'crafts', 'jewelry', 'lanterns', 'leather', 'spices', 'textiles', 'jemaa_el_fnaa', 'koutoubia_mosque', 'bahia_palace', 'saadian_tombs', 'ben_youssef_madrasa', 'majorelle_garden', 'menara_gardens', 'el_badi_palace', 'agdal_gardens', 'marrakech_medina']

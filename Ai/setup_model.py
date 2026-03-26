@@ -1,7 +1,5 @@
-import os
 from pathlib import Path
 from ultralytics import YOLO
-import shutil
 
 def setup_custom_model():
     """Setup a custom YOLO model for ceramic detection"""
@@ -96,7 +94,7 @@ def main():
     if success:
         print("\n🎉 Setup completed successfully!")
         print(f"📁 Model location: {model_path}")
-        print(f"📊 Dataset config: c:\\Users\\boume\\Briefs\\Filrouge2A\\Ai\\data\\custom_dataset\\dataset.yaml")
+        print("📊 Dataset config: c:\\Users\\boume\\Briefs\\Filrouge2A\\Ai\\data\\custom_dataset\\dataset.yaml")
         print("\n💡 To train the model on your data:")
         print("   1. Fix the MLflow issue in your environment")
         print("   2. Or use a different machine/environment for training")

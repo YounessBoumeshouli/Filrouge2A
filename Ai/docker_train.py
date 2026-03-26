@@ -6,8 +6,6 @@ Docker YOLO Training Script
 Optimized YOLO training script for Docker container environment.
 """
 
-import os
-import sys
 import shutil
 from pathlib import Path
 import torch
@@ -83,7 +81,7 @@ def train_yolo_docker():
         
         # Start training
         print("\n🔥 Training started...")
-        results = model.train(**training_params)
+        model.train(**training_params)
         
         # Save model to mounted volume
         model_save_path = Path('/app/models/ceramic_yolo_trained.pt')

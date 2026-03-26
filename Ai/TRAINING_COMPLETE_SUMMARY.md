@@ -22,8 +22,6 @@
 - ✅ `validate_dataset.py` - Dataset validation (WORKING)
 - ✅ `train_yolo_simple.py` - Simple training with augmentation
 - ✅ `train_yolo_final.py` - Advanced training solution
-- ✅ `rename_tagine_images.py` - Image renaming tools
-- ✅ `smart_rename_images.py` - Smart renaming with label validation
 
 ## ❌ Current Issue: MLflow Tracking Error
 
